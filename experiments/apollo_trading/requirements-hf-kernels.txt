@@ -1,0 +1,5 @@
+# Optional NVIDIA GPU kernels; install after requirements-hf.txt.
+# causal-conv1d needs --no-build-isolation and a matching CUDA compiler.
+flash-linear-attention==0.5.2
+fla-core==0.5.2
+causal-conv1d==1.7.0

@@ -1,0 +1,13 @@
+outputs/*
+**/outputs/**
+!outputs/.gitkeep
+__pycache__/
+*.pyc
+.venv-hf/
+.hf-cache/
+.env
+.env.*
+!.env.example
+*.pem
+.lavish/
+.DS_Store
