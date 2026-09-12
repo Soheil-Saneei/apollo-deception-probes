@@ -1,0 +1,4361 @@
+{
+  "feature": "report_boundary",
+  "counts": {
+    "train/honest": 433,
+    "train/deceptive": 217,
+    "test/deceptive": 67,
+    "test/honest": 133,
+    "validation/honest": 100,
+    "validation/deceptive": 50
+  },
+  "activation": {
+    "layer": 1,
+    "C": 1.0,
+    "validation_auc": 1.0,
+    "auroc": 0.9912467736505443,
+    "auprc": 0.9799921765690903,
+    "accuracy": 0.965
+  },
+  "text_only": {
+    "C": 10.0,
+    "validation_auc": 1.0,
+    "vocabulary_size": 2701,
+    "auroc": 0.9941645157670295,
+    "auprc": 0.9787562791567139,
+    "accuracy": 0.975
+  },
+  "length_only": {
+    "auroc": 0.8365503310515094,
+    "auprc": 0.7066369647870088,
+    "accuracy": 0.77
+  },
+  "constant_baseline": {
+    "auroc": 0.5,
+    "auprc": 0.335,
+    "accuracy": 0.665
+  },
+  "shuffled_activation_primary": {
+    "layer": 77,
+    "C": 0.001,
+    "validation_auc": 0.7288,
+    "auroc": 0.6264167882392548,
+    "auprc": 0.4407387070875615,
+    "accuracy": 0.675,
+    "seed": 42
+  },
+  "shuffled_activation_seeds": [
+    {
+      "layer": 77,
+      "C": 0.001,
+      "validation_auc": 0.7288,
+      "auroc": 0.6264167882392548,
+      "auprc": 0.4407387070875615,
+      "accuracy": 0.675,
+      "seed": 42
+    },
+    {
+      "layer": 0,
+      "C": 0.001,
+      "validation_auc": 0.614,
+      "auroc": 0.577600718213444,
+      "auprc": 0.45549245098346813,
+      "accuracy": 0.67,
+      "seed": 43
+    },
+    {
+      "layer": 74,
+      "C": 1.0,
+      "validation_auc": 0.6118,
+      "auroc": 0.42801032431825836,
+      "auprc": 0.3687819450860309,
+      "accuracy": 0.54,
+      "seed": 44
+    },
+    {
+      "layer": 56,
+      "C": 1.0,
+      "validation_auc": 0.5084000000000001,
+      "auroc": 0.4971383683088318,
+      "auprc": 0.38248091741687684,
+      "accuracy": 0.525,
+      "seed": 45
+    },
+    {
+      "layer": 0,
+      "C": 0.001,
+      "validation_auc": 0.6002000000000001,
+      "auroc": 0.6430254741330939,
+      "auprc": 0.44684957865422165,
+      "accuracy": 0.665,
+      "seed": 46
+    }
+  ],
+  "shuffled_activation_summary": {
+    "auroc": {
+      "mean": 0.5544383346425766,
+      "sd": 0.09059856926902836
+    },
+    "auprc": {
+      "mean": 0.4188687198456318,
+      "sd": 0.04011009740544776
+    },
+    "accuracy": {
+      "mean": 0.615,
+      "sd": 0.07558108228915487
+    }
+  },
+  "layers": [
+    {
+      "layer": 0,
+      "C": 0.001,
+      "validation_auc": 0.9998,
+      "auroc": 0.9808102345415778,
+      "auprc": 0.9578105526081592,
+      "accuracy": 0.935
+    },
+    {
+      "layer": 1,
+      "C": 1.0,
+      "validation_auc": 1.0,
+      "auroc": 0.9912467736505443,
+      "auprc": 0.9799921765690903,
+      "accuracy": 0.965
+    },
+    {
+      "layer": 2,
+      "C": 0.01,
+      "validation_auc": 1.0,
+      "auroc": 0.9901245651442038,
+      "auprc": 0.975993370278168,
+      "accuracy": 0.97
+    },
+    {
+      "layer": 3,
+      "C": 0.01,
+      "validation_auc": 1.0,
+      "auroc": 0.9899001234429357,
+      "auprc": 0.9739560231065054,
+      "accuracy": 0.975
+    },
+    {
+      "layer": 4,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9901245651442038,
+      "auprc": 0.9727714268463823,
+      "accuracy": 0.955
+    },
+    {
+      "layer": 5,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9897879025923018,
+      "auprc": 0.9658402705991314,
+      "accuracy": 0.975
+    },
+    {
+      "layer": 6,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9903490068454719,
+      "auprc": 0.9689097969349483,
+      "accuracy": 0.97
+    },
+    {
+      "layer": 7,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9906856693973741,
+      "auprc": 0.9693986410314122,
+      "accuracy": 0.965
+    },
+    {
+      "layer": 8,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9909101110986421,
+      "auprc": 0.9697447319520276,
+      "accuracy": 0.97
+    },
+    {
+      "layer": 9,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9913589945011784,
+      "auprc": 0.9745239213017187,
+      "accuracy": 0.965
+    },
+    {
+      "layer": 10,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9924812030075189,
+      "auprc": 0.9797220179195401,
+      "accuracy": 0.965
+    },
+    {
+      "layer": 11,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9930423072606891,
+      "auprc": 0.9796733159877552,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 12,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.992930086410055,
+      "auprc": 0.980908882281725,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 13,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9932667489619571,
+      "auprc": 0.9810452535894136,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 14,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.982764638191918,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 15,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.9805326968129945,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 16,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9942767366176636,
+      "auprc": 0.9818596457730466,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 17,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657615,
+      "auprc": 0.9817658710524062,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 18,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657615,
+      "auprc": 0.9808028754503411,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 19,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9941645157670296,
+      "auprc": 0.9826247480230517,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 20,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9948378408708337,
+      "auprc": 0.9856595308127911,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 21,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9956233868252721,
+      "auprc": 0.9887302499560182,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 22,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9942767366176636,
+      "auprc": 0.9832123636845771,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 23,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9937156323644933,
+      "auprc": 0.9792399626630838,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 24,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9932667489619571,
+      "auprc": 0.9747291121155452,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 25,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9932667489619571,
+      "auprc": 0.9737972212894032,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 26,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9930423072606891,
+      "auprc": 0.9684425013824444,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 27,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9931545281113231,
+      "auprc": 0.9701008761751475,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 28,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.992817865559421,
+      "auprc": 0.9663756224971926,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 29,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9932667489619571,
+      "auprc": 0.9737972212894032,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 30,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9941645157670295,
+      "auprc": 0.9794211135525097,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 31,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9942767366176635,
+      "auprc": 0.9796342422822626,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 32,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9942767366176635,
+      "auprc": 0.9796342422822628,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 33,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.9778234433358184,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 34,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.9778234433358184,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 35,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.9778234433358184,
+      "accuracy": 0.98
+    },
+    {
+      "layer": 36,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 37,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 38,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9937156323644932,
+      "auprc": 0.9746142147534554,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 39,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.9778234433358184,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 40,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 41,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 42,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 43,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 44,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.9757623203791732,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 45,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 46,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 47,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 48,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9940522949163955,
+      "auprc": 0.9778234433358184,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 49,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9937156323644932,
+      "auprc": 0.9746142147534554,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 50,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 51,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9937156323644932,
+      "auprc": 0.9746142147534554,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 52,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9938278532151273,
+      "auprc": 0.975762320379173,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 53,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9939400740657613,
+      "auprc": 0.9768284184601965,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 54,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9937156323644932,
+      "auprc": 0.9746142147534554,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 55,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9941645157670295,
+      "auprc": 0.9787562791567139,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 56,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 57,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 58,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 59,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9943328470429805,
+      "auprc": 0.9796342422822628,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 60,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 61,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 62,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9945011783189316,
+      "auprc": 0.9812489756330525,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 63,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 64,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 65,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 66,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 67,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 68,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 69,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 70,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 71,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 72,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 73,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 74,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 75,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9949500617214678,
+      "auprc": 0.9840333316620549,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 76,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 77,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 78,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9946133991695657,
+      "auprc": 0.9819952442897688,
+      "accuracy": 0.985
+    },
+    {
+      "layer": 79,
+      "C": 0.001,
+      "validation_auc": 1.0,
+      "auroc": 0.9947256200201997,
+      "auprc": 0.9827059763437845,
+      "accuracy": 0.985
+    }
+  ],
+  "shuffled_layers": [
+    [
+      {
+        "layer": 0,
+        "C": 0.1,
+        "validation_auc": 0.5952,
+        "auroc": 0.5317023903041186,
+        "auprc": 0.38216363580210216,
+        "accuracy": 0.64,
+        "seed": 42
+      },
+      {
+        "layer": 1,
+        "C": 0.01,
+        "validation_auc": 0.651,
+        "auroc": 0.5767029514083717,
+        "auprc": 0.40225101101105787,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 2,
+        "C": 0.001,
+        "validation_auc": 0.6168,
+        "auroc": 0.5508921557625408,
+        "auprc": 0.35716580257782427,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 3,
+        "C": 0.001,
+        "validation_auc": 0.6190000000000001,
+        "auroc": 0.5692963752665244,
+        "auprc": 0.38491937032584933,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 4,
+        "C": 0.001,
+        "validation_auc": 0.619,
+        "auroc": 0.5792840309729548,
+        "auprc": 0.3892265660637495,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 5,
+        "C": 0.001,
+        "validation_auc": 0.64,
+        "auroc": 0.589271686679385,
+        "auprc": 0.40380990714853543,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 6,
+        "C": 0.001,
+        "validation_auc": 0.6384,
+        "auroc": 0.5836606441476826,
+        "auprc": 0.40759838179659214,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 7,
+        "C": 0.001,
+        "validation_auc": 0.6352,
+        "auroc": 0.5847828526540232,
+        "auprc": 0.4159885143993433,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 8,
+        "C": 0.001,
+        "validation_auc": 0.6466,
+        "auroc": 0.5930871956009427,
+        "auprc": 0.4184490104790752,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 9,
+        "C": 0.001,
+        "validation_auc": 0.6524,
+        "auroc": 0.5863539445628998,
+        "auprc": 0.4164212606435088,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 10,
+        "C": 0.001,
+        "validation_auc": 0.6544,
+        "auroc": 0.5823139939400741,
+        "auprc": 0.43014763905378695,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 11,
+        "C": 0.001,
+        "validation_auc": 0.6704,
+        "auroc": 0.596117158568062,
+        "auprc": 0.45874855111810264,
+        "accuracy": 0.69,
+        "seed": 42
+      },
+      {
+        "layer": 12,
+        "C": 0.001,
+        "validation_auc": 0.6738,
+        "auroc": 0.587027269666704,
+        "auprc": 0.45343588969746984,
+        "accuracy": 0.685,
+        "seed": 42
+      },
+      {
+        "layer": 13,
+        "C": 0.001,
+        "validation_auc": 0.6514000000000001,
+        "auroc": 0.5861295028616318,
+        "auprc": 0.4395656718955235,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 14,
+        "C": 0.001,
+        "validation_auc": 0.6696000000000001,
+        "auroc": 0.5958927168667938,
+        "auprc": 0.450912351262244,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 15,
+        "C": 0.001,
+        "validation_auc": 0.6514,
+        "auroc": 0.5948827292110874,
+        "auprc": 0.4706273357147924,
+        "accuracy": 0.69,
+        "seed": 42
+      },
+      {
+        "layer": 16,
+        "C": 0.001,
+        "validation_auc": 0.6701999999999999,
+        "auroc": 0.5888228032768489,
+        "auprc": 0.45330038358380303,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 17,
+        "C": 0.001,
+        "validation_auc": 0.6547999999999999,
+        "auroc": 0.5847828526540231,
+        "auprc": 0.43695062869441814,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "validation_auc": 0.5923999999999999,
+        "auroc": 0.5768151722590057,
+        "auprc": 0.47600425834473387,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 19,
+        "C": 0.001,
+        "validation_auc": 0.6165999999999999,
+        "auroc": 0.5939849624060151,
+        "auprc": 0.4801713916771519,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "validation_auc": 0.65,
+        "auroc": 0.5942094041072832,
+        "auprc": 0.46155943741222194,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 21,
+        "C": 0.001,
+        "validation_auc": 0.6604,
+        "auroc": 0.5935360790034788,
+        "auprc": 0.4702227595205203,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 22,
+        "C": 0.001,
+        "validation_auc": 0.6648000000000001,
+        "auroc": 0.5884861407249466,
+        "auprc": 0.4667564103241091,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 23,
+        "C": 0.001,
+        "validation_auc": 0.6602,
+        "auroc": 0.5979126921782066,
+        "auprc": 0.4615840741817264,
+        "accuracy": 0.685,
+        "seed": 42
+      },
+      {
+        "layer": 24,
+        "C": 0.001,
+        "validation_auc": 0.648,
+        "auroc": 0.6157558074290203,
+        "auprc": 0.46786035841840845,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 25,
+        "C": 0.001,
+        "validation_auc": 0.645,
+        "auroc": 0.6416788239254854,
+        "auprc": 0.48282179416110876,
+        "accuracy": 0.685,
+        "seed": 42
+      },
+      {
+        "layer": 26,
+        "C": 0.001,
+        "validation_auc": 0.655,
+        "auroc": 0.6441476826394344,
+        "auprc": 0.4769563150925586,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 27,
+        "C": 0.001,
+        "validation_auc": 0.6426000000000001,
+        "auroc": 0.6441476826394343,
+        "auprc": 0.46275670776390243,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 28,
+        "C": 0.001,
+        "validation_auc": 0.6317999999999999,
+        "auroc": 0.6450454494445067,
+        "auprc": 0.48037999205695336,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 29,
+        "C": 0.001,
+        "validation_auc": 0.6506000000000001,
+        "auroc": 0.6459432162495793,
+        "auprc": 0.4845285818308557,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 30,
+        "C": 0.001,
+        "validation_auc": 0.6507999999999999,
+        "auroc": 0.6454943328470429,
+        "auprc": 0.49200229253990735,
+        "accuracy": 0.69,
+        "seed": 42
+      },
+      {
+        "layer": 31,
+        "C": 0.001,
+        "validation_auc": 0.6593999999999999,
+        "auroc": 0.6511053753787454,
+        "auprc": 0.5229153722250076,
+        "accuracy": 0.7,
+        "seed": 42
+      },
+      {
+        "layer": 32,
+        "C": 0.001,
+        "validation_auc": 0.6638,
+        "auroc": 0.6404443945685108,
+        "auprc": 0.4847547332104795,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 33,
+        "C": 0.001,
+        "validation_auc": 0.6557999999999999,
+        "auroc": 0.6288856469532039,
+        "auprc": 0.4588302355853169,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 34,
+        "C": 0.001,
+        "validation_auc": 0.6632000000000001,
+        "auroc": 0.6309056222646168,
+        "auprc": 0.4665303179586267,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 35,
+        "C": 0.001,
+        "validation_auc": 0.6648,
+        "auroc": 0.6192346537986759,
+        "auprc": 0.42703945347194344,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 36,
+        "C": 0.001,
+        "validation_auc": 0.6721999999999999,
+        "auroc": 0.6181124452923353,
+        "auprc": 0.42368271357609244,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 37,
+        "C": 0.001,
+        "validation_auc": 0.676,
+        "auroc": 0.6226012793176972,
+        "auprc": 0.4298672349550515,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 38,
+        "C": 0.001,
+        "validation_auc": 0.6762,
+        "auroc": 0.6169902367859948,
+        "auprc": 0.42356736096256453,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 39,
+        "C": 0.001,
+        "validation_auc": 0.6828000000000001,
+        "auroc": 0.6072270227808328,
+        "auprc": 0.4110224154272717,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 40,
+        "C": 0.001,
+        "validation_auc": 0.6772,
+        "auroc": 0.6135113904163394,
+        "auprc": 0.4200956233468933,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 41,
+        "C": 0.001,
+        "validation_auc": 0.6764000000000001,
+        "auroc": 0.607900347884637,
+        "auprc": 0.41919569781301647,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 42,
+        "C": 0.001,
+        "validation_auc": 0.6754000000000001,
+        "auroc": 0.5998204466389855,
+        "auprc": 0.4110173009489269,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 43,
+        "C": 0.001,
+        "validation_auc": 0.6832,
+        "auroc": 0.6002693300415218,
+        "auprc": 0.4093548505977432,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 44,
+        "C": 0.001,
+        "validation_auc": 0.6849999999999999,
+        "auroc": 0.5992593423858154,
+        "auprc": 0.4083237509899139,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 45,
+        "C": 0.001,
+        "validation_auc": 0.6849999999999999,
+        "auroc": 0.5958927168667939,
+        "auprc": 0.40984037928595896,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 46,
+        "C": 0.001,
+        "validation_auc": 0.6808000000000001,
+        "auroc": 0.5957804960161598,
+        "auprc": 0.4080792404030555,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 47,
+        "C": 0.001,
+        "validation_auc": 0.6796,
+        "auroc": 0.5945460666591853,
+        "auprc": 0.3981918150508089,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 48,
+        "C": 0.001,
+        "validation_auc": 0.6808,
+        "auroc": 0.59634160026933,
+        "auprc": 0.40703918357649593,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 49,
+        "C": 0.001,
+        "validation_auc": 0.6788,
+        "auroc": 0.5952193917629897,
+        "auprc": 0.40721115248879675,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 50,
+        "C": 0.001,
+        "validation_auc": 0.6809999999999999,
+        "auroc": 0.6013915385478621,
+        "auprc": 0.41007476741192384,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 51,
+        "C": 0.001,
+        "validation_auc": 0.6838,
+        "auroc": 0.6046459432162495,
+        "auprc": 0.4144957621797002,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 52,
+        "C": 0.001,
+        "validation_auc": 0.6784,
+        "auroc": 0.6061048142744923,
+        "auprc": 0.41788750138138286,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 53,
+        "C": 0.001,
+        "validation_auc": 0.6866,
+        "auroc": 0.6068903602289305,
+        "auprc": 0.4160187826606457,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 54,
+        "C": 0.001,
+        "validation_auc": 0.6826000000000001,
+        "auroc": 0.6084614521378072,
+        "auprc": 0.40794544910995206,
+        "accuracy": 0.67,
+        "seed": 42
+      },
+      {
+        "layer": 55,
+        "C": 0.001,
+        "validation_auc": 0.6881999999999999,
+        "auroc": 0.6116036359555606,
+        "auprc": 0.40637426804015125,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 56,
+        "C": 0.001,
+        "validation_auc": 0.7004,
+        "auroc": 0.6122769610593649,
+        "auprc": 0.4050865970103796,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 57,
+        "C": 0.001,
+        "validation_auc": 0.6996,
+        "auroc": 0.6151947031758502,
+        "auprc": 0.4082584430723374,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 58,
+        "C": 0.001,
+        "validation_auc": 0.7034,
+        "auroc": 0.6188979912467737,
+        "auprc": 0.4092983720583065,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 59,
+        "C": 0.001,
+        "validation_auc": 0.7014,
+        "auroc": 0.6157558074290204,
+        "auprc": 0.4042122755762504,
+        "accuracy": 0.645,
+        "seed": 42
+      },
+      {
+        "layer": 60,
+        "C": 0.001,
+        "validation_auc": 0.7012,
+        "auroc": 0.6136236112669733,
+        "auprc": 0.40588800817768383,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 61,
+        "C": 0.001,
+        "validation_auc": 0.7012,
+        "auroc": 0.6166535742340927,
+        "auprc": 0.40563256911087886,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 62,
+        "C": 0.001,
+        "validation_auc": 0.6992,
+        "auroc": 0.6171024576366289,
+        "auprc": 0.405537350386395,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 63,
+        "C": 0.001,
+        "validation_auc": 0.698,
+        "auroc": 0.614745819773314,
+        "auprc": 0.4051783734895396,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 64,
+        "C": 0.001,
+        "validation_auc": 0.6974,
+        "auroc": 0.6085736729884413,
+        "auprc": 0.4014508000612633,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 65,
+        "C": 0.001,
+        "validation_auc": 0.6955999999999999,
+        "auroc": 0.6094714397935136,
+        "auprc": 0.4006977446080651,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 66,
+        "C": 0.001,
+        "validation_auc": 0.698,
+        "auroc": 0.6125014027606329,
+        "auprc": 0.4050879620300892,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 67,
+        "C": 0.001,
+        "validation_auc": 0.7060000000000001,
+        "auroc": 0.6109303108517563,
+        "auprc": 0.40462652444904423,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 68,
+        "C": 0.001,
+        "validation_auc": 0.7008,
+        "auroc": 0.6128380653125352,
+        "auprc": 0.40292550290137946,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 69,
+        "C": 0.001,
+        "validation_auc": 0.6934,
+        "auroc": 0.6074514644821007,
+        "auprc": 0.39954129946136907,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 70,
+        "C": 0.001,
+        "validation_auc": 0.6956,
+        "auroc": 0.6110425317023903,
+        "auprc": 0.40290259562223707,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 71,
+        "C": 0.001,
+        "validation_auc": 0.6922,
+        "auroc": 0.6108180900011222,
+        "auprc": 0.403922423687129,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 72,
+        "C": 0.001,
+        "validation_auc": 0.6938,
+        "auroc": 0.6121647402087307,
+        "auprc": 0.4128385057268522,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 73,
+        "C": 0.001,
+        "validation_auc": 0.7056,
+        "auroc": 0.6167657950847268,
+        "auprc": 0.4164468628701923,
+        "accuracy": 0.655,
+        "seed": 42
+      },
+      {
+        "layer": 74,
+        "C": 0.001,
+        "validation_auc": 0.7101999999999999,
+        "auroc": 0.6229379418695995,
+        "auprc": 0.4280899325684883,
+        "accuracy": 0.66,
+        "seed": 42
+      },
+      {
+        "layer": 75,
+        "C": 0.001,
+        "validation_auc": 0.7124,
+        "auroc": 0.621927954213893,
+        "auprc": 0.4425268958266315,
+        "accuracy": 0.665,
+        "seed": 42
+      },
+      {
+        "layer": 76,
+        "C": 0.001,
+        "validation_auc": 0.717,
+        "auroc": 0.6247334754797441,
+        "auprc": 0.4485558047190729,
+        "accuracy": 0.68,
+        "seed": 42
+      },
+      {
+        "layer": 77,
+        "C": 0.001,
+        "validation_auc": 0.7288,
+        "auroc": 0.6264167882392548,
+        "auprc": 0.4407387070875615,
+        "accuracy": 0.675,
+        "seed": 42
+      },
+      {
+        "layer": 78,
+        "C": 0.001,
+        "validation_auc": 0.7142,
+        "auroc": 0.6215912916619908,
+        "auprc": 0.43513026378982056,
+        "accuracy": 0.65,
+        "seed": 42
+      },
+      {
+        "layer": 79,
+        "C": 0.001,
+        "validation_auc": 0.7168,
+        "auroc": 0.617102457636629,
+        "auprc": 0.4319787416709827,
+        "accuracy": 0.65,
+        "seed": 42
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "C": 0.001,
+        "validation_auc": 0.614,
+        "auroc": 0.577600718213444,
+        "auprc": 0.45549245098346813,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 1,
+        "C": 0.001,
+        "validation_auc": 0.574,
+        "auroc": 0.5424755919649871,
+        "auprc": 0.44378138959303093,
+        "accuracy": 0.69,
+        "seed": 43
+      },
+      {
+        "layer": 2,
+        "C": 0.001,
+        "validation_auc": 0.5912,
+        "auroc": 0.5241835933116373,
+        "auprc": 0.4240037423191217,
+        "accuracy": 0.68,
+        "seed": 43
+      },
+      {
+        "layer": 3,
+        "C": 0.001,
+        "validation_auc": 0.5728000000000001,
+        "auroc": 0.4910784423745932,
+        "auprc": 0.36582934282441276,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 4,
+        "C": 0.001,
+        "validation_auc": 0.5634,
+        "auroc": 0.4935473010885422,
+        "auprc": 0.36355657772495475,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 5,
+        "C": 0.001,
+        "validation_auc": 0.5416,
+        "auroc": 0.4643698799236899,
+        "auprc": 0.33885252673135957,
+        "accuracy": 0.645,
+        "seed": 43
+      },
+      {
+        "layer": 6,
+        "C": 0.001,
+        "validation_auc": 0.5284,
+        "auroc": 0.4590954999438895,
+        "auprc": 0.3312155297094066,
+        "accuracy": 0.64,
+        "seed": 43
+      },
+      {
+        "layer": 7,
+        "C": 0.001,
+        "validation_auc": 0.5216000000000001,
+        "auroc": 0.4625743463135451,
+        "auprc": 0.326608963168456,
+        "accuracy": 0.64,
+        "seed": 43
+      },
+      {
+        "layer": 8,
+        "C": 0.001,
+        "validation_auc": 0.5268,
+        "auroc": 0.44506789361463367,
+        "auprc": 0.32202683313883707,
+        "accuracy": 0.645,
+        "seed": 43
+      },
+      {
+        "layer": 9,
+        "C": 0.001,
+        "validation_auc": 0.5376000000000001,
+        "auroc": 0.43317248344742454,
+        "auprc": 0.3101637530814164,
+        "accuracy": 0.64,
+        "seed": 43
+      },
+      {
+        "layer": 10,
+        "C": 0.001,
+        "validation_auc": 0.5386,
+        "auroc": 0.4450678936146336,
+        "auprc": 0.3173953840024238,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 11,
+        "C": 0.001,
+        "validation_auc": 0.5338,
+        "auroc": 0.4409157221411739,
+        "auprc": 0.31632258693373677,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 12,
+        "C": 0.001,
+        "validation_auc": 0.5394,
+        "auroc": 0.44843451913365506,
+        "auprc": 0.32898860250868156,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 13,
+        "C": 0.001,
+        "validation_auc": 0.5207999999999999,
+        "auroc": 0.44675120637414434,
+        "auprc": 0.3415466436648342,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 14,
+        "C": 0.001,
+        "validation_auc": 0.542,
+        "auroc": 0.44955672763999555,
+        "auprc": 0.35712579856438864,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 15,
+        "C": 0.001,
+        "validation_auc": 0.5363999999999999,
+        "auroc": 0.44001795533610144,
+        "auprc": 0.35862512082106357,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 16,
+        "C": 0.001,
+        "validation_auc": 0.5104,
+        "auroc": 0.4480978565817529,
+        "auprc": 0.3680323990003655,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 17,
+        "C": 0.001,
+        "validation_auc": 0.5072,
+        "auroc": 0.4350802379082033,
+        "auprc": 0.3703598526165374,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "validation_auc": 0.5005999999999999,
+        "auroc": 0.42946919537650097,
+        "auprc": 0.3777625443084403,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 19,
+        "C": 0.001,
+        "validation_auc": 0.5122,
+        "auroc": 0.4078105712041297,
+        "auprc": 0.3614706404586387,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "validation_auc": 0.5002000000000001,
+        "auroc": 0.42127707328021546,
+        "auprc": 0.36884493290006637,
+        "accuracy": 0.685,
+        "seed": 43
+      },
+      {
+        "layer": 21,
+        "C": 0.001,
+        "validation_auc": 0.5032,
+        "auroc": 0.44001795533610144,
+        "auprc": 0.38195558711629657,
+        "accuracy": 0.69,
+        "seed": 43
+      },
+      {
+        "layer": 22,
+        "C": 0.001,
+        "validation_auc": 0.4874,
+        "auroc": 0.42251150263718995,
+        "auprc": 0.36708949933160706,
+        "accuracy": 0.69,
+        "seed": 43
+      },
+      {
+        "layer": 23,
+        "C": 0.001,
+        "validation_auc": 0.4666,
+        "auroc": 0.396812927841993,
+        "auprc": 0.3490923496117828,
+        "accuracy": 0.68,
+        "seed": 43
+      },
+      {
+        "layer": 24,
+        "C": 0.001,
+        "validation_auc": 0.43920000000000003,
+        "auroc": 0.4017506452698912,
+        "auprc": 0.3572520468762824,
+        "accuracy": 0.685,
+        "seed": 43
+      },
+      {
+        "layer": 25,
+        "C": 0.001,
+        "validation_auc": 0.4034,
+        "auroc": 0.3857030636292223,
+        "auprc": 0.34875742643957963,
+        "accuracy": 0.68,
+        "seed": 43
+      },
+      {
+        "layer": 26,
+        "C": 0.001,
+        "validation_auc": 0.4042,
+        "auroc": 0.38502973852541805,
+        "auprc": 0.35567505728723997,
+        "accuracy": 0.68,
+        "seed": 43
+      },
+      {
+        "layer": 27,
+        "C": 0.001,
+        "validation_auc": 0.40260000000000007,
+        "auroc": 0.3815508921557625,
+        "auprc": 0.3479995151118777,
+        "accuracy": 0.675,
+        "seed": 43
+      },
+      {
+        "layer": 28,
+        "C": 0.001,
+        "validation_auc": 0.3996,
+        "auroc": 0.37829648748737515,
+        "auprc": 0.32246008652705765,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 29,
+        "C": 1.0,
+        "validation_auc": 0.4144,
+        "auroc": 0.40837167545729997,
+        "auprc": 0.32385849226399466,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 30,
+        "C": 0.001,
+        "validation_auc": 0.401,
+        "auroc": 0.39771069464706543,
+        "auprc": 0.3497560482391956,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 31,
+        "C": 0.001,
+        "validation_auc": 0.4192,
+        "auroc": 0.38940635170014587,
+        "auprc": 0.33625644289255696,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 32,
+        "C": 0.1,
+        "validation_auc": 0.4298,
+        "auroc": 0.36718662327460444,
+        "auprc": 0.30911575494434285,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 33,
+        "C": 0.001,
+        "validation_auc": 0.41219999999999996,
+        "auroc": 0.41375827628773426,
+        "auprc": 0.336772273172407,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 34,
+        "C": 1.0,
+        "validation_auc": 0.4258,
+        "auroc": 0.4469756480754124,
+        "auprc": 0.35298142257358633,
+        "accuracy": 0.56,
+        "seed": 43
+      },
+      {
+        "layer": 35,
+        "C": 1.0,
+        "validation_auc": 0.434,
+        "auroc": 0.45830995398945124,
+        "auprc": 0.34784013197846936,
+        "accuracy": 0.565,
+        "seed": 43
+      },
+      {
+        "layer": 36,
+        "C": 1.0,
+        "validation_auc": 0.46399999999999997,
+        "auroc": 0.47413309392885206,
+        "auprc": 0.3557222814581497,
+        "accuracy": 0.575,
+        "seed": 43
+      },
+      {
+        "layer": 37,
+        "C": 1.0,
+        "validation_auc": 0.4592,
+        "auroc": 0.4672876220401751,
+        "auprc": 0.34406254611728193,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 38,
+        "C": 1.0,
+        "validation_auc": 0.475,
+        "auroc": 0.47744360902255634,
+        "auprc": 0.3501535508701441,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 39,
+        "C": 1.0,
+        "validation_auc": 0.45940000000000003,
+        "auroc": 0.47879025923016494,
+        "auprc": 0.3610216583872216,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 40,
+        "C": 1.0,
+        "validation_auc": 0.446,
+        "auroc": 0.4723375603187072,
+        "auprc": 0.37138602059234205,
+        "accuracy": 0.545,
+        "seed": 43
+      },
+      {
+        "layer": 41,
+        "C": 1.0,
+        "validation_auc": 0.45580000000000004,
+        "auroc": 0.4610032544046684,
+        "auprc": 0.3725241347639583,
+        "accuracy": 0.55,
+        "seed": 43
+      },
+      {
+        "layer": 42,
+        "C": 1.0,
+        "validation_auc": 0.4472,
+        "auroc": 0.45673886208057457,
+        "auprc": 0.36075714026772115,
+        "accuracy": 0.555,
+        "seed": 43
+      },
+      {
+        "layer": 43,
+        "C": 1.0,
+        "validation_auc": 0.4442,
+        "auroc": 0.46571653013129843,
+        "auprc": 0.35816726134540733,
+        "accuracy": 0.55,
+        "seed": 43
+      },
+      {
+        "layer": 44,
+        "C": 1.0,
+        "validation_auc": 0.4408,
+        "auroc": 0.45309168443496806,
+        "auprc": 0.356074526073999,
+        "accuracy": 0.545,
+        "seed": 43
+      },
+      {
+        "layer": 45,
+        "C": 1.0,
+        "validation_auc": 0.43060000000000004,
+        "auroc": 0.446021770845023,
+        "auprc": 0.3638590293868014,
+        "accuracy": 0.54,
+        "seed": 43
+      },
+      {
+        "layer": 46,
+        "C": 1.0,
+        "validation_auc": 0.4278,
+        "auroc": 0.45275502188306593,
+        "auprc": 0.36099541537254043,
+        "accuracy": 0.535,
+        "seed": 43
+      },
+      {
+        "layer": 47,
+        "C": 1.0,
+        "validation_auc": 0.4344,
+        "auroc": 0.4452923353159016,
+        "auprc": 0.35824402927899257,
+        "accuracy": 0.545,
+        "seed": 43
+      },
+      {
+        "layer": 48,
+        "C": 1.0,
+        "validation_auc": 0.4376,
+        "auroc": 0.445965660419706,
+        "auprc": 0.3624262119799474,
+        "accuracy": 0.54,
+        "seed": 43
+      },
+      {
+        "layer": 49,
+        "C": 1.0,
+        "validation_auc": 0.42460000000000003,
+        "auroc": 0.4562338682527214,
+        "auprc": 0.367618338118466,
+        "accuracy": 0.545,
+        "seed": 43
+      },
+      {
+        "layer": 50,
+        "C": 10.0,
+        "validation_auc": 0.4316,
+        "auroc": 0.45230613848052964,
+        "auprc": 0.33684557961107786,
+        "accuracy": 0.525,
+        "seed": 43
+      },
+      {
+        "layer": 51,
+        "C": 0.001,
+        "validation_auc": 0.4256,
+        "auroc": 0.45000561104253173,
+        "auprc": 0.3749465816332125,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 52,
+        "C": 0.001,
+        "validation_auc": 0.4314,
+        "auroc": 0.4625743463135451,
+        "auprc": 0.3782582201747339,
+        "accuracy": 0.675,
+        "seed": 43
+      },
+      {
+        "layer": 53,
+        "C": 0.001,
+        "validation_auc": 0.43179999999999996,
+        "auroc": 0.4640332173717877,
+        "auprc": 0.38072825797517806,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 54,
+        "C": 0.001,
+        "validation_auc": 0.43320000000000003,
+        "auroc": 0.4632476714173494,
+        "auprc": 0.3806298210920708,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 55,
+        "C": 10.0,
+        "validation_auc": 0.437,
+        "auroc": 0.4725620020199753,
+        "auprc": 0.3709706379865231,
+        "accuracy": 0.55,
+        "seed": 43
+      },
+      {
+        "layer": 56,
+        "C": 0.001,
+        "validation_auc": 0.43560000000000004,
+        "auroc": 0.46975648075412413,
+        "auprc": 0.37098043847349105,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 57,
+        "C": 0.001,
+        "validation_auc": 0.42900000000000005,
+        "auroc": 0.46784872629334534,
+        "auprc": 0.3719286782765987,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 58,
+        "C": 0.001,
+        "validation_auc": 0.4282,
+        "auroc": 0.4658287509819325,
+        "auprc": 0.3666680353944842,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 59,
+        "C": 0.001,
+        "validation_auc": 0.42960000000000004,
+        "auroc": 0.466950959488273,
+        "auprc": 0.36868783356086343,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 60,
+        "C": 0.001,
+        "validation_auc": 0.4404,
+        "auroc": 0.48052968241499266,
+        "auprc": 0.3859022799259543,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 61,
+        "C": 0.001,
+        "validation_auc": 0.4428,
+        "auroc": 0.47940747390865224,
+        "auprc": 0.38791616885730373,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 62,
+        "C": 0.001,
+        "validation_auc": 0.4404,
+        "auroc": 0.4776119402985075,
+        "auprc": 0.387596403752966,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 63,
+        "C": 0.001,
+        "validation_auc": 0.4432,
+        "auroc": 0.4814274492200651,
+        "auprc": 0.38722198894964466,
+        "accuracy": 0.655,
+        "seed": 43
+      },
+      {
+        "layer": 64,
+        "C": 0.001,
+        "validation_auc": 0.44239999999999996,
+        "auroc": 0.47794860285040963,
+        "auprc": 0.3856757298915033,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 65,
+        "C": 0.001,
+        "validation_auc": 0.4446,
+        "auroc": 0.4776119402985075,
+        "auprc": 0.3840544699208365,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 66,
+        "C": 0.001,
+        "validation_auc": 0.4473999999999999,
+        "auroc": 0.4780608237010437,
+        "auprc": 0.38177747565642994,
+        "accuracy": 0.645,
+        "seed": 43
+      },
+      {
+        "layer": 67,
+        "C": 0.001,
+        "validation_auc": 0.44420000000000004,
+        "auroc": 0.4781730445516777,
+        "auprc": 0.38847417301310017,
+        "accuracy": 0.65,
+        "seed": 43
+      },
+      {
+        "layer": 68,
+        "C": 0.001,
+        "validation_auc": 0.44480000000000003,
+        "auroc": 0.48344742453147793,
+        "auprc": 0.3895149292310371,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 69,
+        "C": 0.001,
+        "validation_auc": 0.4454,
+        "auroc": 0.48726293345303556,
+        "auprc": 0.39483590533362045,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 70,
+        "C": 0.001,
+        "validation_auc": 0.449,
+        "auroc": 0.48939512961508247,
+        "auprc": 0.39853397371275046,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 71,
+        "C": 0.001,
+        "validation_auc": 0.4536,
+        "auroc": 0.4908540006733251,
+        "auprc": 0.39835604603818575,
+        "accuracy": 0.675,
+        "seed": 43
+      },
+      {
+        "layer": 72,
+        "C": 0.001,
+        "validation_auc": 0.4488,
+        "auroc": 0.4896195713163506,
+        "auprc": 0.3992949178677714,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 73,
+        "C": 0.001,
+        "validation_auc": 0.4506,
+        "auroc": 0.48782403770620586,
+        "auprc": 0.400767518587199,
+        "accuracy": 0.66,
+        "seed": 43
+      },
+      {
+        "layer": 74,
+        "C": 0.001,
+        "validation_auc": 0.4518,
+        "auroc": 0.48490629558972054,
+        "auprc": 0.39697409489330165,
+        "accuracy": 0.665,
+        "seed": 43
+      },
+      {
+        "layer": 75,
+        "C": 0.001,
+        "validation_auc": 0.4532,
+        "auroc": 0.49141510492649537,
+        "auprc": 0.3976087693037724,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 76,
+        "C": 0.001,
+        "validation_auc": 0.464,
+        "auroc": 0.47099091011109867,
+        "auprc": 0.39423157342010656,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 77,
+        "C": 0.001,
+        "validation_auc": 0.46660000000000007,
+        "auroc": 0.46941981820222195,
+        "auprc": 0.3951404513970238,
+        "accuracy": 0.675,
+        "seed": 43
+      },
+      {
+        "layer": 78,
+        "C": 0.001,
+        "validation_auc": 0.4718,
+        "auroc": 0.4730108854225115,
+        "auprc": 0.39996644939257997,
+        "accuracy": 0.67,
+        "seed": 43
+      },
+      {
+        "layer": 79,
+        "C": 0.001,
+        "validation_auc": 0.48160000000000003,
+        "auroc": 0.4752553024351925,
+        "auprc": 0.3966188977630824,
+        "accuracy": 0.665,
+        "seed": 43
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "C": 0.01,
+        "validation_auc": 0.5766,
+        "auroc": 0.589271686679385,
+        "auprc": 0.4785162226930901,
+        "accuracy": 0.685,
+        "seed": 44
+      },
+      {
+        "layer": 1,
+        "C": 0.001,
+        "validation_auc": 0.544,
+        "auroc": 0.5995960049377175,
+        "auprc": 0.419888036506258,
+        "accuracy": 0.67,
+        "seed": 44
+      },
+      {
+        "layer": 2,
+        "C": 0.01,
+        "validation_auc": 0.526,
+        "auroc": 0.5120637414431602,
+        "auprc": 0.38974943066776985,
+        "accuracy": 0.61,
+        "seed": 44
+      },
+      {
+        "layer": 3,
+        "C": 0.01,
+        "validation_auc": 0.5346,
+        "auroc": 0.5277746605319269,
+        "auprc": 0.422570829768316,
+        "accuracy": 0.625,
+        "seed": 44
+      },
+      {
+        "layer": 4,
+        "C": 0.1,
+        "validation_auc": 0.538,
+        "auroc": 0.511614858040624,
+        "auprc": 0.46895965399016204,
+        "accuracy": 0.58,
+        "seed": 44
+      },
+      {
+        "layer": 5,
+        "C": 0.01,
+        "validation_auc": 0.5508,
+        "auroc": 0.5403433958029402,
+        "auprc": 0.4100222795632951,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 6,
+        "C": 0.01,
+        "validation_auc": 0.549,
+        "auroc": 0.5345079115699696,
+        "auprc": 0.4307280674547147,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 7,
+        "C": 0.1,
+        "validation_auc": 0.536,
+        "auroc": 0.5125126248456964,
+        "auprc": 0.4601732439281987,
+        "accuracy": 0.585,
+        "seed": 44
+      },
+      {
+        "layer": 8,
+        "C": 0.01,
+        "validation_auc": 0.5626000000000001,
+        "auroc": 0.4982605768151722,
+        "auprc": 0.40448875174618704,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 9,
+        "C": 0.01,
+        "validation_auc": 0.5758,
+        "auroc": 0.4945572887442487,
+        "auprc": 0.4070138934833156,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 10,
+        "C": 0.01,
+        "validation_auc": 0.5522,
+        "auroc": 0.5060038155089215,
+        "auprc": 0.400502495293141,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 11,
+        "C": 0.01,
+        "validation_auc": 0.5462,
+        "auroc": 0.5182358882280328,
+        "auprc": 0.42021375880933964,
+        "accuracy": 0.605,
+        "seed": 44
+      },
+      {
+        "layer": 12,
+        "C": 0.01,
+        "validation_auc": 0.5434,
+        "auroc": 0.5279991022331949,
+        "auprc": 0.42868400390412226,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 13,
+        "C": 0.01,
+        "validation_auc": 0.5329999999999999,
+        "auroc": 0.5318146111547526,
+        "auprc": 0.4481975376687256,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 14,
+        "C": 0.01,
+        "validation_auc": 0.5558,
+        "auroc": 0.5512288183144428,
+        "auprc": 0.45651621504662343,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 15,
+        "C": 0.01,
+        "validation_auc": 0.5713999999999999,
+        "auroc": 0.5131859499495006,
+        "auprc": 0.3971490890084074,
+        "accuracy": 0.615,
+        "seed": 44
+      },
+      {
+        "layer": 16,
+        "C": 0.01,
+        "validation_auc": 0.5227999999999999,
+        "auroc": 0.47940747390865224,
+        "auprc": 0.35974225385420655,
+        "accuracy": 0.61,
+        "seed": 44
+      },
+      {
+        "layer": 17,
+        "C": 0.01,
+        "validation_auc": 0.5672,
+        "auroc": 0.48827292110874204,
+        "auprc": 0.3654068776864321,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "validation_auc": 0.5488000000000001,
+        "auroc": 0.5738974301425204,
+        "auprc": 0.4897014443207296,
+        "accuracy": 0.69,
+        "seed": 44
+      },
+      {
+        "layer": 19,
+        "C": 0.001,
+        "validation_auc": 0.5472,
+        "auroc": 0.5566154191448772,
+        "auprc": 0.44788422681657597,
+        "accuracy": 0.68,
+        "seed": 44
+      },
+      {
+        "layer": 20,
+        "C": 0.001,
+        "validation_auc": 0.5634000000000001,
+        "auroc": 0.5752440803501291,
+        "auprc": 0.46251633962764305,
+        "accuracy": 0.675,
+        "seed": 44
+      },
+      {
+        "layer": 21,
+        "C": 0.001,
+        "validation_auc": 0.5618,
+        "auroc": 0.5697452586690607,
+        "auprc": 0.4576001964725271,
+        "accuracy": 0.66,
+        "seed": 44
+      },
+      {
+        "layer": 22,
+        "C": 0.001,
+        "validation_auc": 0.5602,
+        "auroc": 0.5713163505779373,
+        "auprc": 0.46205615212754386,
+        "accuracy": 0.67,
+        "seed": 44
+      },
+      {
+        "layer": 23,
+        "C": 0.001,
+        "validation_auc": 0.5572,
+        "auroc": 0.5718774548311075,
+        "auprc": 0.47338433292890875,
+        "accuracy": 0.665,
+        "seed": 44
+      },
+      {
+        "layer": 24,
+        "C": 0.001,
+        "validation_auc": 0.5384000000000001,
+        "auroc": 0.5450566715295702,
+        "auprc": 0.4579462374204726,
+        "accuracy": 0.68,
+        "seed": 44
+      },
+      {
+        "layer": 25,
+        "C": 0.001,
+        "validation_auc": 0.523,
+        "auroc": 0.5606553697677028,
+        "auprc": 0.49677504902440084,
+        "accuracy": 0.69,
+        "seed": 44
+      },
+      {
+        "layer": 26,
+        "C": 0.001,
+        "validation_auc": 0.5197999999999999,
+        "auroc": 0.5622264616765795,
+        "auprc": 0.5061019502447764,
+        "accuracy": 0.695,
+        "seed": 44
+      },
+      {
+        "layer": 27,
+        "C": 0.001,
+        "validation_auc": 0.5168,
+        "auroc": 0.5608798114689709,
+        "auprc": 0.4930970769473205,
+        "accuracy": 0.69,
+        "seed": 44
+      },
+      {
+        "layer": 28,
+        "C": 0.001,
+        "validation_auc": 0.5034000000000001,
+        "auroc": 0.5575131859499496,
+        "auprc": 0.48318429139088237,
+        "accuracy": 0.695,
+        "seed": 44
+      },
+      {
+        "layer": 29,
+        "C": 0.001,
+        "validation_auc": 0.4674,
+        "auroc": 0.5519021434182471,
+        "auprc": 0.4875660520873083,
+        "accuracy": 0.69,
+        "seed": 44
+      },
+      {
+        "layer": 30,
+        "C": 0.001,
+        "validation_auc": 0.483,
+        "auroc": 0.5672763999551116,
+        "auprc": 0.5091634479973214,
+        "accuracy": 0.695,
+        "seed": 44
+      },
+      {
+        "layer": 31,
+        "C": 0.001,
+        "validation_auc": 0.47640000000000005,
+        "auroc": 0.5613286948715073,
+        "auprc": 0.47716047346327306,
+        "accuracy": 0.685,
+        "seed": 44
+      },
+      {
+        "layer": 32,
+        "C": 0.001,
+        "validation_auc": 0.4662,
+        "auroc": 0.5624509033778476,
+        "auprc": 0.48974551864810695,
+        "accuracy": 0.68,
+        "seed": 44
+      },
+      {
+        "layer": 33,
+        "C": 0.001,
+        "validation_auc": 0.46199999999999997,
+        "auroc": 0.556278756592975,
+        "auprc": 0.4807167435107908,
+        "accuracy": 0.685,
+        "seed": 44
+      },
+      {
+        "layer": 34,
+        "C": 1.0,
+        "validation_auc": 0.4736,
+        "auroc": 0.4767141734934351,
+        "auprc": 0.39907013725611573,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 35,
+        "C": 1.0,
+        "validation_auc": 0.5508000000000001,
+        "auroc": 0.48333520368084393,
+        "auprc": 0.39991103525711114,
+        "accuracy": 0.6,
+        "seed": 44
+      },
+      {
+        "layer": 36,
+        "C": 1.0,
+        "validation_auc": 0.5676000000000001,
+        "auroc": 0.4755919649870946,
+        "auprc": 0.3906035777281536,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 37,
+        "C": 1.0,
+        "validation_auc": 0.5700000000000001,
+        "auroc": 0.4705420267085625,
+        "auprc": 0.3699114834511588,
+        "accuracy": 0.585,
+        "seed": 44
+      },
+      {
+        "layer": 38,
+        "C": 1.0,
+        "validation_auc": 0.5329999999999999,
+        "auroc": 0.46369655481988553,
+        "auprc": 0.3738467467627805,
+        "accuracy": 0.595,
+        "seed": 44
+      },
+      {
+        "layer": 39,
+        "C": 0.1,
+        "validation_auc": 0.5154,
+        "auroc": 0.44024239703736956,
+        "auprc": 0.3748254070548445,
+        "accuracy": 0.575,
+        "seed": 44
+      },
+      {
+        "layer": 40,
+        "C": 0.1,
+        "validation_auc": 0.5156,
+        "auroc": 0.4401301761867355,
+        "auprc": 0.3687980055851921,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 41,
+        "C": 0.1,
+        "validation_auc": 0.5269999999999999,
+        "auroc": 0.4500056110425318,
+        "auprc": 0.38136471980321707,
+        "accuracy": 0.565,
+        "seed": 44
+      },
+      {
+        "layer": 42,
+        "C": 0.1,
+        "validation_auc": 0.5354,
+        "auroc": 0.4433845808551229,
+        "auprc": 0.37525242642456214,
+        "accuracy": 0.56,
+        "seed": 44
+      },
+      {
+        "layer": 43,
+        "C": 0.1,
+        "validation_auc": 0.5092000000000001,
+        "auroc": 0.44394568510829313,
+        "auprc": 0.37818846472600637,
+        "accuracy": 0.555,
+        "seed": 44
+      },
+      {
+        "layer": 44,
+        "C": 0.1,
+        "validation_auc": 0.5044000000000001,
+        "auroc": 0.4450678936146336,
+        "auprc": 0.37888178874244527,
+        "accuracy": 0.545,
+        "seed": 44
+      },
+      {
+        "layer": 45,
+        "C": 0.1,
+        "validation_auc": 0.5126,
+        "auroc": 0.45718774548311086,
+        "auprc": 0.3814893292305749,
+        "accuracy": 0.535,
+        "seed": 44
+      },
+      {
+        "layer": 46,
+        "C": 0.01,
+        "validation_auc": 0.5218,
+        "auroc": 0.49444506789361464,
+        "auprc": 0.42383270855384675,
+        "accuracy": 0.615,
+        "seed": 44
+      },
+      {
+        "layer": 47,
+        "C": 0.01,
+        "validation_auc": 0.5254000000000001,
+        "auroc": 0.4962406015037594,
+        "auprc": 0.4261004946805742,
+        "accuracy": 0.615,
+        "seed": 44
+      },
+      {
+        "layer": 48,
+        "C": 0.01,
+        "validation_auc": 0.5258,
+        "auroc": 0.49579171810122324,
+        "auprc": 0.42332431785201446,
+        "accuracy": 0.625,
+        "seed": 44
+      },
+      {
+        "layer": 49,
+        "C": 0.01,
+        "validation_auc": 0.5431999999999999,
+        "auroc": 0.4982605768151722,
+        "auprc": 0.41498201449854,
+        "accuracy": 0.62,
+        "seed": 44
+      },
+      {
+        "layer": 50,
+        "C": 0.01,
+        "validation_auc": 0.5465999999999999,
+        "auroc": 0.49051733812142295,
+        "auprc": 0.40924295044884945,
+        "accuracy": 0.62,
+        "seed": 44
+      },
+      {
+        "layer": 51,
+        "C": 0.01,
+        "validation_auc": 0.5508000000000001,
+        "auroc": 0.500056110425317,
+        "auprc": 0.4205604617998006,
+        "accuracy": 0.615,
+        "seed": 44
+      },
+      {
+        "layer": 52,
+        "C": 0.01,
+        "validation_auc": 0.546,
+        "auroc": 0.4994950061721468,
+        "auprc": 0.41790094679791145,
+        "accuracy": 0.64,
+        "seed": 44
+      },
+      {
+        "layer": 53,
+        "C": 0.01,
+        "validation_auc": 0.5578,
+        "auroc": 0.5051060487038492,
+        "auprc": 0.4234460866920055,
+        "accuracy": 0.65,
+        "seed": 44
+      },
+      {
+        "layer": 54,
+        "C": 0.01,
+        "validation_auc": 0.5556000000000001,
+        "auroc": 0.5054427112557514,
+        "auprc": 0.4213687473999886,
+        "accuracy": 0.635,
+        "seed": 44
+      },
+      {
+        "layer": 55,
+        "C": 0.01,
+        "validation_auc": 0.5504,
+        "auroc": 0.502412748288632,
+        "auprc": 0.4192217528326603,
+        "accuracy": 0.63,
+        "seed": 44
+      },
+      {
+        "layer": 56,
+        "C": 0.01,
+        "validation_auc": 0.55,
+        "auroc": 0.4927617551341039,
+        "auprc": 0.4159428908288052,
+        "accuracy": 0.64,
+        "seed": 44
+      },
+      {
+        "layer": 57,
+        "C": 0.01,
+        "validation_auc": 0.5382,
+        "auroc": 0.49994388957468294,
+        "auprc": 0.42293973343690594,
+        "accuracy": 0.64,
+        "seed": 44
+      },
+      {
+        "layer": 58,
+        "C": 0.1,
+        "validation_auc": 0.5274000000000001,
+        "auroc": 0.4533722365615532,
+        "auprc": 0.3685939541427554,
+        "accuracy": 0.565,
+        "seed": 44
+      },
+      {
+        "layer": 59,
+        "C": 0.01,
+        "validation_auc": 0.5322,
+        "auroc": 0.4990461227696106,
+        "auprc": 0.42667146644700715,
+        "accuracy": 0.65,
+        "seed": 44
+      },
+      {
+        "layer": 60,
+        "C": 0.1,
+        "validation_auc": 0.5264,
+        "auroc": 0.45101559869823815,
+        "auprc": 0.3840881791386963,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 61,
+        "C": 0.1,
+        "validation_auc": 0.5170000000000001,
+        "auroc": 0.44989339019189767,
+        "auprc": 0.37989956162325633,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 62,
+        "C": 0.01,
+        "validation_auc": 0.5105999999999999,
+        "auroc": 0.49668948490629566,
+        "auprc": 0.4215067921368846,
+        "accuracy": 0.65,
+        "seed": 44
+      },
+      {
+        "layer": 63,
+        "C": 0.01,
+        "validation_auc": 0.5074,
+        "auroc": 0.49758725171136803,
+        "auprc": 0.42468300736929776,
+        "accuracy": 0.65,
+        "seed": 44
+      },
+      {
+        "layer": 64,
+        "C": 0.1,
+        "validation_auc": 0.5204000000000001,
+        "auroc": 0.45651442037930645,
+        "auprc": 0.3774490555327128,
+        "accuracy": 0.555,
+        "seed": 44
+      },
+      {
+        "layer": 65,
+        "C": 0.01,
+        "validation_auc": 0.5278,
+        "auroc": 0.5026371899899001,
+        "auprc": 0.4299516421309689,
+        "accuracy": 0.645,
+        "seed": 44
+      },
+      {
+        "layer": 66,
+        "C": 0.01,
+        "validation_auc": 0.529,
+        "auroc": 0.5034227359443385,
+        "auprc": 0.4198548446746693,
+        "accuracy": 0.64,
+        "seed": 44
+      },
+      {
+        "layer": 67,
+        "C": 0.1,
+        "validation_auc": 0.5464000000000001,
+        "auroc": 0.4454045561665358,
+        "auprc": 0.36900989358061065,
+        "accuracy": 0.565,
+        "seed": 44
+      },
+      {
+        "layer": 68,
+        "C": 0.1,
+        "validation_auc": 0.5612,
+        "auroc": 0.4378857591740546,
+        "auprc": 0.3623202465714823,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 69,
+        "C": 0.1,
+        "validation_auc": 0.579,
+        "auroc": 0.42924475367523285,
+        "auprc": 0.34863439678660413,
+        "accuracy": 0.56,
+        "seed": 44
+      },
+      {
+        "layer": 70,
+        "C": 0.1,
+        "validation_auc": 0.577,
+        "auroc": 0.44237459319941647,
+        "auprc": 0.37262118633305685,
+        "accuracy": 0.58,
+        "seed": 44
+      },
+      {
+        "layer": 71,
+        "C": 0.1,
+        "validation_auc": 0.5836,
+        "auroc": 0.4280103243182583,
+        "auprc": 0.3679458846475102,
+        "accuracy": 0.57,
+        "seed": 44
+      },
+      {
+        "layer": 72,
+        "C": 0.1,
+        "validation_auc": 0.5900000000000001,
+        "auroc": 0.4418134889462462,
+        "auprc": 0.38156815999140725,
+        "accuracy": 0.58,
+        "seed": 44
+      },
+      {
+        "layer": 73,
+        "C": 0.1,
+        "validation_auc": 0.5906,
+        "auroc": 0.45920772079452365,
+        "auprc": 0.38804133322866907,
+        "accuracy": 0.575,
+        "seed": 44
+      },
+      {
+        "layer": 74,
+        "C": 1.0,
+        "validation_auc": 0.6118,
+        "auroc": 0.42801032431825836,
+        "auprc": 0.3687819450860309,
+        "accuracy": 0.54,
+        "seed": 44
+      },
+      {
+        "layer": 75,
+        "C": 1.0,
+        "validation_auc": 0.5828000000000001,
+        "auroc": 0.460105487599596,
+        "auprc": 0.3965196949072186,
+        "accuracy": 0.56,
+        "seed": 44
+      },
+      {
+        "layer": 76,
+        "C": 1.0,
+        "validation_auc": 0.5698,
+        "auroc": 0.4631354505667153,
+        "auprc": 0.37641776844693575,
+        "accuracy": 0.575,
+        "seed": 44
+      },
+      {
+        "layer": 77,
+        "C": 1.0,
+        "validation_auc": 0.5734,
+        "auroc": 0.44978116934126366,
+        "auprc": 0.3626233164731721,
+        "accuracy": 0.54,
+        "seed": 44
+      },
+      {
+        "layer": 78,
+        "C": 10.0,
+        "validation_auc": 0.5742,
+        "auroc": 0.4680731679946134,
+        "auprc": 0.3618514490957326,
+        "accuracy": 0.56,
+        "seed": 44
+      },
+      {
+        "layer": 79,
+        "C": 1.0,
+        "validation_auc": 0.5404,
+        "auroc": 0.46358433396925147,
+        "auprc": 0.3606984293942347,
+        "accuracy": 0.55,
+        "seed": 44
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "C": 0.001,
+        "validation_auc": 0.48160000000000003,
+        "auroc": 0.3971495903938952,
+        "auprc": 0.2833168489470905,
+        "accuracy": 0.66,
+        "seed": 45
+      },
+      {
+        "layer": 1,
+        "C": 0.001,
+        "validation_auc": 0.46040000000000003,
+        "auroc": 0.4491078442374593,
+        "auprc": 0.31146436414049194,
+        "accuracy": 0.655,
+        "seed": 45
+      },
+      {
+        "layer": 2,
+        "C": 10.0,
+        "validation_auc": 0.4648,
+        "auroc": 0.4437212434070251,
+        "auprc": 0.33549371659372,
+        "accuracy": 0.52,
+        "seed": 45
+      },
+      {
+        "layer": 3,
+        "C": 10.0,
+        "validation_auc": 0.4764,
+        "auroc": 0.38430030299629675,
+        "auprc": 0.31496590459049345,
+        "accuracy": 0.505,
+        "seed": 45
+      },
+      {
+        "layer": 4,
+        "C": 1.0,
+        "validation_auc": 0.4618,
+        "auroc": 0.4079227920547638,
+        "auprc": 0.3263982786935097,
+        "accuracy": 0.515,
+        "seed": 45
+      },
+      {
+        "layer": 5,
+        "C": 0.01,
+        "validation_auc": 0.4487999999999999,
+        "auroc": 0.47289866457187746,
+        "auprc": 0.36347144291281325,
+        "accuracy": 0.63,
+        "seed": 45
+      },
+      {
+        "layer": 6,
+        "C": 0.01,
+        "validation_auc": 0.45559999999999995,
+        "auroc": 0.45786107058691505,
+        "auprc": 0.3490081397936653,
+        "accuracy": 0.62,
+        "seed": 45
+      },
+      {
+        "layer": 7,
+        "C": 0.01,
+        "validation_auc": 0.4594,
+        "auroc": 0.44742453147794864,
+        "auprc": 0.34274144112351485,
+        "accuracy": 0.635,
+        "seed": 45
+      },
+      {
+        "layer": 8,
+        "C": 0.01,
+        "validation_auc": 0.44420000000000004,
+        "auroc": 0.46751206374144316,
+        "auprc": 0.3528431370858469,
+        "accuracy": 0.63,
+        "seed": 45
+      },
+      {
+        "layer": 9,
+        "C": 0.01,
+        "validation_auc": 0.4384,
+        "auroc": 0.45168892380204245,
+        "auprc": 0.3367784477787464,
+        "accuracy": 0.605,
+        "seed": 45
+      },
+      {
+        "layer": 10,
+        "C": 0.01,
+        "validation_auc": 0.43439999999999995,
+        "auroc": 0.43485579620693526,
+        "auprc": 0.3577779265971164,
+        "accuracy": 0.625,
+        "seed": 45
+      },
+      {
+        "layer": 11,
+        "C": 0.01,
+        "validation_auc": 0.448,
+        "auroc": 0.42632701155874764,
+        "auprc": 0.3610766222569453,
+        "accuracy": 0.61,
+        "seed": 45
+      },
+      {
+        "layer": 12,
+        "C": 0.1,
+        "validation_auc": 0.44999999999999996,
+        "auroc": 0.4125238469307597,
+        "auprc": 0.35787468966574454,
+        "accuracy": 0.555,
+        "seed": 45
+      },
+      {
+        "layer": 13,
+        "C": 0.1,
+        "validation_auc": 0.46399999999999997,
+        "auroc": 0.4414768263943441,
+        "auprc": 0.36689880479047354,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 14,
+        "C": 0.1,
+        "validation_auc": 0.45980000000000004,
+        "auroc": 0.43193805409045005,
+        "auprc": 0.38527746017981,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 15,
+        "C": 0.1,
+        "validation_auc": 0.47520000000000007,
+        "auroc": 0.45292335315901694,
+        "auprc": 0.39398461404351337,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 16,
+        "C": 0.1,
+        "validation_auc": 0.461,
+        "auroc": 0.43485579620693526,
+        "auprc": 0.38896466800599305,
+        "accuracy": 0.59,
+        "seed": 45
+      },
+      {
+        "layer": 17,
+        "C": 0.01,
+        "validation_auc": 0.447,
+        "auroc": 0.4160026933004153,
+        "auprc": 0.38304173099121736,
+        "accuracy": 0.62,
+        "seed": 45
+      },
+      {
+        "layer": 18,
+        "C": 0.001,
+        "validation_auc": 0.46699999999999997,
+        "auroc": 0.4501178318931658,
+        "auprc": 0.37806966106692197,
+        "accuracy": 0.655,
+        "seed": 45
+      },
+      {
+        "layer": 19,
+        "C": 10.0,
+        "validation_auc": 0.474,
+        "auroc": 0.4487150712602402,
+        "auprc": 0.3351660101023993,
+        "accuracy": 0.55,
+        "seed": 45
+      },
+      {
+        "layer": 20,
+        "C": 10.0,
+        "validation_auc": 0.5058,
+        "auroc": 0.4941084053417125,
+        "auprc": 0.3678093220883099,
+        "accuracy": 0.555,
+        "seed": 45
+      },
+      {
+        "layer": 21,
+        "C": 1.0,
+        "validation_auc": 0.4636,
+        "auroc": 0.445965660419706,
+        "auprc": 0.34626187595488933,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 22,
+        "C": 1.0,
+        "validation_auc": 0.49620000000000003,
+        "auroc": 0.4534844574121872,
+        "auprc": 0.3685284266740993,
+        "accuracy": 0.565,
+        "seed": 45
+      },
+      {
+        "layer": 23,
+        "C": 0.01,
+        "validation_auc": 0.494,
+        "auroc": 0.4561777578274044,
+        "auprc": 0.36645617027908906,
+        "accuracy": 0.615,
+        "seed": 45
+      },
+      {
+        "layer": 24,
+        "C": 0.01,
+        "validation_auc": 0.49260000000000004,
+        "auroc": 0.44989339019189767,
+        "auprc": 0.338945144269587,
+        "accuracy": 0.62,
+        "seed": 45
+      },
+      {
+        "layer": 25,
+        "C": 10.0,
+        "validation_auc": 0.4671,
+        "auroc": 0.4709347996857816,
+        "auprc": 0.3552424368286222,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 26,
+        "C": 1.0,
+        "validation_auc": 0.44360000000000005,
+        "auroc": 0.45808551228818317,
+        "auprc": 0.37910112868912227,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 27,
+        "C": 1.0,
+        "validation_auc": 0.42500000000000004,
+        "auroc": 0.4383346425765907,
+        "auprc": 0.3270428347606881,
+        "accuracy": 0.555,
+        "seed": 45
+      },
+      {
+        "layer": 28,
+        "C": 0.1,
+        "validation_auc": 0.4374,
+        "auroc": 0.4108405341712491,
+        "auprc": 0.3446047924122052,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 29,
+        "C": 1.0,
+        "validation_auc": 0.47819999999999996,
+        "auroc": 0.413197172034564,
+        "auprc": 0.3446773943550807,
+        "accuracy": 0.525,
+        "seed": 45
+      },
+      {
+        "layer": 30,
+        "C": 1.0,
+        "validation_auc": 0.47739999999999994,
+        "auroc": 0.42587812815621146,
+        "auprc": 0.3652955700307946,
+        "accuracy": 0.575,
+        "seed": 45
+      },
+      {
+        "layer": 31,
+        "C": 1.0,
+        "validation_auc": 0.4982,
+        "auroc": 0.4368757715183481,
+        "auprc": 0.3682156884900889,
+        "accuracy": 0.565,
+        "seed": 45
+      },
+      {
+        "layer": 32,
+        "C": 0.1,
+        "validation_auc": 0.48819999999999997,
+        "auroc": 0.4054539333408148,
+        "auprc": 0.345771727095746,
+        "accuracy": 0.585,
+        "seed": 45
+      },
+      {
+        "layer": 33,
+        "C": 0.01,
+        "validation_auc": 0.4662,
+        "auroc": 0.43384580855122884,
+        "auprc": 0.3481043559212237,
+        "accuracy": 0.59,
+        "seed": 45
+      },
+      {
+        "layer": 34,
+        "C": 0.01,
+        "validation_auc": 0.4542,
+        "auroc": 0.42082818987767934,
+        "auprc": 0.32334190013322095,
+        "accuracy": 0.58,
+        "seed": 45
+      },
+      {
+        "layer": 35,
+        "C": 0.01,
+        "validation_auc": 0.45420000000000005,
+        "auroc": 0.4125238469307597,
+        "auprc": 0.32430622195391,
+        "accuracy": 0.605,
+        "seed": 45
+      },
+      {
+        "layer": 36,
+        "C": 1.0,
+        "validation_auc": 0.4612,
+        "auroc": 0.4385590842778589,
+        "auprc": 0.3175757321936241,
+        "accuracy": 0.55,
+        "seed": 45
+      },
+      {
+        "layer": 37,
+        "C": 1.0,
+        "validation_auc": 0.4524,
+        "auroc": 0.4520255863539446,
+        "auprc": 0.32039101620186683,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 38,
+        "C": 1.0,
+        "validation_auc": 0.47080000000000005,
+        "auroc": 0.4560655369767703,
+        "auprc": 0.3300632317156035,
+        "accuracy": 0.55,
+        "seed": 45
+      },
+      {
+        "layer": 39,
+        "C": 1.0,
+        "validation_auc": 0.4628,
+        "auroc": 0.46246212546291104,
+        "auprc": 0.3207784336584738,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 40,
+        "C": 1.0,
+        "validation_auc": 0.45600000000000007,
+        "auroc": 0.45965660419705984,
+        "auprc": 0.3205032423264943,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 41,
+        "C": 1.0,
+        "validation_auc": 0.4582,
+        "auroc": 0.45999326674896196,
+        "auprc": 0.33475806202731406,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 42,
+        "C": 1.0,
+        "validation_auc": 0.453,
+        "auroc": 0.4669509594882729,
+        "auprc": 0.328482712705558,
+        "accuracy": 0.565,
+        "seed": 45
+      },
+      {
+        "layer": 43,
+        "C": 1.0,
+        "validation_auc": 0.46459999999999996,
+        "auroc": 0.46829760969588147,
+        "auprc": 0.3267846650577959,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 44,
+        "C": 1.0,
+        "validation_auc": 0.46499999999999997,
+        "auroc": 0.488385141959376,
+        "auprc": 0.35003032848870985,
+        "accuracy": 0.565,
+        "seed": 45
+      },
+      {
+        "layer": 45,
+        "C": 1.0,
+        "validation_auc": 0.4802,
+        "auroc": 0.4856918415441589,
+        "auprc": 0.346596732673237,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 46,
+        "C": 1.0,
+        "validation_auc": 0.48059999999999997,
+        "auroc": 0.48019301986309054,
+        "auprc": 0.3438899964964078,
+        "accuracy": 0.52,
+        "seed": 45
+      },
+      {
+        "layer": 47,
+        "C": 10.0,
+        "validation_auc": 0.477,
+        "auroc": 0.4724497811693413,
+        "auprc": 0.34955951184823264,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 48,
+        "C": 10.0,
+        "validation_auc": 0.4694,
+        "auroc": 0.4762652900908989,
+        "auprc": 0.3544099825271355,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 49,
+        "C": 10.0,
+        "validation_auc": 0.4636,
+        "auroc": 0.46863427224778365,
+        "auprc": 0.3548643144494034,
+        "accuracy": 0.55,
+        "seed": 45
+      },
+      {
+        "layer": 50,
+        "C": 10.0,
+        "validation_auc": 0.46940000000000004,
+        "auroc": 0.4636965548198856,
+        "auprc": 0.3450310085585279,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 51,
+        "C": 10.0,
+        "validation_auc": 0.4706,
+        "auroc": 0.4690831556503199,
+        "auprc": 0.3505594841102083,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 52,
+        "C": 10.0,
+        "validation_auc": 0.47520000000000007,
+        "auroc": 0.4649309841768602,
+        "auprc": 0.3517809590512915,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 53,
+        "C": 1.0,
+        "validation_auc": 0.48319999999999996,
+        "auroc": 0.4656043092806643,
+        "auprc": 0.3500652072833011,
+        "accuracy": 0.545,
+        "seed": 45
+      },
+      {
+        "layer": 54,
+        "C": 1.0,
+        "validation_auc": 0.49420000000000003,
+        "auroc": 0.4662776343844687,
+        "auprc": 0.3598963143647531,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 55,
+        "C": 1.0,
+        "validation_auc": 0.4922,
+        "auroc": 0.47592862753899673,
+        "auprc": 0.3651841676814982,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 56,
+        "C": 1.0,
+        "validation_auc": 0.5084000000000001,
+        "auroc": 0.4971383683088318,
+        "auprc": 0.38248091741687684,
+        "accuracy": 0.525,
+        "seed": 45
+      },
+      {
+        "layer": 57,
+        "C": 1.0,
+        "validation_auc": 0.4824,
+        "auroc": 0.4828863202783077,
+        "auprc": 0.3737811991717809,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 58,
+        "C": 1.0,
+        "validation_auc": 0.4958,
+        "auroc": 0.47469419818202224,
+        "auprc": 0.3586249693286321,
+        "accuracy": 0.525,
+        "seed": 45
+      },
+      {
+        "layer": 59,
+        "C": 1.0,
+        "validation_auc": 0.4886,
+        "auroc": 0.47345976882504776,
+        "auprc": 0.36656918392620397,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 60,
+        "C": 1.0,
+        "validation_auc": 0.4856,
+        "auroc": 0.47334754797441364,
+        "auprc": 0.3665476398513019,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 61,
+        "C": 1.0,
+        "validation_auc": 0.4818,
+        "auroc": 0.469532039052856,
+        "auprc": 0.3624660787993285,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 62,
+        "C": 1.0,
+        "validation_auc": 0.486,
+        "auroc": 0.4593199416451577,
+        "auprc": 0.3594133501546792,
+        "accuracy": 0.53,
+        "seed": 45
+      },
+      {
+        "layer": 63,
+        "C": 1.0,
+        "validation_auc": 0.4858,
+        "auroc": 0.47155201436426897,
+        "auprc": 0.3717425038858774,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 64,
+        "C": 1.0,
+        "validation_auc": 0.47580000000000006,
+        "auroc": 0.46302322971608123,
+        "auprc": 0.3668599686565643,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 65,
+        "C": 1.0,
+        "validation_auc": 0.48119999999999996,
+        "auroc": 0.46246212546291104,
+        "auprc": 0.3681629264490537,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 66,
+        "C": 0.1,
+        "validation_auc": 0.4802,
+        "auroc": 0.46066659185276626,
+        "auprc": 0.3559773538195391,
+        "accuracy": 0.56,
+        "seed": 45
+      },
+      {
+        "layer": 67,
+        "C": 1.0,
+        "validation_auc": 0.488,
+        "auroc": 0.4682976096958815,
+        "auprc": 0.361935780016924,
+        "accuracy": 0.54,
+        "seed": 45
+      },
+      {
+        "layer": 68,
+        "C": 1.0,
+        "validation_auc": 0.48560000000000003,
+        "auroc": 0.4433845808551229,
+        "auprc": 0.3520416023808096,
+        "accuracy": 0.525,
+        "seed": 45
+      },
+      {
+        "layer": 69,
+        "C": 1.0,
+        "validation_auc": 0.4759999999999999,
+        "auroc": 0.4303669621815734,
+        "auprc": 0.34428617355791424,
+        "accuracy": 0.535,
+        "seed": 45
+      },
+      {
+        "layer": 70,
+        "C": 0.1,
+        "validation_auc": 0.46179999999999993,
+        "auroc": 0.4222870609359219,
+        "auprc": 0.34320950496277036,
+        "accuracy": 0.555,
+        "seed": 45
+      },
+      {
+        "layer": 71,
+        "C": 0.001,
+        "validation_auc": 0.4454,
+        "auroc": 0.4367635506677141,
+        "auprc": 0.38316865383419996,
+        "accuracy": 0.67,
+        "seed": 45
+      },
+      {
+        "layer": 72,
+        "C": 0.001,
+        "validation_auc": 0.4526,
+        "auroc": 0.44057905958927174,
+        "auprc": 0.3850056501022464,
+        "accuracy": 0.67,
+        "seed": 45
+      },
+      {
+        "layer": 73,
+        "C": 0.001,
+        "validation_auc": 0.45980000000000004,
+        "auroc": 0.44742453147794864,
+        "auprc": 0.39373847749724156,
+        "accuracy": 0.68,
+        "seed": 45
+      },
+      {
+        "layer": 74,
+        "C": 0.001,
+        "validation_auc": 0.46359999999999996,
+        "auroc": 0.44697564807541246,
+        "auprc": 0.39106412790271017,
+        "accuracy": 0.675,
+        "seed": 45
+      },
+      {
+        "layer": 75,
+        "C": 0.001,
+        "validation_auc": 0.46040000000000003,
+        "auroc": 0.45494332847042984,
+        "auprc": 0.4007982359626453,
+        "accuracy": 0.675,
+        "seed": 45
+      },
+      {
+        "layer": 76,
+        "C": 0.001,
+        "validation_auc": 0.46219999999999994,
+        "auroc": 0.441252384693076,
+        "auprc": 0.3833723484238033,
+        "accuracy": 0.675,
+        "seed": 45
+      },
+      {
+        "layer": 77,
+        "C": 0.001,
+        "validation_auc": 0.47080000000000005,
+        "auroc": 0.44428234766019525,
+        "auprc": 0.3782851796013221,
+        "accuracy": 0.675,
+        "seed": 45
+      },
+      {
+        "layer": 78,
+        "C": 0.001,
+        "validation_auc": 0.4792,
+        "auroc": 0.4541577825159915,
+        "auprc": 0.3914589146857685,
+        "accuracy": 0.685,
+        "seed": 45
+      },
+      {
+        "layer": 79,
+        "C": 0.001,
+        "validation_auc": 0.4736,
+        "auroc": 0.4549433284704298,
+        "auprc": 0.3829419672747758,
+        "accuracy": 0.68,
+        "seed": 45
+      }
+    ],
+    [
+      {
+        "layer": 0,
+        "C": 0.001,
+        "validation_auc": 0.6002000000000001,
+        "auroc": 0.6430254741330939,
+        "auprc": 0.44684957865422165,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 1,
+        "C": 0.001,
+        "validation_auc": 0.5768,
+        "auroc": 0.6139602738188755,
+        "auprc": 0.4428832357179533,
+        "accuracy": 0.685,
+        "seed": 46
+      },
+      {
+        "layer": 2,
+        "C": 0.001,
+        "validation_auc": 0.5878000000000001,
+        "auroc": 0.5973515879250365,
+        "auprc": 0.4240202005035018,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 3,
+        "C": 0.001,
+        "validation_auc": 0.5602,
+        "auroc": 0.5804062394792953,
+        "auprc": 0.4180742633929336,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 4,
+        "C": 0.001,
+        "validation_auc": 0.5422,
+        "auroc": 0.579732914375491,
+        "auprc": 0.4079260531466747,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 5,
+        "C": 0.001,
+        "validation_auc": 0.5264,
+        "auroc": 0.5330490405117271,
+        "auprc": 0.37680676203283836,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 6,
+        "C": 0.001,
+        "validation_auc": 0.5045999999999999,
+        "auroc": 0.5225002805521267,
+        "auprc": 0.3763060910260916,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 7,
+        "C": 0.001,
+        "validation_auc": 0.4946,
+        "auroc": 0.5265402311749523,
+        "auprc": 0.39133002214551843,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 8,
+        "C": 0.001,
+        "validation_auc": 0.48560000000000003,
+        "auroc": 0.5272135562787567,
+        "auprc": 0.3871725584549688,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 9,
+        "C": 10.0,
+        "validation_auc": 0.5043,
+        "auroc": 0.4819885534732354,
+        "auprc": 0.37832736790302934,
+        "accuracy": 0.555,
+        "seed": 46
+      },
+      {
+        "layer": 10,
+        "C": 10.0,
+        "validation_auc": 0.5210000000000001,
+        "auroc": 0.5058915946582875,
+        "auprc": 0.4095914310950658,
+        "accuracy": 0.59,
+        "seed": 46
+      },
+      {
+        "layer": 11,
+        "C": 1.0,
+        "validation_auc": 0.5118,
+        "auroc": 0.485916283245427,
+        "auprc": 0.3743454386911813,
+        "accuracy": 0.565,
+        "seed": 46
+      },
+      {
+        "layer": 12,
+        "C": 10.0,
+        "validation_auc": 0.5136000000000001,
+        "auroc": 0.47172034564022003,
+        "auprc": 0.3634796545778515,
+        "accuracy": 0.585,
+        "seed": 46
+      },
+      {
+        "layer": 13,
+        "C": 0.001,
+        "validation_auc": 0.4716,
+        "auroc": 0.5177870048254966,
+        "auprc": 0.4044243181468734,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 14,
+        "C": 10.0,
+        "validation_auc": 0.4677,
+        "auroc": 0.4275614409157221,
+        "auprc": 0.34403767619272363,
+        "accuracy": 0.56,
+        "seed": 46
+      },
+      {
+        "layer": 15,
+        "C": 0.001,
+        "validation_auc": 0.46640000000000004,
+        "auroc": 0.49691392660756367,
+        "auprc": 0.3774067475069184,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 16,
+        "C": 0.001,
+        "validation_auc": 0.4666,
+        "auroc": 0.5194703175850073,
+        "auprc": 0.3772137113962418,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 17,
+        "C": 0.001,
+        "validation_auc": 0.4754,
+        "auroc": 0.5383234204915273,
+        "auprc": 0.3875034152683501,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 18,
+        "C": 1.0,
+        "validation_auc": 0.4916,
+        "auroc": 0.4194815396700707,
+        "auprc": 0.33328733251616294,
+        "accuracy": 0.56,
+        "seed": 46
+      },
+      {
+        "layer": 19,
+        "C": 1.0,
+        "validation_auc": 0.4935,
+        "auroc": 0.4799685781618225,
+        "auprc": 0.366919613457067,
+        "accuracy": 0.58,
+        "seed": 46
+      },
+      {
+        "layer": 20,
+        "C": 10.0,
+        "validation_auc": 0.49959999999999993,
+        "auroc": 0.5128492873975985,
+        "auprc": 0.4115170575240578,
+        "accuracy": 0.61,
+        "seed": 46
+      },
+      {
+        "layer": 21,
+        "C": 0.001,
+        "validation_auc": 0.5024,
+        "auroc": 0.5401189541016721,
+        "auprc": 0.4343660574337073,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 22,
+        "C": 0.001,
+        "validation_auc": 0.5077,
+        "auroc": 0.5793962518235888,
+        "auprc": 0.45682124957421416,
+        "accuracy": 0.685,
+        "seed": 46
+      },
+      {
+        "layer": 23,
+        "C": 0.001,
+        "validation_auc": 0.5192,
+        "auroc": 0.5827628773426103,
+        "auprc": 0.4631236686894026,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 24,
+        "C": 0.001,
+        "validation_auc": 0.5226,
+        "auroc": 0.58220177308944,
+        "auprc": 0.4622994503357555,
+        "accuracy": 0.685,
+        "seed": 46
+      },
+      {
+        "layer": 25,
+        "C": 0.001,
+        "validation_auc": 0.5584,
+        "auroc": 0.5865783862641678,
+        "auprc": 0.461860136175098,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 26,
+        "C": 0.001,
+        "validation_auc": 0.543,
+        "auroc": 0.5808551228818315,
+        "auprc": 0.46675688206978017,
+        "accuracy": 0.685,
+        "seed": 46
+      },
+      {
+        "layer": 27,
+        "C": 0.001,
+        "validation_auc": 0.5456000000000001,
+        "auroc": 0.568174166760184,
+        "auprc": 0.45320714888369373,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 28,
+        "C": 0.001,
+        "validation_auc": 0.5296000000000001,
+        "auroc": 0.5743463135450566,
+        "auprc": 0.45939526656227325,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 29,
+        "C": 0.001,
+        "validation_auc": 0.5394000000000001,
+        "auroc": 0.5806306811805634,
+        "auprc": 0.4527217980917489,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 30,
+        "C": 0.001,
+        "validation_auc": 0.5486,
+        "auroc": 0.6133991695657053,
+        "auprc": 0.4878957988029219,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 31,
+        "C": 0.001,
+        "validation_auc": 0.5636000000000001,
+        "auroc": 0.6213668499607228,
+        "auprc": 0.4710780411527856,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 32,
+        "C": 0.001,
+        "validation_auc": 0.5650000000000001,
+        "auroc": 0.6145213780720458,
+        "auprc": 0.4576555458762116,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 33,
+        "C": 0.001,
+        "validation_auc": 0.5738,
+        "auroc": 0.6067781393782965,
+        "auprc": 0.42269475498756665,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 34,
+        "C": 0.001,
+        "validation_auc": 0.5684,
+        "auroc": 0.6084614521378073,
+        "auprc": 0.44203887342929293,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 35,
+        "C": 0.001,
+        "validation_auc": 0.5774,
+        "auroc": 0.6089103355403434,
+        "auprc": 0.434157783382044,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 36,
+        "C": 0.001,
+        "validation_auc": 0.5804,
+        "auroc": 0.6118280776568287,
+        "auprc": 0.44644887883102635,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 37,
+        "C": 0.001,
+        "validation_auc": 0.5844,
+        "auroc": 0.6197957580518461,
+        "auprc": 0.4488077723326705,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 38,
+        "C": 0.001,
+        "validation_auc": 0.5874,
+        "auroc": 0.6111547525530243,
+        "auprc": 0.429410911150527,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 39,
+        "C": 0.001,
+        "validation_auc": 0.577,
+        "auroc": 0.6117158568061947,
+        "auprc": 0.4312065937399095,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 40,
+        "C": 0.001,
+        "validation_auc": 0.5678000000000001,
+        "auroc": 0.6141847155201436,
+        "auprc": 0.43517446390444403,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 41,
+        "C": 0.001,
+        "validation_auc": 0.5698000000000001,
+        "auroc": 0.6107058691504881,
+        "auprc": 0.4242044950195416,
+        "accuracy": 0.65,
+        "seed": 46
+      },
+      {
+        "layer": 42,
+        "C": 0.001,
+        "validation_auc": 0.5672,
+        "auroc": 0.6114914151049266,
+        "auprc": 0.4258982050457113,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 43,
+        "C": 0.001,
+        "validation_auc": 0.5618,
+        "auroc": 0.6015037593984962,
+        "auprc": 0.4214953035708961,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 44,
+        "C": 0.001,
+        "validation_auc": 0.5680000000000001,
+        "auroc": 0.598586017282011,
+        "auprc": 0.41909619796519926,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 45,
+        "C": 0.001,
+        "validation_auc": 0.575,
+        "auroc": 0.5954438334642577,
+        "auprc": 0.41447943518843994,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 46,
+        "C": 0.001,
+        "validation_auc": 0.5800000000000001,
+        "auroc": 0.6032992930086409,
+        "auprc": 0.41852639569200845,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 47,
+        "C": 0.001,
+        "validation_auc": 0.5794,
+        "auroc": 0.6108180900011222,
+        "auprc": 0.42404071941521065,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 48,
+        "C": 0.001,
+        "validation_auc": 0.5676,
+        "auroc": 0.6077881270340029,
+        "auprc": 0.42002743452739244,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 49,
+        "C": 0.001,
+        "validation_auc": 0.5718000000000001,
+        "auroc": 0.6044215015149815,
+        "auprc": 0.4169307607286257,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 50,
+        "C": 0.001,
+        "validation_auc": 0.569,
+        "auroc": 0.6021770845023006,
+        "auprc": 0.41615439693875744,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 51,
+        "C": 0.001,
+        "validation_auc": 0.5758,
+        "auroc": 0.6112669734036583,
+        "auprc": 0.4215801227549637,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 52,
+        "C": 0.001,
+        "validation_auc": 0.575,
+        "auroc": 0.6229379418695993,
+        "auprc": 0.435684777315698,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 53,
+        "C": 0.001,
+        "validation_auc": 0.5788,
+        "auroc": 0.628997867803838,
+        "auprc": 0.44605061225999154,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 54,
+        "C": 0.001,
+        "validation_auc": 0.586,
+        "auroc": 0.6347211311861745,
+        "auprc": 0.4485399587241593,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 55,
+        "C": 0.001,
+        "validation_auc": 0.5754,
+        "auroc": 0.6282123218493998,
+        "auprc": 0.43929727716575806,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 56,
+        "C": 0.001,
+        "validation_auc": 0.5728,
+        "auroc": 0.6320278307709573,
+        "auprc": 0.44499139656781833,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 57,
+        "C": 0.001,
+        "validation_auc": 0.578,
+        "auroc": 0.6300078554595444,
+        "auprc": 0.4412571451686389,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 58,
+        "C": 0.001,
+        "validation_auc": 0.5844,
+        "auroc": 0.6307934014139828,
+        "auprc": 0.4406004068406104,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 59,
+        "C": 0.001,
+        "validation_auc": 0.5766,
+        "auroc": 0.6329255975760296,
+        "auprc": 0.43928090371299616,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 60,
+        "C": 0.001,
+        "validation_auc": 0.5808,
+        "auroc": 0.631130063965885,
+        "auprc": 0.4385754391935456,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 61,
+        "C": 0.001,
+        "validation_auc": 0.5782,
+        "auroc": 0.6294467512063742,
+        "auprc": 0.4348611204041104,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 62,
+        "C": 0.001,
+        "validation_auc": 0.5750000000000001,
+        "auroc": 0.6297834137582763,
+        "auprc": 0.43765444618154337,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 63,
+        "C": 0.001,
+        "validation_auc": 0.5848,
+        "auroc": 0.6333744809785659,
+        "auprc": 0.4403469832417198,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 64,
+        "C": 0.001,
+        "validation_auc": 0.5866,
+        "auroc": 0.6333744809785659,
+        "auprc": 0.4408479924994845,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 65,
+        "C": 0.001,
+        "validation_auc": 0.5876,
+        "auroc": 0.6332622601279317,
+        "auprc": 0.44297657635493226,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 66,
+        "C": 0.001,
+        "validation_auc": 0.5810000000000001,
+        "auroc": 0.6296711929076423,
+        "auprc": 0.44183887878994377,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 67,
+        "C": 0.001,
+        "validation_auc": 0.5772,
+        "auroc": 0.6298956346089104,
+        "auprc": 0.44475899864583346,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 68,
+        "C": 0.001,
+        "validation_auc": 0.5738,
+        "auroc": 0.6297834137582763,
+        "auprc": 0.4485590391070531,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 69,
+        "C": 0.001,
+        "validation_auc": 0.5752,
+        "auroc": 0.6287734261025699,
+        "auprc": 0.45342079180732753,
+        "accuracy": 0.665,
+        "seed": 46
+      },
+      {
+        "layer": 70,
+        "C": 0.001,
+        "validation_auc": 0.5776000000000001,
+        "auroc": 0.6273145550443272,
+        "auprc": 0.4458419408923546,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 71,
+        "C": 0.001,
+        "validation_auc": 0.5772,
+        "auroc": 0.6307934014139828,
+        "auprc": 0.45861866329839607,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 72,
+        "C": 0.001,
+        "validation_auc": 0.5730000000000001,
+        "auroc": 0.6340478060823701,
+        "auprc": 0.4563213141134506,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 73,
+        "C": 0.001,
+        "validation_auc": 0.5760000000000001,
+        "auroc": 0.6267534507911571,
+        "auprc": 0.44609130741880476,
+        "accuracy": 0.66,
+        "seed": 46
+      },
+      {
+        "layer": 74,
+        "C": 0.001,
+        "validation_auc": 0.5701999999999999,
+        "auroc": 0.6250701380316462,
+        "auprc": 0.450749423744387,
+        "accuracy": 0.67,
+        "seed": 46
+      },
+      {
+        "layer": 75,
+        "C": 0.001,
+        "validation_auc": 0.5609999999999999,
+        "auroc": 0.6100325440466838,
+        "auprc": 0.43317395820339416,
+        "accuracy": 0.655,
+        "seed": 46
+      },
+      {
+        "layer": 76,
+        "C": 0.001,
+        "validation_auc": 0.5536,
+        "auroc": 0.6063292559757604,
+        "auprc": 0.4412510191440847,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 77,
+        "C": 0.001,
+        "validation_auc": 0.5556,
+        "auroc": 0.6050948266187858,
+        "auprc": 0.4431046128500749,
+        "accuracy": 0.68,
+        "seed": 46
+      },
+      {
+        "layer": 78,
+        "C": 0.001,
+        "validation_auc": 0.5506,
+        "auroc": 0.6021770845023006,
+        "auprc": 0.43597486238489636,
+        "accuracy": 0.675,
+        "seed": 46
+      },
+      {
+        "layer": 79,
+        "C": 0.001,
+        "validation_auc": 0.5674000000000001,
+        "auroc": 0.5970149253731343,
+        "auprc": 0.43999761239672774,
+        "accuracy": 0.69,
+        "seed": 46
+      }
+    ]
+  ]
+}

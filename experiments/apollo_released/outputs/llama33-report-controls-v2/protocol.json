@@ -1,0 +1,31 @@
+{
+  "source_manifest_sha256": "46d05b90e21b693e4a3957f33ef9bfbec2a4f60e73761434dbdc23bc1e09f24c",
+  "source_config_sha256": "f91fe031f2de0c3b5fb2e3842100ea05c89483549ba4926d1a369ca23171c827",
+  "existing_split_sha256": "dd604a6d28e3594bb457001a0e4b8014a74677ae2f94ba028ca681610d24955b",
+  "script_sha256": "e27b55124921f1f37ee5473eea6d3dfc57cca4d2cc088178affdf29b52fe133a",
+  "matching": "exact token count, within fixed splits, seed 42, without replacement",
+  "model_frozen": true,
+  "activations": "reused from original frozen FP16 replay, no model updates",
+  "C_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "shuffled_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "shuffled_training_labels_only": true,
+  "selection": "validation AUROC only; smallest C and earliest layer win ties",
+  "scaling": "training only",
+  "accuracy_threshold": 0.5,
+  "auprc": "average precision",
+  "positive_label": "deceptive",
+  "prereport_baselines": "decoded input token prefix through report boundary; prefix token count",
+  "matched_baselines": "exact report substring; report token count"
+}

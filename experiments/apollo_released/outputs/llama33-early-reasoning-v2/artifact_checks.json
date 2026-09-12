@@ -1,0 +1,29 @@
+{
+  "windows_checked": 999,
+  "probe_layers_checked": 80,
+  "prediction_max_abs_error": 0.0,
+  "samples": [
+    {
+      "index": 0,
+      "source_equal": true,
+      "mean_max_abs_error": 0.0
+    },
+    {
+      "index": 1,
+      "source_equal": true,
+      "mean_max_abs_error": 0.0
+    },
+    {
+      "index": 500,
+      "source_equal": true,
+      "mean_max_abs_error": 0.0
+    },
+    {
+      "index": 998,
+      "source_equal": true,
+      "mean_max_abs_error": 0.0
+    }
+  ],
+  "identical_windows_and_cohort_to_v1": true,
+  "finite_pooled_activations": true
+}

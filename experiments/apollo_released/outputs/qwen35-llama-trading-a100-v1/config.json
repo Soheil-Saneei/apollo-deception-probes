@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "dtype": "float16",
+  "frozen": true,
+  "attention": "eager",
+  "use_cache": false,
+  "tokenizer": "Qwen/Qwen3.5-9B",
+  "tokenizer_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "native_template": true,
+  "enable_thinking": false,
+  "original_generation_tokens_available": false,
+  "replay": "exact released message/completion text, retokenized for Qwen; no generation",
+  "residual": "unnormalized output of all 32 decoder blocks, final assistant tokens",
+  "length_matching": "Llama-defined subset retained; Qwen token counts reported separately",
+  "source_manifest_sha256": "46d05b90e21b693e4a3957f33ef9bfbec2a4f60e73761434dbdc23bc1e09f24c",
+  "script_sha256": "1e61a6d4b269f54c62da81d5d69f3c0b30765ff05c6f76448e57868b7502f96f",
+  "examples": 1000,
+  "early_examples": 999,
+  "counts": {
+    "train/honest": 433,
+    "train/deceptive": 217,
+    "test/deceptive": 67,
+    "test/honest": 133,
+    "validation/honest": 100,
+    "validation/deceptive": 50
+  },
+  "max_sequence_tokens": 1488,
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.2",
+    "flash-linear-attention": "0.5.2"
+  }
+}

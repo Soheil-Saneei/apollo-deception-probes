@@ -1,0 +1,74 @@
+[
+  {
+    "position": 0,
+    "counts": {
+      "honest": {
+        "7184": 430,
+        "40": 2,
+        "791": 1
+      },
+      "deceptive": {
+        "7184": 216,
+        "40": 1
+      }
+    },
+    "modes": {
+      "honest": 7184,
+      "deceptive": 7184
+    },
+    "decoded_modes": {
+      "honest": "Now",
+      "deceptive": "Now"
+    },
+    "decoded_counts": {
+      "honest": {
+        "Now": 430,
+        "I": 2,
+        "The": 1
+      },
+      "deceptive": {
+        "Now": 216,
+        "I": 1
+      }
+    }
+  },
+  {
+    "position": 1,
+    "counts": {
+      "honest": {
+        "430": 395,
+        "358": 35,
+        "3077": 2,
+        "6696": 1
+      },
+      "deceptive": {
+        "358": 123,
+        "430": 92,
+        "11": 1,
+        "3077": 1
+      }
+    },
+    "modes": {
+      "honest": 430,
+      "deceptive": 358
+    },
+    "decoded_modes": {
+      "honest": " that",
+      "deceptive": " I"
+    },
+    "decoded_counts": {
+      "honest": {
+        " that": 395,
+        " I": 35,
+        "'ve": 2,
+        " trade": 1
+      },
+      "deceptive": {
+        " I": 123,
+        " that": 92,
+        ",": 1,
+        "'ve": 1
+      }
+    }
+  }
+]

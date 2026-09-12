@@ -1,0 +1,140 @@
+{
+  "protocol": {
+    "examples": 999,
+    "counts": {
+      "train/honest": 432,
+      "train/deceptive": 217,
+      "test/deceptive": 67,
+      "test/honest": 133,
+      "validation/honest": 100,
+      "validation/deceptive": 50
+    },
+    "full_prefix": "all saved input tokens [0,window_end), including system prompt, prior messages, reasoning wrapper and window",
+    "same_endpoint_and_examples": true,
+    "model_frozen": true,
+    "activation_probes_reused": true,
+    "text_settings": "word TF-IDF unigrams/bigrams, min_df=2, sublinear TF; train-only vocabulary/IDF",
+    "C_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection": "validation AUROC, first C wins ties; existing layer 17 retained",
+    "text_solver": "L2 lbfgs, max_iter=2000, random_state=42",
+    "positive_label": "deceptive",
+    "auprc": "average precision",
+    "accuracy_threshold": 0.5
+  },
+  "provenance": {
+    "replay_manifest_sha256": "46d05b90e21b693e4a3957f33ef9bfbec2a4f60e73761434dbdc23bc1e09f24c",
+    "window_manifest_sha256": "fab57074c5d1dbd2fc4cf1b817bec00072a247da06563107441a6ba2830ec133",
+    "window_predictions_sha256": "c1cb0c7311a7d89e7eb854026a53bfe76dc9e2f77281dfb236013efdd133f60d",
+    "tokenizer_json_sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+    "script_sha256": "443d34cb0dfa4b3a614d4e07a77eaa29867fb2d855f156aee18101343931d29e"
+  },
+  "activation_layer0": {
+    "layer": 0,
+    "C": 0.1,
+    "validation_auc": 0.9188000000000001,
+    "auroc": 0.8364942206261924,
+    "auprc": 0.7207557312533126,
+    "accuracy": 0.78,
+    "selected_fit_iterations": 291
+  },
+  "activation_layer17": {
+    "layer": 17,
+    "C": 0.01,
+    "validation_auc": 0.9488,
+    "auroc": 0.8597239367074402,
+    "auprc": 0.7459675140291755,
+    "accuracy": 0.76,
+    "selected_fit_iterations": 149
+  },
+  "full_prefix_text": {
+    "C": 10.0,
+    "validation_auc": 0.8726,
+    "vocabulary_size": 2372,
+    "auroc": 0.7866681629446751,
+    "auprc": 0.6880483326757565,
+    "accuracy": 0.73
+  },
+  "window_only_text": {
+    "C": 1.0,
+    "validation_auc": 0.8583999999999999,
+    "vocabulary_size": 62,
+    "auroc": 0.7861631691168218,
+    "auprc": 0.6382079850416699,
+    "accuracy": 0.81
+  },
+  "layer17_minus_full_prefix": {
+    "auroc": {
+      "difference": 0.07305577376276506,
+      "paired_trajectory_bootstrap_95_ci": [
+        0.027125409472975818,
+        0.11954306504306518
+      ]
+    },
+    "auprc": {
+      "difference": 0.057919181353419,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.01688940396835371,
+        0.14335782056529645
+      ]
+    },
+    "accuracy": {
+      "difference": 0.030000000000000027,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.030000000000000027,
+        0.08500000000000008
+      ]
+    }
+  },
+  "layer0_minus_full_prefix": {
+    "auroc": {
+      "difference": 0.049826057681517266,
+      "paired_trajectory_bootstrap_95_ci": [
+        0.001078771709298996,
+        0.0980569258088722
+      ]
+    },
+    "auprc": {
+      "difference": 0.03270739857755611,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.040914373856756586,
+        0.11034627051528202
+      ]
+    },
+    "accuracy": {
+      "difference": 0.050000000000000044,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.015000000000000013,
+        0.10512499999999941
+      ]
+    }
+  },
+  "layer17_minus_layer0": {
+    "auroc": {
+      "difference": 0.023229716081247798,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.0012363232905902492,
+        0.04894185038514804
+      ]
+    },
+    "auprc": {
+      "difference": 0.02521178277586289,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.02342421672606952,
+        0.07923300077918331
+      ]
+    },
+    "accuracy": {
+      "difference": -0.020000000000000018,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.05500000000000005,
+        0.015000000000000013
+      ]
+    }
+  }
+}

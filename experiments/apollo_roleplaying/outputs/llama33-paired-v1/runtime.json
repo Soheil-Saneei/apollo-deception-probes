@@ -1,0 +1,11 @@
+{
+  "torch_build": "2.14.0+cu130",
+  "cuda_runtime": "13.0",
+  "transformers": "5.17.0",
+  "gpus": [
+    "NVIDIA RTX A6000",
+    "NVIDIA RTX A6000",
+    "NVIDIA RTX A6000",
+    "NVIDIA RTX A6000"
+  ]
+}

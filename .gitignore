@@ -11,3 +11,9 @@ __pycache__/
 *.pem
 .lavish/
 .DS_Store
+.venv*/
+.hf-cache*/
+.archive-work/
+*.key
+*.tar.zst
+*.tar.zst.part*

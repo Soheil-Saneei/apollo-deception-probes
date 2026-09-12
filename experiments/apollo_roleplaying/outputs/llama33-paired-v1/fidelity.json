@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "examples": 742,
+  "paired_prompts_checked": 371,
+  "paired_prompt_max_abs_error": 0.0,
+  "checks": [
+    {
+      "check": "repeated_forward_and_hooks_vs_no_hooks",
+      "max_abs_error": 0.0
+    }
+  ]
+}

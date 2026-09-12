@@ -1,0 +1,35 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+  "tokenizer": "meta-llama/Llama-3.3-70B-Instruct",
+  "tokenizer_revision": "6f6073b423013f6a7d4d9f39144961bfbfbc386b",
+  "source_qwen_manifest_sha256": "de570b516c5b54f00a3afb223d5922ad621348342dd1b40ab14d15c6b2e6c8f0",
+  "examples": 742,
+  "scenario_pairs": 371,
+  "split_examples": {
+    "train": 518,
+    "test": 112,
+    "validation": 112
+  },
+  "dtype": "bfloat16",
+  "attention": "eager",
+  "frozen": true,
+  "use_cache": false,
+  "template_date": "26 Jul 2024",
+  "pad_token_id": 128004,
+  "padding": "right-pad each member to pair maximum length; padding masked and excluded",
+  "pooling": "FP32 mean over exact completion tokens only; no end-of-turn token",
+  "residual": "unnormalized output of each decoder block",
+  "layers": 80,
+  "hidden_size": 8192,
+  "original_generation_token_ids_available": false,
+  "max_input_tokens": 353,
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "accelerate": "1.15.0",
+    "huggingface-hub": "1.31.0",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.2"
+  }
+}

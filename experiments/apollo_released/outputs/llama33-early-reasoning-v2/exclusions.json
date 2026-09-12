@@ -1,0 +1,8 @@
+[
+  {
+    "trajectory_id": "llama33-reports-001191",
+    "split": "train",
+    "label": "honest",
+    "reason": "window_reaches_reasoning_end_or_explicit_cue"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "experiments/apollo_roleplaying/outputs/qwen9b-paired-v2/probe_metrics.json": "f74b6078c26a65629d1a186a21a6f228b344dc528a7d8d60ff02b5e5c85c653e",
+  "experiments/apollo_roleplaying/outputs/llama33-roleplaying-eval-v1/metrics.json": "8ff5217b42419fde421aab7efab33bc8f16e2d1a8e3cc7e18f567b16f896a260",
+  "experiments/apollo_released/outputs/qwen35-llama-trading-eval-v1/comparison.json": "8831021b68f9aec1e665d21486c34f85bc2d81329d4d1b2bc8d6b2eb55162136",
+  "experiments/apollo_released/outputs/qwen35-llama-trading-eval-v1/early_full_prefix.json": "0db779293ac1267abd0b81a70d68a9e81f7cf31969520920f67938325b91e868",
+  "experiments/apollo_released/outputs/llama33-probe-eval-v3/metrics.json": "8a22012455957c0419f97ab37c48fdb4aa298aa713b33699daa95d2ccf228081",
+  "experiments/apollo_trading/baseline-100-review.md": "6d18f519196a672ca2057634105141f9ff3f1cc5c7072542eaec8a5690bc34ac",
+  "experiments/apollo_trading/qwen-n100-v2-review.md": "3b617594bffbea6bf1e7a52219288d10f70a65385443ada78a1e3924111ad00a",
+  "experiments/apollo_trading/qwen-n100-v3-review.md": "2ffd88ea2285d2bf4b8651a943a464e0e88056ebb54fc32bc4d92e3ad6e60f18",
+  "experiments/apollo_trading/qwen-n100-v4-review.md": "bde96da55331e5398c35af995a9c6be2cbbc863672d38996150739d21bd8e13e",
+  "experiments/apollo_trading/a100-n100-v2-review.md": "cbbf63a5dadb7444336baa780d1aea28ba099407bdec171b2347b2c4d580d7f0"
+}

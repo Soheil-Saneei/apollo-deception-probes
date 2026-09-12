@@ -1,0 +1,10 @@
+{
+  "completed": 742,
+  "honest": 371,
+  "deceptive": 371,
+  "feature_shape": [
+    742,
+    80,
+    8192
+  ]
+}

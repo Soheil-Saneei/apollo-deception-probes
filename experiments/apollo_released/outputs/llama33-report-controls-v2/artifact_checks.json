@@ -1,0 +1,39 @@
+{
+  "length_matched": {
+    "probe_layers_checked": 80,
+    "prediction_max_abs_error": 0.0,
+    "sampled_source_activation_max_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_shape": [
+      86,
+      80,
+      8192
+    ]
+  },
+  "pre_report": {
+    "probe_layers_checked": 80,
+    "prediction_max_abs_error": 0.0,
+    "sampled_source_activation_max_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "activation_shape": [
+      1000,
+      80,
+      8192
+    ]
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.23.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "qwen_manifest_sha256": "d20369c5b2658753b216aa01573da59026f064f4c691b837fc631dec2f115299",
+  "script_sha256": "789d8580d5d399bfe34e86e36795617d52ffaed318d6c8ee75dd2b2bee30625a",
+  "all_text_baselines_shared": true,
+  "all_cohorts_and_splits_unchanged": true,
+  "qwen_is_generating": false,
+  "activation_max_iter": 10000
+}

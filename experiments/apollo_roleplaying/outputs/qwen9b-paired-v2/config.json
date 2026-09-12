@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "source_commit": "f8ec4010e74927394709dffa22b97bdf8cd5a62f",
+  "source_sha256": "7d3e36dc9a2fa72ff823b651c2ade2e0fc34c5bc6267cdf9b7be8b046ed2e564",
+  "seed": 42,
+  "dtype": "bfloat16",
+  "attention": "eager",
+  "thinking": false,
+  "torch": "2.14.0+cu130",
+  "transformers": "5.17.0",
+  "splits": {
+    "train": 518,
+    "test": 112,
+    "validation": 112
+  },
+  "examples": 742,
+  "max_sequence_tokens": 336,
+  "activation": "decoder block output, before final model normalization",
+  "padding": "right padding to the longer sequence within each pair",
+  "pooling": "mean over completion tokens only; no end-of-turn token",
+  "original_provider_token_ids_available": false
+}

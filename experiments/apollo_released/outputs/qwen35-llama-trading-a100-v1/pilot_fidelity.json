@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "trajectory_id": "llama33-reports-000004",
+      "repeat_equal": true,
+      "prefix_relative_l2_max": {
+        "report_boundary": 0.00250461813993752,
+        "early": 0.0018993224948644638
+      }
+    },
+    {
+      "trajectory_id": "llama33-reports-000010",
+      "repeat_equal": true,
+      "prefix_relative_l2_max": {
+        "report_boundary": 0.0028884378261864185,
+        "early": 0.0021784640848636627
+      }
+    },
+    {
+      "trajectory_id": "llama33-reports-000015",
+      "repeat_equal": true,
+      "prefix_relative_l2_max": {
+        "report_boundary": 0.002058186801150441,
+        "early": 0.0016389616066589952
+      }
+    },
+    {
+      "trajectory_id": "llama33-reports-000020",
+      "repeat_equal": true,
+      "prefix_relative_l2_max": {
+        "report_boundary": 0.0022205759305506945,
+        "early": 0.0021230108104646206
+      }
+    }
+  ],
+  "hooks_changed_logits": false
+}

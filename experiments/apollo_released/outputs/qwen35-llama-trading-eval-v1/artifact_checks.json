@@ -1,0 +1,27 @@
+{
+  "report": {
+    "layers_checked": 32,
+    "prediction_max_abs_error": 0.0,
+    "test_examples": 200
+  },
+  "llama_length_matched": {
+    "layers_checked": 32,
+    "prediction_max_abs_error": 0.0,
+    "test_examples": 14
+  },
+  "pre_report": {
+    "layers_checked": 32,
+    "prediction_max_abs_error": 0.0,
+    "test_examples": 200
+  },
+  "early_reasoning": {
+    "layers_checked": 32,
+    "prediction_max_abs_error": 0.0,
+    "test_examples": 200
+  },
+  "qwen_matched_histograms_equal": {
+    "train": false,
+    "validation": true,
+    "test": true
+  }
+}

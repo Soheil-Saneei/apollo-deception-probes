@@ -1,0 +1,20 @@
+{
+  "source_manifest_sha256": "46d05b90e21b693e4a3957f33ef9bfbec2a4f60e73761434dbdc23bc1e09f24c",
+  "source_config_sha256": "f91fe031f2de0c3b5fb2e3842100ea05c89483549ba4926d1a369ca23171c827",
+  "existing_split_sha256": "dd604a6d28e3594bb457001a0e4b8014a74677ae2f94ba028ca681610d24955b",
+  "script_sha256": "9a0debf54759ed0682e72a9d69cd2221d1d44fbaf54bbe5c8f9fac457b903df6",
+  "model_frozen": true,
+  "feature_source": "original FP16 frozen causal replay; no model update",
+  "divergence_definition": "earliest training-only per-position modal token disagreement between labels",
+  "literal_support_difference_position": 0,
+  "divergence_reasoning_token_zero_based": 1,
+  "window_start_reasoning_token_zero_based": 2,
+  "window_tokens": 8,
+  "pooling": "FP32 mean over exactly eight post-divergence reasoning-token block outputs",
+  "activation_max_iter": 10000,
+  "iteration_change_reason": "2000-iteration shuffled fit failed to converge",
+  "text": "exact decoded same eight tokens, including original whitespace; no earlier/later text",
+  "fixed_exclusion_regex": "\\b(?:insider|sensitive|confidential|conceal\\w*|hid(?:e|ing|den)|reveal\\w*|disclos\\w*|withhold\\w*|omit\\w*|cautious\\w*|careful\\w*|avoid\\w*|suspicio\\w*|risk\\w*|deceiv\\w*|decept\\w*|illegal\\w*|unethical\\w*|secret\\w*|source|not\\s+(?:mention|tell|share)|frame\\w*|downplay\\w*)\\b",
+  "paired_counterfactuals": false,
+  "caveat": "Activations attend earlier context; TF-IDF only sees the specified window."
+}

@@ -1,0 +1,8 @@
+{
+  "completed": 1000,
+  "honest": 666,
+  "deceptive": 334,
+  "layers": 32,
+  "hidden_size": 4096,
+  "early_completed": 999
+}

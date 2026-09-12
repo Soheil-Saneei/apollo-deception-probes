@@ -1,0 +1,18 @@
+{
+  "original_manifest_unchanged": true,
+  "original_test_ids_unchanged": true,
+  "saved_probability_reconstruction_max_error": 7.889929409810037e-08,
+  "shuffled_class_counts_preserved": true,
+  "test_report_token_lengths": {
+    "honest": {
+      "median": 59.0,
+      "min": 45,
+      "max": 106
+    },
+    "deceptive": {
+      "median": 43.0,
+      "min": 38,
+      "max": 59
+    }
+  }
+}

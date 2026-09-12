@@ -1,0 +1,10 @@
+[
+  {
+    "check": "hooks_vs_no_hooks_max_logit_error",
+    "value": 0.0
+  },
+  {
+    "check": "paired_prompt_boundary_max_abs_difference",
+    "value": 0.0
+  }
+]

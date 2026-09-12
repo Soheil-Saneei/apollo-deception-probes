@@ -1,0 +1,30 @@
+[
+  {
+    "example": "01.json",
+    "raw_index": 3780,
+    "count": 1354,
+    "template_text_match": true,
+    "token_strings_match": true
+  },
+  {
+    "example": "05.json",
+    "raw_index": 97,
+    "count": 1357,
+    "template_text_match": true,
+    "token_strings_match": true
+  },
+  {
+    "example": "07.json",
+    "raw_index": 3780,
+    "count": 1354,
+    "template_text_match": true,
+    "token_strings_match": true
+  },
+  {
+    "example": "09.json",
+    "raw_index": 3780,
+    "count": 1354,
+    "template_text_match": true,
+    "token_strings_match": true
+  }
+]

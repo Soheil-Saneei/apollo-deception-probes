@@ -1,0 +1,67 @@
+[
+  {
+    "model": "Activation probe",
+    "qwen": {
+      "auroc": 0.9802295918367347,
+      "auprc": 0.9769380151273415,
+      "accuracy": 0.9107142857142857
+    },
+    "llama": {
+      "auroc": 1.0,
+      "auprc": 1.0,
+      "accuracy": 0.995
+    }
+  },
+  {
+    "model": "TF-IDF + logistic regression",
+    "qwen": {
+      "auroc": 0.8839285714285715,
+      "auprc": 0.856533223259455,
+      "accuracy": 0.8125
+    },
+    "llama": {
+      "auroc": 0.9966333744809787,
+      "auprc": 0.9917363207269105,
+      "accuracy": 0.665
+    }
+  },
+  {
+    "model": "Shuffled activation (five-seed mean)",
+    "qwen": {
+      "auroc": 0.5180484693877551,
+      "auprc": 0.5428576053328721,
+      "accuracy": 0.4892857142857143
+    },
+    "llama": {
+      "auroc": 0.5286499831668724,
+      "auprc": 0.37475360840800503,
+      "accuracy": 0.608
+    }
+  },
+  {
+    "model": "Length only",
+    "qwen": {
+      "auroc": 0.4944196428571428,
+      "auprc": 0.4902766806425724,
+      "accuracy": 0.5
+    },
+    "llama": {
+      "auroc": 0.986028504096061,
+      "auprc": 0.9782880770801604,
+      "accuracy": 0.95
+    }
+  },
+  {
+    "model": "Constant/majority",
+    "qwen": {
+      "auroc": 0.5,
+      "auprc": 0.5,
+      "accuracy": 0.5
+    },
+    "llama": {
+      "auroc": 0.5,
+      "auprc": 0.335,
+      "accuracy": 0.665
+    }
+  }
+]

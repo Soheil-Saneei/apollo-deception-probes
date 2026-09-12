@@ -1,0 +1,23 @@
+{
+  "auroc": {
+    "activation_minus_text": 0.07356076759061836,
+    "paired_scenario_bootstrap_95_ci": [
+      0.029018943343760772,
+      0.12335092462853807
+    ]
+  },
+  "auprc": {
+    "activation_minus_text": 0.10775952898750563,
+    "paired_scenario_bootstrap_95_ci": [
+      0.026540798306624324,
+      0.19515183022694668
+    ]
+  },
+  "accuracy": {
+    "activation_minus_text": -0.050000000000000044,
+    "paired_scenario_bootstrap_95_ci": [
+      -0.09000000000000008,
+      -0.010000000000000009
+    ]
+  }
+}

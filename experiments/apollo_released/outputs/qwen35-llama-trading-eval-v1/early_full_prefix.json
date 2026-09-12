@@ -1,0 +1,61 @@
+{
+  "shared_full_prefix_text": {
+    "C": 10.0,
+    "validation_auc": 0.8726,
+    "vocabulary_size": 2372,
+    "auroc": 0.7866681629446751,
+    "auprc": 0.6880483326757565,
+    "accuracy": 0.73
+  },
+  "qwen_selected_activation": {
+    "layer": 16,
+    "C": 0.01,
+    "validation_auc": 0.9448000000000001,
+    "auroc": 0.8665694085961171,
+    "auprc": 0.738420449982346,
+    "accuracy": 0.78,
+    "selected_fit_iterations": 87
+  },
+  "llama_selected_activation": {
+    "layer": 17,
+    "C": 0.01,
+    "validation_auc": 0.9488,
+    "auroc": 0.8597239367074402,
+    "auprc": 0.7459675140291755,
+    "accuracy": 0.76,
+    "selected_fit_iterations": 149
+  },
+  "qwen_layer0": {
+    "auroc": 0.8491751767478398,
+    "auprc": 0.7228215426948388,
+    "accuracy": 0.785
+  },
+  "qwen_layer17": {
+    "auroc": 0.870946021770845,
+    "auprc": 0.7410343133472954,
+    "accuracy": 0.78
+  },
+  "qwen_selected_minus_full_prefix": {
+    "auroc": {
+      "difference": 0.07990124565144197,
+      "paired_trajectory_bootstrap_95_ci": [
+        0.030078,
+        0.13103964837541474
+      ]
+    },
+    "auprc": {
+      "difference": 0.050372117306589526,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.029429110278339953,
+        0.149407097308453
+      ]
+    },
+    "accuracy": {
+      "difference": 0.050000000000000044,
+      "paired_trajectory_bootstrap_95_ci": [
+        -0.010000000000000009,
+        0.1100000000000001
+      ]
+    }
+  }
+}

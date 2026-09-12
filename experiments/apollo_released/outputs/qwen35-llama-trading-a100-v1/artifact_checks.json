@@ -1,0 +1,11 @@
+{
+  "headers_checked": 1000,
+  "sampled_exact_means_and_boundary_indices": [
+    0,
+    1,
+    500,
+    999
+  ],
+  "all_pooled_features_finite": true,
+  "early_valid": 999
+}

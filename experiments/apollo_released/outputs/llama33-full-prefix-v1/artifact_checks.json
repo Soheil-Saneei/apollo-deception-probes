@@ -1,0 +1,5 @@
+{
+  "examples": 999,
+  "test_examples": 200,
+  "persisted_classifier_prediction_max_abs_error": 6.661338147750939e-16
+}
