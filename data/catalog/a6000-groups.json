@@ -1,0 +1,58 @@
+{
+  "code-and-inputs": {
+    "files": 1397,
+    "bytes": 77997568
+  },
+  "apollo_released-llama33-early-reasoning-v1": {
+    "files": 1006,
+    "bytes": 13095193149
+  },
+  "apollo_released-llama33-early-reasoning-v2": {
+    "files": 1013,
+    "bytes": 13109450731
+  },
+  "apollo_released-llama33-full-prefix-v1": {
+    "files": 4,
+    "bytes": 14051542
+  },
+  "apollo_released-llama33-native-tokenizer-pilot-v1": {
+    "files": 9,
+    "bytes": 675933641
+  },
+  "apollo_released-llama33-probe-eval-v1": {
+    "files": 2,
+    "bytes": 580170
+  },
+  "apollo_released-llama33-probe-eval-v2": {
+    "files": 2,
+    "bytes": 580170
+  },
+  "apollo_released-llama33-probe-eval-v3": {
+    "files": 8,
+    "bytes": 14673128
+  },
+  "apollo_released-llama33-report-controls-v1": {
+    "files": 9,
+    "bytes": 238839181
+  },
+  "apollo_released-llama33-report-controls-v2": {
+    "files": 19,
+    "bytes": 2882084442
+  },
+  "apollo_released-llama33-reports-v1": {
+    "files": 1014,
+    "bytes": 167815470363
+  },
+  "apollo_roleplaying-llama33-paired-v1": {
+    "files": 751,
+    "bytes": 64372199934
+  },
+  "apollo_roleplaying-llama33-roleplaying-eval-v1": {
+    "files": 8,
+    "bytes": 14007032
+  },
+  "apollo_roleplaying-qwen9b-sanity-v1": {
+    "files": 1,
+    "bytes": 41687
+  }
+}

@@ -5,6 +5,7 @@ Model caches, environments, credentials, and machine configuration are excluded.
 Requires GNU tar and zstd on the source machine. No source file is deleted.
 """
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import re
@@ -21,6 +22,13 @@ PATTERNS = [rb"-----BEGIN (?:OPENSSH |RSA |EC )?PRIVATE KEY-----",
             rb"\b(?:ghp_|gho_|github_pat_)[A-Za-z0-9_]{25,}",
             rb"\bhf_[A-Za-z0-9]{25,}", rb"\bsk-(?:proj-|ant-)?[A-Za-z0-9_-]{30,}"]
 SKIP = {"__pycache__", ".git", ".lavish", ".DS_Store", "node_modules"}
+
+
+def stream_digest(stream):
+    h = hashlib.sha256()
+    while chunk := stream.read(8 * 1024 ** 2):
+        h.update(chunk)
+    return h.hexdigest()
 
 
 def eligible(p, root):
@@ -67,16 +75,18 @@ def inventory(root, work, source):
     if hits: raise RuntimeError('Publication blocked: review secret-pattern file paths in inventory')
 
 
-def api(url, token, data=None, size=None):
+def api(url, token, data=None, size=None, method=None):
     headers = {'Authorization': 'Bearer '+token, 'Accept': 'application/vnd.github+json', 'User-Agent': 'apollo-research-archive', 'X-GitHub-Api-Version': '2022-11-28'}
     if size is not None: headers.update({'Content-Type':'application/octet-stream', 'Content-Length':str(size)})
-    req = urllib.request.Request(url, data=data, headers=headers)
+    req = urllib.request.Request(url, data=data, headers=headers, method=method)
     with urllib.request.urlopen(req, timeout=600) as response:
+        if response.status == 204: return None
         return json.load(response)
 
 
 def upload_file(path, repo, release_id, token):
-    digest = hashlib.file_digest(path.open('rb'), 'sha256').hexdigest()
+    with path.open('rb') as stream:
+        digest = stream_digest(stream)
     base = f'https://api.github.com/repos/{repo}/releases/{release_id}/assets'
     # Recover safely after an upload succeeded but its response was lost.
     for attempt in range(5):
@@ -87,6 +97,9 @@ def upload_file(path, repo, release_id, token):
                 assets.extend(batch)
                 if len(batch) < 100: break
             existing = next((a for a in assets if a['name'] == path.name), None)
+            if existing is not None and existing['state'] == 'starter':
+                api(existing['url'], token, method='DELETE')
+                existing = None
             if existing is None:
                 url = f'https://uploads.github.com/repos/{repo}/releases/{release_id}/assets?name='+urllib.parse.quote(path.name)
                 with path.open('rb') as stream: existing = api(url, token, stream, path.stat().st_size)
@@ -117,6 +130,12 @@ def upload(root, work, source, repo, release_id):
         manifest.write_text(json.dumps(dict(source=source, files=rows), indent=2)+'\n')
         parts = []
         archive = subprocess.Popen(['tar','--sort=name','--mtime=2026-09-12','--owner=0','--group=0','--numeric-owner','-C',str(root),'--null','-T',str(listing),'-I','zstd -T4 -3','-cf','-'], stdout=subprocess.PIPE)
+        pool = ThreadPoolExecutor(max_workers=4)
+        pending = []
+        def finish_one():
+            record = pending.pop(0).result()
+            parts.append(record)
+            print(f"verified {record['name']} ({record['bytes']/1024**2:.1f} MiB)", flush=True)
         try:
             index = 0
             while True:
@@ -129,12 +148,13 @@ def upload(root, work, source, repo, release_id):
                         out.write(chunk); remaining -= len(chunk)
                 if part.stat().st_size == 0:
                     part.unlink(); break
-                record = upload_file(part, repo, release_id, token)
-                parts.append(record)
-                print(f"verified {record['name']} ({record['bytes']/1024**2:.1f} MiB)", flush=True)
+                pending.append(pool.submit(upload_file, part, repo, release_id, token))
+                if len(pending) >= 4: finish_one()
                 index += 1
+            while pending: finish_one()
             if archive.wait() != 0: raise RuntimeError('tar failed: '+group)
         finally:
+            pool.shutdown(wait=True)
             if archive.poll() is None: archive.terminate(); archive.wait()
         # Verify the archive stream decodes and every restored byte matches the original manifest.
         import tarfile
@@ -147,7 +167,7 @@ def upload(root, work, source, repo, release_id):
             for member in tf:
                 if not member.isfile(): raise RuntimeError('Unexpected archive entry')
                 record = expected[member.name]
-                with tf.extractfile(member) as f: digest = hashlib.file_digest(f, 'sha256').hexdigest()
+                with tf.extractfile(member) as f: digest = stream_digest(f)
                 if digest != record['sha256'] or member.size != record['bytes']: raise RuntimeError('Archive reconstruction mismatch: '+member.name)
                 seen.add(member.name)
         # Drain decompressor output so trailer checks complete without SIGPIPE.

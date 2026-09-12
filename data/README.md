@@ -10,6 +10,16 @@ The public repository contains code, figures, and small metrics. Full research a
 
 These are overlapping source snapshots, not disjoint datasets. Keep them separate on initial extraction. Historical/pilot outputs are preserved for provenance, not silently pooled with final results.
 
+## Browse the text datasets without activation downloads
+
+| Table | Rows | Contents |
+| --- | ---: | --- |
+| [Roleplaying completions](roleplaying/completions.jsonl) | 742 | Exact completion text, scenario IDs, messages, honest/deceptive labels, and scenario-grouped splits |
+| [Insider-trading reports](insider_trading/reports.jsonl) | 1,000 | Llama-generated message transcripts, report text, original Apollo IDs/labels, and unchanged evaluation splits |
+| [Early windows and full prefixes](insider_trading/early_windows.jsonl) | 999 | Exact eight-token windows, full text through the same endpoint, labels, IDs, and splits |
+
+Each line is one JSON object. The report table's `report_token_count` is the original Llama count. Early window token IDs use the Llama tokenizer, and `window_char_range` indexes its saved final assistant text. These tables are compact views of saved manifests, not new generations or annotations. [Table provenance](table_provenance.json) records source hashes and counts; `scripts/export_public_tables.py` reproduces them after restoring its source manifests.
+
 ## Which run should I use?
 
 | Analysis | Extraction run | Evaluation run |
@@ -34,6 +44,15 @@ No base-model weights, downloaded model caches, virtual environments, credential
 ## Restore one archive group
 
 Each group has a `SOURCE--GROUP.manifest.json` and one or more numbered `.tar.zst.part0000` files. Parts are at most 1 GiB. Download **every part for that group**, in addition to the release's `upload-ledger.json`. The ledger lists URLs, byte sizes, and SHA-256 hashes verified against GitHub's uploaded asset digests. The manifest lists original file paths and SHA-256 hashes.
+
+After downloading `upload-ledger.json` from the chosen release, use the helper to download and verify one group:
+
+```sh
+python scripts/download_artifact.py upload-ledger.json \
+  apollo_roleplaying-qwen9b-paired-v2 --output downloads/qwen-roleplaying
+```
+
+See [A100 groups](catalog/a100-groups.json) and [Llama VM groups](catalog/a6000-groups.json) for archive names and uncompressed sizes. A completed ledger is required by the helper; incomplete releases should not be treated as backups.
 
 After verifying part hashes, concatenate in numeric order and extract into an empty destination:
 

@@ -1,0 +1,31 @@
+{
+  "source_sha256": {
+    "experiments/apollo_roleplaying/outputs/qwen9b-paired-v2/manifest.jsonl": "de570b516c5b54f00a3afb223d5922ad621348342dd1b40ab14d15c6b2e6c8f0",
+    "experiments/apollo_released/outputs/qwen35-llama-trading-a100-v1/manifest.jsonl": "d20369c5b2658753b216aa01573da59026f064f4c691b837fc631dec2f115299",
+    "experiments/apollo_released/outputs/llama33-early-reasoning-v2/probe/manifest.jsonl": "fab57074c5d1dbd2fc4cf1b817bec00072a247da06563107441a6ba2830ec133",
+    "experiments/apollo_released/outputs/llama33-full-prefix-v1/manifest.jsonl": "3cf986868a2d63b0d79a5dd56f9fc0dc41707a46a2803c2cc66e4bf046f7dff3"
+  },
+  "roleplaying": {
+    "completions": 742,
+    "scenarios": 371,
+    "split_completions": {
+      "train": 518,
+      "test": 112,
+      "validation": 112
+    }
+  },
+  "insider_trading": {
+    "reports": 1000,
+    "labels": {
+      "honest": 666,
+      "deceptive": 334
+    },
+    "split_trajectories": {
+      "train": 650,
+      "test": 200,
+      "validation": 150
+    },
+    "early_windows": 999
+  },
+  "notes": "Text export only; original saved labels, splits, IDs, and strings are unchanged. Token arrays and full artifacts remain in release archives."
+}
