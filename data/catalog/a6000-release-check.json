@@ -1,0 +1,12 @@
+{
+  "source": "a6000",
+  "release_id": 387629028,
+  "public_unauthenticated_api": true,
+  "all_assets_verified": true,
+  "all_inventory_groups_covered": true,
+  "source_files": 5243,
+  "source_bytes": 262311102738,
+  "archive_groups": 14,
+  "assets": 235,
+  "uploaded_bytes": 223932743880
+}

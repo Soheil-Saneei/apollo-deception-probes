@@ -1,0 +1,1750 @@
+{
+  "source": "a6000",
+  "repo": "Soheil-Saneei/apollo-deception-probes",
+  "release_id": 387629028,
+  "groups": {
+    "apollo_released-llama33-early-reasoning-v1": {
+      "complete": true,
+      "files": 1006,
+      "uncompressed_bytes": 13095193149,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0000",
+          "bytes": 1073741824,
+          "sha256": "91319c2e26cb9806b2c04f9250249197dc5dc81e421925074656b71f3af8c70f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0000",
+          "asset_id": 559563560
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0001",
+          "bytes": 1073741824,
+          "sha256": "9e1a380f01706e774e5def69ed419bd9bfad3a1feec35f976c90e4f5c283b658",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0001",
+          "asset_id": 559564655
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0002",
+          "bytes": 1073741824,
+          "sha256": "6889d2aa64530888af30a6392a8ca771453f490040bb160fcd6f5a901697e5ab",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0002",
+          "asset_id": 559565756
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0003",
+          "bytes": 1073741824,
+          "sha256": "a36a7e60fef30554650061cab2fdc173ecc28d35e93b4fadf1fa19500c777c97",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0003",
+          "asset_id": 559566649
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0004",
+          "bytes": 1073741824,
+          "sha256": "1ecb138bc26f98f3ef64ae2e2ac510ab0b1ebe2957495782d865a9832d206d46",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0004",
+          "asset_id": 559568091
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0005",
+          "bytes": 1073741824,
+          "sha256": "11fc88dcecccd3e50767d68cfeed60c03b8ec1da3780ce38760914279e02aede",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0005",
+          "asset_id": 559569153
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0006",
+          "bytes": 1073741824,
+          "sha256": "8fc8c3bcda220ac40481743e93ee51993b6f20477a71d17e1d544d3ecef21fb1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0006",
+          "asset_id": 559578722
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0007",
+          "bytes": 1073741824,
+          "sha256": "a1dc80685bdf8caa5b9acc11b827c5302300f77cf0b78b9bf720ff5431bf66d9",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0007",
+          "asset_id": 559572206
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0008",
+          "bytes": 1073741824,
+          "sha256": "5b04e041f3802cda33b43bb3330e0fa820cbc8b6c00c74763a2b7483ae75f650",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0008",
+          "asset_id": 559572285
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0009",
+          "bytes": 1073741824,
+          "sha256": "1d53dc8a7d6584f6c5cc54a0bfad37ad48568b4f349916eaf3561aba0c74f3c6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0009",
+          "asset_id": 559572393
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0010",
+          "bytes": 863252510,
+          "sha256": "f30aee8878813c52c92e44735ca909f59553041f156ba781d4926af8d6a28d59",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.tar.zst.part0010",
+          "asset_id": 559580240
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-early-reasoning-v1.manifest.json",
+        "bytes": 316694,
+        "sha256": "aa6a155da069f51c3b67991b9af969b2f557e1dbc0796a45ba607d6482c774af",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v1.manifest.json",
+        "asset_id": 559584290
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-early-reasoning-v2": {
+      "complete": true,
+      "files": 1013,
+      "uncompressed_bytes": 13109450731,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0000",
+          "bytes": 1073741824,
+          "sha256": "6c44514aefab1dc5c431a202375d21bddad0354b6eab12b996592ece2ba22de0",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0000",
+          "asset_id": 559584466
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0001",
+          "bytes": 1073741824,
+          "sha256": "af2a63630af318b7f15466844e0b05b8b40d4eb449c2fd5bc3019257aa4fd75e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0001",
+          "asset_id": 559584570
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0002",
+          "bytes": 1073741824,
+          "sha256": "9a7451c93385bc76afd2d8ca27955aa856f787a33042f7d1bcc0118e5c8acd81",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0002",
+          "asset_id": 559584698
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0003",
+          "bytes": 1073741824,
+          "sha256": "4b8b7096518c45d7c1b59abd6b57b086c8633d59577ba5f3586319d1fc0b38d6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0003",
+          "asset_id": 559584908
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0004",
+          "bytes": 1073741824,
+          "sha256": "e32af05b8d58eff1a8af4d49223de18a16eac73313f5e99f1ca0e276000ecdb8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0004",
+          "asset_id": 559585519
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0005",
+          "bytes": 1073741824,
+          "sha256": "6ed96b4a91163949976d5a4983c975b08621d48620885f8fb8420a1a8d27290e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0005",
+          "asset_id": 559585795
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0006",
+          "bytes": 1073741824,
+          "sha256": "04f137ab36dfd7e11429464702f8242c889fabd97d7a2ba3236f571daea51a53",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0006",
+          "asset_id": 559585926
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0007",
+          "bytes": 1073741824,
+          "sha256": "2bb7c4e6faee77e6c5b1b7ec7d5a48d9de4cff4fd0a597377016a8d2de4633c6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0007",
+          "asset_id": 559586043
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0008",
+          "bytes": 1073741824,
+          "sha256": "3707f6b1cb40713515227b69ad5f78ec345a53b93d345ac879970016b66836be",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0008",
+          "asset_id": 559586382
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0009",
+          "bytes": 1073741824,
+          "sha256": "21daa857c3869be8fc85ff7b963bb5aa975dc106dd8f81f4fb6a4159e5e69472",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0009",
+          "asset_id": 559586879
+        },
+        {
+          "name": "a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0010",
+          "bytes": 875392138,
+          "sha256": "173b271c3a54113e140ecf773e1f7b9658014ef8804730d5ad6d2b18144c1b65",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.tar.zst.part0010",
+          "asset_id": 559586952
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-early-reasoning-v2.manifest.json",
+        "bytes": 318666,
+        "sha256": "45f41d9e7fb011c7f9e432a0db3148b00e4cf8bea09ad5d069f42944091ab778",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-early-reasoning-v2.manifest.json",
+        "asset_id": 559590886
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-full-prefix-v1": {
+      "complete": true,
+      "files": 4,
+      "uncompressed_bytes": 14051542,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-full-prefix-v1.tar.zst.part0000",
+          "bytes": 236327,
+          "sha256": "75f48e4227eb6787a22343b8a9b087edb6ddaba344eb693402403355a45787c5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-full-prefix-v1.tar.zst.part0000",
+          "asset_id": 559590895
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-full-prefix-v1.manifest.json",
+        "bytes": 1114,
+        "sha256": "1eb3d731f7a750b90f13efd55e5353f8e4484e71783847bc3a51dbf8749b4a47",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-full-prefix-v1.manifest.json",
+        "asset_id": 559590916
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-native-tokenizer-pilot-v1": {
+      "complete": true,
+      "files": 9,
+      "uncompressed_bytes": 675933641,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-native-tokenizer-pilot-v1.tar.zst.part0000",
+          "bytes": 594660172,
+          "sha256": "d2e05a256c054233eaee81bc2a0ec482e7c5825f8694f302ba0fc596343154cf",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-native-tokenizer-pilot-v1.tar.zst.part0000",
+          "asset_id": 559590999
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-native-tokenizer-pilot-v1.manifest.json",
+        "bytes": 2772,
+        "sha256": "702299c51375c3253eb4d99962a448975b1271bdba913bb9e557000512cc2ef4",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-native-tokenizer-pilot-v1.manifest.json",
+        "asset_id": 559591541
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-probe-eval-v1": {
+      "complete": true,
+      "files": 2,
+      "uncompressed_bytes": 580170,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-probe-eval-v1.tar.zst.part0000",
+          "bytes": 60505,
+          "sha256": "81a17eafb189d4f23626750d43b5369c144db9ea74794797c25bc7a9a0d2f136",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v1.tar.zst.part0000",
+          "asset_id": 559591563
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-probe-eval-v1.manifest.json",
+        "bytes": 589,
+        "sha256": "863b1f39de655373f24a951d1a0d99126623aaf53478d10c64091d73d28ea774",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v1.manifest.json",
+        "asset_id": 559591581
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-probe-eval-v2": {
+      "complete": true,
+      "files": 2,
+      "uncompressed_bytes": 580170,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-probe-eval-v2.tar.zst.part0000",
+          "bytes": 60505,
+          "sha256": "6ed37941cff3061e4cce114846a51ce39645b37b481f741987496099bac9f70c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v2.tar.zst.part0000",
+          "asset_id": 559591593
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-probe-eval-v2.manifest.json",
+        "bytes": 589,
+        "sha256": "88ff7961960f526df089bfa837523964daf67d932f7d71ba64b865d11948185d",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v2.manifest.json",
+        "asset_id": 559591616
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-probe-eval-v3": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 14673128,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-probe-eval-v3.tar.zst.part0000",
+          "bytes": 12775329,
+          "sha256": "3682db746aef34617db1a11a127dc8950eeb6eb3a40fd63b58174406c5549452",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v3.tar.zst.part0000",
+          "asset_id": 559591633
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-probe-eval-v3.manifest.json",
+        "bytes": 2175,
+        "sha256": "0d1e54ceb487b7d6ef1ff85b94ca04ce1f568c219a089d871ea9fe3a0cce0e02",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-probe-eval-v3.manifest.json",
+        "asset_id": 559591674
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-report-controls-v1": {
+      "complete": true,
+      "files": 9,
+      "uncompressed_bytes": 238839181,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-report-controls-v1.tar.zst.part0000",
+          "bytes": 211671052,
+          "sha256": "f8f56b43ec62117de45f816d62afb5035ac405b115983d9312630651507748a4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-report-controls-v1.tar.zst.part0000",
+          "asset_id": 559591720
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-report-controls-v1.manifest.json",
+        "bytes": 2637,
+        "sha256": "9db42cd6086c24a93ebf8a71ff9f6a62918b477849f5be869c734f49cc1684c0",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-report-controls-v1.manifest.json",
+        "asset_id": 559591890
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-report-controls-v2": {
+      "complete": true,
+      "files": 19,
+      "uncompressed_bytes": 2882084442,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-report-controls-v2.tar.zst.part0000",
+          "bytes": 1073741824,
+          "sha256": "30997cd89d6b02a994a018926aaf2ca0c1c46bc40701a9929c8a1705052513f6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-report-controls-v2.tar.zst.part0000",
+          "asset_id": 559592871
+        },
+        {
+          "name": "a6000--apollo_released-llama33-report-controls-v2.tar.zst.part0001",
+          "bytes": 686386069,
+          "sha256": "055dbcad1b6e9ac9d6aa56eb06e3633707531f723d8113c374504bde9776fb03",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-report-controls-v2.tar.zst.part0001",
+          "asset_id": 559592944
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-report-controls-v2.manifest.json",
+        "bytes": 5506,
+        "sha256": "19f8b977695654d38af6747fdb31fdece5fa3d8a23a00b09b82b3812e1312081",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-report-controls-v2.manifest.json",
+        "asset_id": 559595043
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-reports-v1": {
+      "complete": true,
+      "files": 1014,
+      "uncompressed_bytes": 167815470363,
+      "parts": [
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0000",
+          "bytes": 1073741824,
+          "sha256": "60ad58a9f96f3da67c447f652469ae4eb1f7b2bc2767458cdc8bccc2cb77d92b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0000",
+          "asset_id": 559595340
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0001",
+          "bytes": 1073741824,
+          "sha256": "bfb40bc60dae88b198dabd011349cb74b60905455b9e55d74261f8f1f6f50e7a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0001",
+          "asset_id": 559595481
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0002",
+          "bytes": 1073741824,
+          "sha256": "2639e34f843aece99c1f9b5e236f7fa6bea893bbfc23ba3e5d7154a7f3e2aafc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0002",
+          "asset_id": 559595606
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0003",
+          "bytes": 1073741824,
+          "sha256": "ed9c239d4cfb22c4cbd19fc89795216db0aedc1f0047afd179f199fa870e9686",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0003",
+          "asset_id": 559595807
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0004",
+          "bytes": 1073741824,
+          "sha256": "b2acdd83a0c9161f0cc38dc41942b088d4827781e9bdc5329f701c24b30f4e3b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0004",
+          "asset_id": 559598745
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0005",
+          "bytes": 1073741824,
+          "sha256": "4c285f89cd4b86c15c309b8a2c551c86a968dd75443468d51da7ccc579a256df",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0005",
+          "asset_id": 559598855
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0006",
+          "bytes": 1073741824,
+          "sha256": "394e498c48acd9a79ebf1432bb0be939e16733df15c5f85163164c40c96ad0a3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0006",
+          "asset_id": 559598984
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0007",
+          "bytes": 1073741824,
+          "sha256": "26490a52a42fb0d1f6307225b28fa01c9a92d73f759ff70b3834386b7fac9063",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0007",
+          "asset_id": 559599106
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0008",
+          "bytes": 1073741824,
+          "sha256": "a822562a418128c4bf5b01920999c1d468e29cb634ac182e8770fb75cb7deb91",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0008",
+          "asset_id": 559600182
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0009",
+          "bytes": 1073741824,
+          "sha256": "114aa85b2df6d6eb020d1684ea162f734a07cf82119472a6b4e5e60fead58fd2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0009",
+          "asset_id": 559600325
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0010",
+          "bytes": 1073741824,
+          "sha256": "3683a4483f690b882feb3156b0871cc87ef2639b21573848b65991f6032aaa06",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0010",
+          "asset_id": 559600445
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0011",
+          "bytes": 1073741824,
+          "sha256": "7599b55bd25c5f130ca85ff1d9f80d309ec8552f92d38be85b83952dfce1ce63",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0011",
+          "asset_id": 559600609
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0012",
+          "bytes": 1073741824,
+          "sha256": "8ed77dd9100b01b653f86347327f712de89f9c56424615adf8c09ea60bd8d99d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0012",
+          "asset_id": 559601533
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0013",
+          "bytes": 1073741824,
+          "sha256": "6bcbc05636e19e931d56f0387e3b9c1927a72a476d0826164edf4d6a5cdb115e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0013",
+          "asset_id": 559601792
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0014",
+          "bytes": 1073741824,
+          "sha256": "cd1c55bee61d6b5e843346ce82cf43df2ece66efcfb4a8784c5b528357afb975",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0014",
+          "asset_id": 559602015
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0015",
+          "bytes": 1073741824,
+          "sha256": "6189f3993ded131aaaa32813d8884d9c6875430a1d6db3a962c5e157ff560630",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0015",
+          "asset_id": 559602134
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0016",
+          "bytes": 1073741824,
+          "sha256": "f57372e26750ca704fe6ff25d7fc2aa8c23650f598118e58ddfeeb3c17a7be6f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0016",
+          "asset_id": 559602608
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0017",
+          "bytes": 1073741824,
+          "sha256": "5adc9a29257df3a2e257872a122eafd91a69eb5b3651180ce253c42fc500ca2e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0017",
+          "asset_id": 559603076
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0018",
+          "bytes": 1073741824,
+          "sha256": "72ccc61ffd2cd6fb623d3dd70ff26766fbf1470fff2e56a2feeaabd38af5de4c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0018",
+          "asset_id": 559603169
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0019",
+          "bytes": 1073741824,
+          "sha256": "995682666e2820b5af1897cf98efcceb31b1cacf66328776e58946a88c631fd5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0019",
+          "asset_id": 559603237
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0020",
+          "bytes": 1073741824,
+          "sha256": "8f8ea3ed1c352b5589175db81cc2db6f1efe59f455c16951e1169ae7fff86fa7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0020",
+          "asset_id": 559603792
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0021",
+          "bytes": 1073741824,
+          "sha256": "9caafd1280a4a74bf623c8b7c0ecef491c97a148a349ef5f01df0c886bc8e99f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0021",
+          "asset_id": 559604273
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0022",
+          "bytes": 1073741824,
+          "sha256": "1d4d04c917e38fce92247cee84c5148ac0e684787fd1cb13d541a1d7c324ff60",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0022",
+          "asset_id": 559604598
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0023",
+          "bytes": 1073741824,
+          "sha256": "92b948cad28ae25f90256aa5dd78831beb851e0650d0bbf7612be223a29e85a4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0023",
+          "asset_id": 559604697
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0024",
+          "bytes": 1073741824,
+          "sha256": "9d9a3d360b98db1b059e622f3a125ee4dd8552cc7b8e99ba84dc55000c78f7b4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0024",
+          "asset_id": 559605054
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0025",
+          "bytes": 1073741824,
+          "sha256": "a4b2156f1fa1cb243f37ae7eb632eeae6c1dadaa70260623ac3edb8c0f717266",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0025",
+          "asset_id": 559605274
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0026",
+          "bytes": 1073741824,
+          "sha256": "73a38d379fcfb86992909e9cd05382d1183012e896de7661e821aaa49f11af0c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0026",
+          "asset_id": 559605575
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0027",
+          "bytes": 1073741824,
+          "sha256": "8eeafc3e8baa18e2ec3f9f21d569b5adb1eef06e2c5e94fc36943823cc9dfcfa",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0027",
+          "asset_id": 559605659
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0028",
+          "bytes": 1073741824,
+          "sha256": "2f159592ad48b649fb63e4628951a35b16633fff3a1cb3cc223c9ab2eb3e49fa",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0028",
+          "asset_id": 559605944
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0029",
+          "bytes": 1073741824,
+          "sha256": "aeff3e8166bf3f7f5e33e3cdc3e74432125a03daf8194e2dffa0f619ea7966d9",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0029",
+          "asset_id": 559606391
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0030",
+          "bytes": 1073741824,
+          "sha256": "8788492d956114f13eb923cc385dd467eb0bd0125c4702fb88f8cb5c730a7516",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0030",
+          "asset_id": 559606505
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0031",
+          "bytes": 1073741824,
+          "sha256": "6db8debefeda48b586c8b4574aa89ccf1f13c212db9dda2dd26cc73cac36a5b9",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0031",
+          "asset_id": 559606610
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0032",
+          "bytes": 1073741824,
+          "sha256": "1c521bf99417be2596d75ee2046a09178103d25b161a93de502a1a9bad2b639a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0032",
+          "asset_id": 559606990
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0033",
+          "bytes": 1073741824,
+          "sha256": "28bfa08671b5020f027f63085cc1d66bcbe4171532f2434e3fce0918379f37ab",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0033",
+          "asset_id": 559607659
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0034",
+          "bytes": 1073741824,
+          "sha256": "98a66574ae31d877e43c095fa0cfdba72d10c9d3d9c5421c47c4f534e3464a2c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0034",
+          "asset_id": 559607798
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0035",
+          "bytes": 1073741824,
+          "sha256": "763c189ba1877f77e92ef785852a7b1f57ece41e03b2327a293d2fab8316ecff",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0035",
+          "asset_id": 559608210
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0036",
+          "bytes": 1073741824,
+          "sha256": "dc935726f54d6129d9da7429289a31228091e408444e124738c5acfa4c1876e3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0036",
+          "asset_id": 559608409
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0037",
+          "bytes": 1073741824,
+          "sha256": "d015ae09d4fc804f7ab9f34ca6041b89a170b07ee80b1e5c58f5616ce87dffa6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0037",
+          "asset_id": 559609309
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0038",
+          "bytes": 1073741824,
+          "sha256": "02469aee90db5b8eb02af6b7459b122dd951bbb6d9e0b40ecdb3b20f5c16c8e5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0038",
+          "asset_id": 559609542
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0039",
+          "bytes": 1073741824,
+          "sha256": "801ea555905781de2750ff7ddb4914ff7ab19027f301072b7a9658852dfe87f8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0039",
+          "asset_id": 559609861
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0040",
+          "bytes": 1073741824,
+          "sha256": "46ab56603536bc5eea2bfb550b95b6d063d4f6e88825442e69628672dce93ef7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0040",
+          "asset_id": 559610120
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0041",
+          "bytes": 1073741824,
+          "sha256": "16f56997a8900757e606a78b59072a1be2262eade72882376adb5c883fff6c0b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0041",
+          "asset_id": 559611239
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0042",
+          "bytes": 1073741824,
+          "sha256": "54bcdd8fd775138d31bdaf75f28d24dc864712e4ee22bd3f3b4115f8ecca3749",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0042",
+          "asset_id": 559611538
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0043",
+          "bytes": 1073741824,
+          "sha256": "9e220a32a3395b8e29bcd2f7ff8f03994423b3b76637f24c3e6128678f7b4f39",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0043",
+          "asset_id": 559611780
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0044",
+          "bytes": 1073741824,
+          "sha256": "b2bdcf9009906085ca72c49e3d5c3fca4f52c0ccfb1986e1603691fddf9107b3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0044",
+          "asset_id": 559611913
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0045",
+          "bytes": 1073741824,
+          "sha256": "089e0fbf3f23cdc634c82aaa25bec6053cafb4c9b65bc2a18783223dfa074133",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0045",
+          "asset_id": 559612417
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0046",
+          "bytes": 1073741824,
+          "sha256": "ecf99ae711cdb49bacb8cf4a52f302404ce3ca51974dc2187c0ae26bfc3f793f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0046",
+          "asset_id": 559612626
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0047",
+          "bytes": 1073741824,
+          "sha256": "38efea409503e7519c7ee2b966036f31ccfc48c7fd741acd0240297cde100ab2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0047",
+          "asset_id": 559612766
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0048",
+          "bytes": 1073741824,
+          "sha256": "c401320219ec4877db3a958a63f8ba65d3d4caa8bfdcfc180b2f038f7b0093ca",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0048",
+          "asset_id": 559612902
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0049",
+          "bytes": 1073741824,
+          "sha256": "4bd8e13d1622880dc2aeb94bd9e0a86d65e5f66421b067ecf83e8a1dfc72664a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0049",
+          "asset_id": 559613302
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0050",
+          "bytes": 1073741824,
+          "sha256": "b6f938ff2764dccc6d4affd39a074b5bc729c9c5cc3191036c9ea5cfbdc3199d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0050",
+          "asset_id": 559613639
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0051",
+          "bytes": 1073741824,
+          "sha256": "633d09e20b99577d50e8b06c1a6c3fe62ca0baa341152aeaa37c3ccabc268ba3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0051",
+          "asset_id": 559613725
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0052",
+          "bytes": 1073741824,
+          "sha256": "9c46cbe28258cdefb743b0cab5ce4873f5e9a051574dd162a4387cd8ef4ce389",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0052",
+          "asset_id": 559613790
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0053",
+          "bytes": 1073741824,
+          "sha256": "b3b5db714e6e078ef3f909c63c8f81c98398e2039e87228fa8171168dfcf8636",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0053",
+          "asset_id": 559614291
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0054",
+          "bytes": 1073741824,
+          "sha256": "d796413e00d51810197e2a55f5479f77fa4b9c8717c249a0adaf3c9df75e7458",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0054",
+          "asset_id": 559614775
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0055",
+          "bytes": 1073741824,
+          "sha256": "576e7996b513e989211d5714df19c57141104c9d40690605a80285128dbff231",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0055",
+          "asset_id": 559614857
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0056",
+          "bytes": 1073741824,
+          "sha256": "edb920ea224a60d1f38653e352dcb236aa74079d34efb290cbbca9a2cef37f9a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0056",
+          "asset_id": 559614930
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0057",
+          "bytes": 1073741824,
+          "sha256": "44a0efb8c6e50baa06f649f1ee33a9ffc62092918f1aae75f79e0d93f817fc6d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0057",
+          "asset_id": 559615329
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0058",
+          "bytes": 1073741824,
+          "sha256": "0fa25f60165bfdf843f38742345d44247c6b824ea6ebbb4f8fd03eabfd60190a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0058",
+          "asset_id": 559615953
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0059",
+          "bytes": 1073741824,
+          "sha256": "902afc2e43207dd6c8962b0a3d0f22077948ffcad3097764c6cc971d0ffb38f4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0059",
+          "asset_id": 559616091
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0060",
+          "bytes": 1073741824,
+          "sha256": "e689613a2ed72f5ed1dc11ffe571a04b78e3defeb01bb2b5444caa8d28079930",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0060",
+          "asset_id": 559616185
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0061",
+          "bytes": 1073741824,
+          "sha256": "c81ec262a3425cb397b0044174ea860e569e512f278956c18f69df9cf97badda",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0061",
+          "asset_id": 559616435
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0062",
+          "bytes": 1073741824,
+          "sha256": "79c22e286505481c1cc55c8c592e6a1404ee75f4a412b0096b1b6a4268f156c6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0062",
+          "asset_id": 559617180
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0063",
+          "bytes": 1073741824,
+          "sha256": "085e6db94913ecf0a210ea29e39111d2983a9d5e9883a28e7baefb802bad85c5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0063",
+          "asset_id": 559617536
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0064",
+          "bytes": 1073741824,
+          "sha256": "9dedffa513a0a7be0f004e1ce97f69b36475900006aa0084a75138850d9f4373",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0064",
+          "asset_id": 559617643
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0065",
+          "bytes": 1073741824,
+          "sha256": "1f02e4a47b9f5ec56128d29ccfe77a526267a1f23f0a92c8f71c41096eb7866d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0065",
+          "asset_id": 559617748
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0066",
+          "bytes": 1073741824,
+          "sha256": "ab3cc2a9759a93c993c1177d150ab73f3e73c728028c560022daf3e18a939404",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0066",
+          "asset_id": 559618242
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0067",
+          "bytes": 1073741824,
+          "sha256": "b0d3cb7be66d3b4f3790e1242c9f02a6df4ff5ee617b6e7958213a2022857fce",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0067",
+          "asset_id": 559618580
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0068",
+          "bytes": 1073741824,
+          "sha256": "5aee59afd4c5323d90acc4b177d5c4242138391e6802668b619d0efc25965e57",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0068",
+          "asset_id": 559618746
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0069",
+          "bytes": 1073741824,
+          "sha256": "30df066711660a87ca572540f1df486a724c99b763d57b138ef5ebaaeed8f529",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0069",
+          "asset_id": 559618896
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0070",
+          "bytes": 1073741824,
+          "sha256": "025a4611fc110cf00a5508ea43da521f58787f2eb870b22048448a287a087214",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0070",
+          "asset_id": 559620940
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0071",
+          "bytes": 1073741824,
+          "sha256": "5b22657209b679fd55f917c79f19258d921e8a8852baaa4e3d5a4cd33433986e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0071",
+          "asset_id": 559621052
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0072",
+          "bytes": 1073741824,
+          "sha256": "c670eb183f1a4f6eeaad92c2e866920d71b6159120ea68cc1e9b03f419105416",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0072",
+          "asset_id": 559621149
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0073",
+          "bytes": 1073741824,
+          "sha256": "6d6090f5588b46848adcb1e27200f0dc7977818874ec98a46087c32f05fc56b1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0073",
+          "asset_id": 559621251
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0074",
+          "bytes": 1073741824,
+          "sha256": "9d0b0c266886c75f33fb3abd3e4e5fe7c235d34f2cdb69d714c24ee7b83d3d13",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0074",
+          "asset_id": 559622191
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0075",
+          "bytes": 1073741824,
+          "sha256": "8289c590b18d6487e094a6ae7c2d5cdaf1686e1430cfc6a5423da3ea751b8c32",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0075",
+          "asset_id": 559622423
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0076",
+          "bytes": 1073741824,
+          "sha256": "b3193440cea1d93b9fd53f2f155fc59fa1384a91761daf82b758e1f317b65280",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0076",
+          "asset_id": 559622539
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0077",
+          "bytes": 1073741824,
+          "sha256": "7db65617ea96a6243cf260207d1b78e9ebed8e2fffe404677db0d2bebe19fde1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0077",
+          "asset_id": 559622640
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0078",
+          "bytes": 1073741824,
+          "sha256": "a34fd17acf4877b6ea8b432b81058a2e333b73be2636ee8fa20e4c04b7b2b4f8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0078",
+          "asset_id": 559623151
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0079",
+          "bytes": 1073741824,
+          "sha256": "2beb8092ae97772c8d014f25f75fed1d296283260a365612918360971e75fe71",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0079",
+          "asset_id": 559623521
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0080",
+          "bytes": 1073741824,
+          "sha256": "5320ac56e746d1c01f556faeeac6c650d6f5880c7ac60f7b832607bbe7c2a86f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0080",
+          "asset_id": 559623624
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0081",
+          "bytes": 1073741824,
+          "sha256": "28d15e07d630594e6b73ba1eface4075d855d61b9d38de5334a9c84b5e0415e8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0081",
+          "asset_id": 559623726
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0082",
+          "bytes": 1073741824,
+          "sha256": "ebd4ebb56333e1dc8c2a9058dc9273503f94995456b9b63be1569b053b96cee8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0082",
+          "asset_id": 559624171
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0083",
+          "bytes": 1073741824,
+          "sha256": "d2881f173a8ebc3fdb09f81c871824eaa0ed3e94477fa2bbd58876bedeaa6625",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0083",
+          "asset_id": 559624476
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0084",
+          "bytes": 1073741824,
+          "sha256": "47b516c7d846001747ae9a03969012620277d8c537bf29bb06580c70de2e3af0",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0084",
+          "asset_id": 559624661
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0085",
+          "bytes": 1073741824,
+          "sha256": "d058374572d090a418e38f0a4987e1b0213563b0d6ca2e829406fac029042412",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0085",
+          "asset_id": 559624794
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0086",
+          "bytes": 1073741824,
+          "sha256": "e2fc50c1c26238be32200d99e139ed46904b1fdd1f243fcdc26b55002a8509d5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0086",
+          "asset_id": 559625031
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0087",
+          "bytes": 1073741824,
+          "sha256": "e788409ca1fbb3310441a7b24ffb34e10f95d854d2f5cda3cd8c32b54daa45ba",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0087",
+          "asset_id": 559625362
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0088",
+          "bytes": 1073741824,
+          "sha256": "70ebcc77bfccb7e85667ce95c4fdcad4ac9ab2b4270011ce19a457b8b427e3a6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0088",
+          "asset_id": 559625508
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0089",
+          "bytes": 1073741824,
+          "sha256": "5198994fe7bb48578d3a4f8f1b42174f8f4edb98d73ab6be6fa72b19b1bf1bee",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0089",
+          "asset_id": 559625590
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0090",
+          "bytes": 1073741824,
+          "sha256": "b7109e922866de41c7ceb3073f7e1da0340ce3ab0741c05b42c2d6d9c1c6fe35",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0090",
+          "asset_id": 559625878
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0091",
+          "bytes": 1073741824,
+          "sha256": "46ccf8fa171cd8a05453c19fa4b416c29b5ac2364464526b9b7ccb9ec48c2b8b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0091",
+          "asset_id": 559626212
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0092",
+          "bytes": 1073741824,
+          "sha256": "aca2ed16ef3249e6ca6f99a203ae7e340058f4c03fa6f43c9200db840428243b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0092",
+          "asset_id": 559626478
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0093",
+          "bytes": 1073741824,
+          "sha256": "96be1792af7c60f66f68afb4cb25bc20c3c35843c5635b63808eb74640278724",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0093",
+          "asset_id": 559626611
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0094",
+          "bytes": 1073741824,
+          "sha256": "6d7a081a3eb07c304726a11cf60a39d6461adafc141828d31073534b4609c0bd",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0094",
+          "asset_id": 559626793
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0095",
+          "bytes": 1073741824,
+          "sha256": "bd62d744fce8ab40a5dbeb2233471089d3e97aecd8c87fb474fa4e8ef9e01065",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0095",
+          "asset_id": 559627252
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0096",
+          "bytes": 1073741824,
+          "sha256": "bf433293cd0a9c0647fae1cc9157abf5b3eef0fd065393176ab3483c6e44e868",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0096",
+          "asset_id": 559627467
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0097",
+          "bytes": 1073741824,
+          "sha256": "e4434af693411e1221fa4722d53a613cb926e2b01f31931b9e30c4c63124ed0d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0097",
+          "asset_id": 559627609
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0098",
+          "bytes": 1073741824,
+          "sha256": "ed7740e8d9ecc0941c088d8d8a3e348d48428eb66fa9a67c4e9ba285ffe3f0f4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0098",
+          "asset_id": 559627889
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0099",
+          "bytes": 1073741824,
+          "sha256": "150257a97a13f67fda93521cd59ae92056ae078184c006fd96c79882ca2bbcda",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0099",
+          "asset_id": 559628217
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0100",
+          "bytes": 1073741824,
+          "sha256": "13dbec67e6ea52daa40922be4e74d2b80bba93c9d3c4532495932e957b7adeff",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0100",
+          "asset_id": 559628502
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0101",
+          "bytes": 1073741824,
+          "sha256": "124daedff8feb16709a124a50ee0bbe9708c52e79c2f3160776ca5b5cda1d832",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0101",
+          "asset_id": 559628605
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0102",
+          "bytes": 1073741824,
+          "sha256": "74380cb731713c9a1dd9c1a3042203c26a5b37b9945c49f296b00a1b24855355",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0102",
+          "asset_id": 559628739
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0103",
+          "bytes": 1073741824,
+          "sha256": "2d812a0b90b118940d90d7cd5fc8db5e5d6f2c41c1479e83e283eee47d400983",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0103",
+          "asset_id": 559629227
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0104",
+          "bytes": 1073741824,
+          "sha256": "a4d642486e88043af368e25b902cca95f674376cbaea7e47d2c498f7c9164d2c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0104",
+          "asset_id": 559629654
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0105",
+          "bytes": 1073741824,
+          "sha256": "343aa65b24274bbdd2c8011a5e49b9e349b5759b18f97972030e6e56756d8ed8",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0105",
+          "asset_id": 559629744
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0106",
+          "bytes": 1073741824,
+          "sha256": "08759ae580af23ce4f4642e0fe0fb0fada7e6aa8cecdb2cee1c8063339936f30",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0106",
+          "asset_id": 559629843
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0107",
+          "bytes": 1073741824,
+          "sha256": "01fa858a9358d6fca7aeb72a6118a2f97c20039c836f51b1bbf566acaa0398c7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0107",
+          "asset_id": 559630062
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0108",
+          "bytes": 1073741824,
+          "sha256": "41dce6988c5f6200826e97628ae8e88889134ba884da5c043bde4b1ecc0f8da4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0108",
+          "asset_id": 559630702
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0109",
+          "bytes": 1073741824,
+          "sha256": "ac277763c55aead72a1e9af43e75330f6f8c6598cc56513aa6f46d51e92940e6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0109",
+          "asset_id": 559630811
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0110",
+          "bytes": 1073741824,
+          "sha256": "f1984fbc74a1ff975743d0f50ecbeb22b2cb173b4029c0541f84eec5001a6872",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0110",
+          "asset_id": 559632641
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0111",
+          "bytes": 1073741824,
+          "sha256": "a2ebb42e180bbfe94c573e3370c2e5037421713ec162bb02f2c90a7dd8b09cb2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0111",
+          "asset_id": 559632753
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0112",
+          "bytes": 1073741824,
+          "sha256": "c923d4b4452d07d1225e59afe1686d55aa0f3deeeb0f61b70a17e15b0509683a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0112",
+          "asset_id": 559632844
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0113",
+          "bytes": 1073741824,
+          "sha256": "80ccfd23eee6c0ccab25328ca825356a3676e4b9e0b0c5278c230dc7016ef08e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0113",
+          "asset_id": 559632964
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0114",
+          "bytes": 1073741824,
+          "sha256": "08901ff0df912f8227a7afd657753c6f2b08607820fae231ca86d7913e49fea1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0114",
+          "asset_id": 559633894
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0115",
+          "bytes": 1073741824,
+          "sha256": "2ce8189a0c30197e14f8e5965a063a30de413f6507c8a7edfc0a39e5e288fa50",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0115",
+          "asset_id": 559634335
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0116",
+          "bytes": 1073741824,
+          "sha256": "b503dbfe79d93aec76e7586b964c76759595d438c2ab442473c7b71cb8c724b4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0116",
+          "asset_id": 559634464
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0117",
+          "bytes": 1073741824,
+          "sha256": "d46d46aa04b08d191fa936620f68bbdd55718ce6e0ebefdfc1a670d4d9b6d45f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0117",
+          "asset_id": 559634549
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0118",
+          "bytes": 1073741824,
+          "sha256": "a273bf06a7f6ce522e32b060c43b45b3744365ab84609c4be23147e6f81713fa",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0118",
+          "asset_id": 559634894
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0119",
+          "bytes": 1073741824,
+          "sha256": "9ff732ed1d48ee1c682bb1fb904c55d80d103d76f49639022257fb960d195120",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0119",
+          "asset_id": 559635405
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0120",
+          "bytes": 1073741824,
+          "sha256": "62e80614f9a1936b6f3ce92f19a556d3bf3eabc3b5090bf651013a6b88683c69",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0120",
+          "asset_id": 559635541
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0121",
+          "bytes": 1073741824,
+          "sha256": "804f5a725a194add55eb6333f7337404e4e4f2cb7c928e19a15464a922be03dc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0121",
+          "asset_id": 559635627
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0122",
+          "bytes": 1073741824,
+          "sha256": "0176fddcc634ae8141834a9a82be0ef8b162683332d854fb27bb2e0796fd6a20",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0122",
+          "asset_id": 559636042
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0123",
+          "bytes": 1073741824,
+          "sha256": "f802b8edbd3326d7493afcd0a56bb4525b357de53c7e9d355e8cd1b4fc4c13e7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0123",
+          "asset_id": 559636770
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0124",
+          "bytes": 1073741824,
+          "sha256": "680a5802c3c6eb9514316585b91c16275c86a85182e2d053e05c678f7bc2dec6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0124",
+          "asset_id": 559637042
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0125",
+          "bytes": 1073741824,
+          "sha256": "fd423c6190c2729fb4669fabad2b8b748e3fa5ba66192654f296d0e30b3cdb84",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0125",
+          "asset_id": 559637164
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0126",
+          "bytes": 1073741824,
+          "sha256": "10bd25cee001566333049dd3b255131518ac1db10f7b5f4acd9701f7e4b28f23",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0126",
+          "asset_id": 559637259
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0127",
+          "bytes": 1073741824,
+          "sha256": "566586dfca5c592be90cc374e9e86551c4bc850adb8724ce7b8de0f7177abda7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0127",
+          "asset_id": 559637864
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0128",
+          "bytes": 1073741824,
+          "sha256": "8fb42bf0e301faf66a9dd47e0929b4846e74ee578abf7b662a0e3726f48cbd33",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0128",
+          "asset_id": 559638197
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0129",
+          "bytes": 1073741824,
+          "sha256": "58ddb6ea3f8e494cdbe8af537fa7b69ff0119b8ca64e32338de2eabb1d5d0e08",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0129",
+          "asset_id": 559638374
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0130",
+          "bytes": 1073741824,
+          "sha256": "7221afd94f133f22055cf7231b2f6b49b95899764756785cf912be6cde24e6ed",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0130",
+          "asset_id": 559638522
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0131",
+          "bytes": 1073741824,
+          "sha256": "e350fbcadb0978998d172455c6af7215ce09656d68f0be3e0afb875956811f51",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0131",
+          "asset_id": 559639060
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0132",
+          "bytes": 1073741824,
+          "sha256": "a5785fc762805e9b9843f7fea6ce36857380375d022b97b076e5b9ba1c3504d9",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0132",
+          "asset_id": 559639576
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0133",
+          "bytes": 1073741824,
+          "sha256": "2436289f17e10eb8083f4b1e455732664b817d1fa1fd8a9875a5ac6c874ca660",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0133",
+          "asset_id": 559639779
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0134",
+          "bytes": 1073741824,
+          "sha256": "143a9b127ddac71d73ebd365cd4aca441c24cdd1585cde827b98f5649ae0277e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0134",
+          "asset_id": 559639961
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0135",
+          "bytes": 1073741824,
+          "sha256": "59502d154c2c6de608408964a338600d3e7ea0f78b832f5b3bc8f000a436abea",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0135",
+          "asset_id": 559640246
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0136",
+          "bytes": 1073741824,
+          "sha256": "856f33004a8e9c6c79b6cffe61a55cf4432355dc1cdb84e40c4b2771ec42dcd3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0136",
+          "asset_id": 559640806
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0137",
+          "bytes": 1073741824,
+          "sha256": "579ee7a7628ef232cca8e407490c6f217cc6dad27f72a00a0f7dea78acc18825",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0137",
+          "asset_id": 559641095
+        },
+        {
+          "name": "a6000--apollo_released-llama33-reports-v1.tar.zst.part0138",
+          "bytes": 285239518,
+          "sha256": "45829f3ef843fe602c2e622cb2c4bb7fd224ba137f4468cd6848f5b17e876adf",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.tar.zst.part0138",
+          "asset_id": 559641109
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_released-llama33-reports-v1.manifest.json",
+        "bytes": 305823,
+        "sha256": "2396b17725d8727b20825834f6dee9403fa052c17dd28ceabf331e7c531417df",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_released-llama33-reports-v1.manifest.json",
+        "asset_id": 559676938
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-llama33-paired-v1": {
+      "complete": true,
+      "files": 751,
+      "uncompressed_bytes": 64372199934,
+      "parts": [
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0000",
+          "bytes": 1073741824,
+          "sha256": "bb6bdcba69c29d78c8bfd6776aaf8e4dc042678723a45c7f40d359459f548054",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0000",
+          "asset_id": 559677156
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0001",
+          "bytes": 1073741824,
+          "sha256": "36156b1699bcea6fe1f26bd7d4032a2d9320e2a7c956b5d5d8f2c64698293e34",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0001",
+          "asset_id": 559677309
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0002",
+          "bytes": 1073741824,
+          "sha256": "fe8042be628f0d29ba16c1f62f1f8131467e62d8c1c945af70019b958f6f2fa5",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0002",
+          "asset_id": 559677444
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0003",
+          "bytes": 1073741824,
+          "sha256": "c0e47c9bd65dc395493e13d7398f006d9a2f9cbc7f3abff0b27ccb288d2bbc32",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0003",
+          "asset_id": 559677625
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0004",
+          "bytes": 1073741824,
+          "sha256": "ae6264add1ccd894c6856d3db5797313a8b5fa8c62346325409598a3d11ce505",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0004",
+          "asset_id": 559678406
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0005",
+          "bytes": 1073741824,
+          "sha256": "bcf75c596924aba9156b0ccb861a34498e74b34f2e8c396d9b1d4af11fe354e3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0005",
+          "asset_id": 559678764
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0006",
+          "bytes": 1073741824,
+          "sha256": "405d04443c0d772e5b93ed30392a8dcc5baf0b9115d2c577c43de48776f52aca",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0006",
+          "asset_id": 559678883
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0007",
+          "bytes": 1073741824,
+          "sha256": "f61a4c8e6b16b84804dbfb6354597503c394ad791b8d25237c463adb2738376f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0007",
+          "asset_id": 559679034
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0008",
+          "bytes": 1073741824,
+          "sha256": "b9775c3f9514c2f18dc43cfc8e7fa4121efc307947fef12c91e5d18a9f1b2d8d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0008",
+          "asset_id": 559679680
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0009",
+          "bytes": 1073741824,
+          "sha256": "ca6861f42d1565a0f462643b22d84454a5a71425bbe7d64fe42b887f70cf3642",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0009",
+          "asset_id": 559680218
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0010",
+          "bytes": 1073741824,
+          "sha256": "4529c85150a5444b28ce9f1394a39c310a792469f8d11a9c274c12e15ed5ee8b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0010",
+          "asset_id": 559680434
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0011",
+          "bytes": 1073741824,
+          "sha256": "d7137fc93a274e1f3ba9dd9f99d81f833d81b31905d0caf71b1630f5bc7caac6",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0011",
+          "asset_id": 559680575
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0012",
+          "bytes": 1073741824,
+          "sha256": "72f1ee9a74b60c3a039d394989d0329e26b1610ae78ef040ffedcb3a86a905e2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0012",
+          "asset_id": 559680960
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0013",
+          "bytes": 1073741824,
+          "sha256": "0607566e415b74db67b4acc7bd3bc99ae7d78f83d5a730ab4fe90c6aaa764308",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0013",
+          "asset_id": 559681442
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0014",
+          "bytes": 1073741824,
+          "sha256": "ecef6a441813c7df38638d60f091abe45f7db9fc5584dc472e5dc3c3ca43e559",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0014",
+          "asset_id": 559681750
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0015",
+          "bytes": 1073741824,
+          "sha256": "44ef0f64b9b9dc18b70fb0c6ce82ead0230a9be225bc5f5e54e940a666ac1173",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0015",
+          "asset_id": 559681940
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0016",
+          "bytes": 1073741824,
+          "sha256": "9fad2b32aba8d5fe177a6a6884d063b18b3ba460889c23e3d8ee58ace2347bb2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0016",
+          "asset_id": 559682087
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0017",
+          "bytes": 1073741824,
+          "sha256": "2f76088e5f664cc176aaa6a9f6431e42bfbf8eee21205e600105346079483e00",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0017",
+          "asset_id": 559682569
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0018",
+          "bytes": 1073741824,
+          "sha256": "d290964ce33fa442e40888c53ffc75c6fe5eaf36f85b39aa773b2491f111b11a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0018",
+          "asset_id": 559682959
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0019",
+          "bytes": 1073741824,
+          "sha256": "e1f633f7ab5dfadbd2de681682f56d1cae2b9d039b9d231de1b2f7566f8857c1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0019",
+          "asset_id": 559683181
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0020",
+          "bytes": 1073741824,
+          "sha256": "3763fbd2b1d2a0902ec3a6056c151e400359cbf5d654fa87e49814eb37488849",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0020",
+          "asset_id": 559683395
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0021",
+          "bytes": 1073741824,
+          "sha256": "8290bd9e4bd85ae17ab6c90a45048c63b44ed91e5529cf1b3506795dd60872ac",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0021",
+          "asset_id": 559683598
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0022",
+          "bytes": 1073741824,
+          "sha256": "89d91d7f2ca4642ade9e9474fa4416aac293ed547364afab961b94f027bf6196",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0022",
+          "asset_id": 559683910
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0023",
+          "bytes": 1073741824,
+          "sha256": "778242573cfdd30dfb171b00390f8bc403c6b16b91334d8201100679306785f2",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0023",
+          "asset_id": 559684204
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0024",
+          "bytes": 1073741824,
+          "sha256": "ead4f32ed1af305851534b5b4c3c5074b9927c8442d55f68c007fdd717678236",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0024",
+          "asset_id": 559684404
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0025",
+          "bytes": 1073741824,
+          "sha256": "ff0235df4fa0bc61ddc5a8d3579b17cc000ca34e97840f709411ef2af69dff47",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0025",
+          "asset_id": 559684539
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0026",
+          "bytes": 1073741824,
+          "sha256": "3f690df3db3a832e1203434fad0b856ed719844cd1d9099fa7eca03fc8ad3c2f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0026",
+          "asset_id": 559684650
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0027",
+          "bytes": 1073741824,
+          "sha256": "5e2c7e9b918fcb25df95daa0c3582613d0752ac58d02a9afc4d0b0859a36292b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0027",
+          "asset_id": 559685084
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0028",
+          "bytes": 1073741824,
+          "sha256": "2b278114854ffc750051a45a208b27bc5a804b7a56e7ccf75d8501bd50b82827",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0028",
+          "asset_id": 559685286
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0029",
+          "bytes": 1073741824,
+          "sha256": "f9e45dd4560e661e4bf2bcd3eefcda4bc25a64e169d8168601e13537dd47dd34",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0029",
+          "asset_id": 559685504
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0030",
+          "bytes": 1073741824,
+          "sha256": "9bdfccc9ff45249f4cae6c3d3f200d1429cb8e9eee64dbb1cfecb418ab91c0f4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0030",
+          "asset_id": 559685669
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0031",
+          "bytes": 1073741824,
+          "sha256": "0ea4b3b2cd6e659d7d95c6982db98f2981d0b6770578c59710d78653e74ca38b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0031",
+          "asset_id": 559686184
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0032",
+          "bytes": 1073741824,
+          "sha256": "f992b8f94521a61a8237e9ec87724103562da00355c1100c5d7b5a80a129224f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0032",
+          "asset_id": 559686381
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0033",
+          "bytes": 1073741824,
+          "sha256": "2669e9aae37773a7c1eda5b374f4e14dfeda1477b3114d55b5f52d21e3b79811",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0033",
+          "asset_id": 559686538
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0034",
+          "bytes": 1073741824,
+          "sha256": "1dbee70f6cb7c4967489f55d6db5b34c7adc24657a590027fa652bb0fbfd5254",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0034",
+          "asset_id": 559687006
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0035",
+          "bytes": 1073741824,
+          "sha256": "24e881ca1e8b829a99c98aa2e9e751334914eb50cf9b569a80da508f08993171",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0035",
+          "asset_id": 559687465
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0036",
+          "bytes": 1073741824,
+          "sha256": "6cdd5ed529cb9418dddea284312beb4e4ae44592cb0ea6ca8d62c838bd00609b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0036",
+          "asset_id": 559687597
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0037",
+          "bytes": 1073741824,
+          "sha256": "355ec51b3812d3854dc70d103a9ab52b96f5beeecef7350a23a473a03e21f125",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0037",
+          "asset_id": 559687732
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0038",
+          "bytes": 1073741824,
+          "sha256": "94865692ceeaf0f2312b8adb55fd38b4ea1ba0f83f4646ef8f4a2522bc0557e3",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0038",
+          "asset_id": 559688140
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0039",
+          "bytes": 1073741824,
+          "sha256": "62f4ce0945542dcb49d9cc05050dea68179bae5ef027523358d07b47b2c4cd24",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0039",
+          "asset_id": 559688691
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0040",
+          "bytes": 1073741824,
+          "sha256": "c46ab3ed070b0dd6610454cfedc6411956d28f90338f9281f1b080ef503304bc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0040",
+          "asset_id": 559688991
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0041",
+          "bytes": 1073741824,
+          "sha256": "8b688d7d20ddbb1aae7dc1d4ee7456b3873abdbdb0292708be3ea7f00253787c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0041",
+          "asset_id": 559689342
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0042",
+          "bytes": 1073741824,
+          "sha256": "f28ec532c1e9e823b5697bf5420c1be35124889fa604212a47f3398825c7dc5b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0042",
+          "asset_id": 559689548
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0043",
+          "bytes": 1073741824,
+          "sha256": "599d3e3535986fb31e702e5743879eafebec668e62faf9214127d81715ac287a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0043",
+          "asset_id": 559690078
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0044",
+          "bytes": 1073741824,
+          "sha256": "86ffcafd42898dd399c3de6624de55b82d583ad201dea2f93a2b7837f89752fe",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0044",
+          "asset_id": 559690409
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0045",
+          "bytes": 1073741824,
+          "sha256": "1bb26afa0a919d25bb8a0bd0a5c0f64868feb81eecdd78dc9f747fa10521067f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0045",
+          "asset_id": 559690645
+        },
+        {
+          "name": "a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0046",
+          "bytes": 267774947,
+          "sha256": "be87086b11c65c33b17dc6a667609de5d1f1f647a85b4891307e7c34ecf5e452",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.tar.zst.part0046",
+          "asset_id": 559690691
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_roleplaying-llama33-paired-v1.manifest.json",
+        "bytes": 221859,
+        "sha256": "b73b6786671c8b75f9df4b5728a47e13ec52082c21006135787cb2555b79abce",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-paired-v1.manifest.json",
+        "asset_id": 559699447
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-llama33-roleplaying-eval-v1": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 14007032,
+      "parts": [
+        {
+          "name": "a6000--apollo_roleplaying-llama33-roleplaying-eval-v1.tar.zst.part0000",
+          "bytes": 12722857,
+          "sha256": "dfce3cba270766b708b6df2bd3a8560f8ede46834eea9d79d44db9f08d14f818",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-roleplaying-eval-v1.tar.zst.part0000",
+          "asset_id": 559699480
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_roleplaying-llama33-roleplaying-eval-v1.manifest.json",
+        "bytes": 2322,
+        "sha256": "379000d1838b0b1fe7fac778e8f3219efc92c22abd1bb53c6c94ae933da760f4",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-llama33-roleplaying-eval-v1.manifest.json",
+        "asset_id": 559699539
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-qwen9b-sanity-v1": {
+      "complete": true,
+      "files": 1,
+      "uncompressed_bytes": 41687,
+      "parts": [
+        {
+          "name": "a6000--apollo_roleplaying-qwen9b-sanity-v1.tar.zst.part0000",
+          "bytes": 6817,
+          "sha256": "4015f0acf89a3a9d3df1db9ee8c307ec30c28f516769cdd3e7f1a18ae4cd52f1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-qwen9b-sanity-v1.tar.zst.part0000",
+          "asset_id": 559699567
+        }
+      ],
+      "manifest": {
+        "name": "a6000--apollo_roleplaying-qwen9b-sanity-v1.manifest.json",
+        "bytes": 299,
+        "sha256": "e24d6d09ab3af5c623f26b5dcf397478808cf6c1e8603e2a8cf914f3f3ef4610",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--apollo_roleplaying-qwen9b-sanity-v1.manifest.json",
+        "asset_id": 559699601
+      },
+      "reconstruction_verified": true
+    },
+    "code-and-inputs": {
+      "complete": true,
+      "files": 1397,
+      "uncompressed_bytes": 77997568,
+      "parts": [
+        {
+          "name": "a6000--code-and-inputs.tar.zst.part0000",
+          "bytes": 2194356,
+          "sha256": "6789b10fd6b07a0a0d4f50a44d91bdcdc6036ded6b4cd293b1e5a460e91404bc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--code-and-inputs.tar.zst.part0000",
+          "asset_id": 559699632
+        }
+      ],
+      "manifest": {
+        "name": "a6000--code-and-inputs.manifest.json",
+        "bytes": 386042,
+        "sha256": "304e713c9825e62bc5637734a3e8d5ced6ccd283450c478d077080c6dfa64249",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-a6000-v1/a6000--code-and-inputs.manifest.json",
+        "asset_id": 559699799
+      },
+      "reconstruction_verified": true
+    }
+  }
+}

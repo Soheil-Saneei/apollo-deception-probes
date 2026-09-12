@@ -1,14 +1,26 @@
 # Dataset and artifact downloads
 
-The public repository contains code, figures, and small metrics. Full research artifacts are stored in [GitHub Releases](https://github.com/Soheil-Saneei/apollo-deception-probes/releases), divided by source machine. **Archival is in progress; a release is complete only when its upload ledger marks every group complete.**
+The public repository contains code, figures, compact text datasets, and small metrics. Full research artifacts are stored in [GitHub Releases](https://github.com/Soheil-Saneei/apollo-deception-probes/releases), divided by source machine. **All three source snapshots are complete and independently verified.**
 
 | Release | Status | Contents |
 | --- | --- | --- |
 | [A100](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-a100-v1) | Verified complete | Qwen generated trading, both roleplaying versions, Qwen replay of Llama trading, features, probes, evaluations, and source inputs |
-| [Llama VM](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-a6000-v1) | Uploading | Llama report and roleplaying activations, early reasoning, report controls, evaluation versions, tokenizer pilot, and source inputs |
+| [Llama VM](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-a6000-v1) | Verified complete | Llama report and roleplaying activations, early reasoning, report controls, evaluation versions, tokenizer pilot, and source inputs |
 | [Local](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-local-v1) | Verified complete | Ollama runs, Mac pilots, manual-review artifacts, local analyses, and local-only files |
 
 These are overlapping source snapshots, not disjoint datasets. Keep them separate on initial extraction. Historical/pilot outputs are preserved for provenance, not silently pooled with final results.
+
+## Verification and archive sizes
+
+| Snapshot | Files | Archive groups | Original bytes | Uploaded bytes |
+| --- | ---: | ---: | ---: | ---: |
+| A100 | 5,835 | 16 | 77,269,999,895 | 62,019,155,451 |
+| Llama VM | 5,243 | 14 | 262,311,102,738 | 223,932,743,880 |
+| Local | 7,178 | 40 | 1,615,379,079 | 836,157,318 |
+
+This totals 18,256 file records across overlapping snapshots, about 317.8 GiB before compression and 267.1 GiB uploaded. Each archive was reconstructed and every member checked against its original filename, byte size, and SHA-256 hash. An independent unauthenticated GitHub API check verified the size and SHA-256 digest of every published asset and confirmed complete inventory coverage, with no unexpected assets. A public download-and-restore sample also passed.
+
+Completed ledgers and independent checks are committed under `catalog/`: [A100 ledger](catalog/a100-upload-ledger.json), [Llama ledger](catalog/a6000-upload-ledger.json), [local ledger](catalog/local-upload-ledger.json); [A100 check](catalog/a100-release-check.json), [Llama check](catalog/a6000-release-check.json), [local check](catalog/local-release-check.json). Package inventories are included alongside them.
 
 ## Browse the text datasets without activation downloads
 
