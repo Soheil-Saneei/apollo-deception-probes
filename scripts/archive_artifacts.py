@@ -112,7 +112,7 @@ def upload_file(path, repo, release_id, token):
             time.sleep(10)
 
 
-def upload(root, work, source, repo, release_id):
+def upload(root, work, source, repo, release_id, reuse_group=None):
     token = sys.stdin.readline().strip()
     if not token: raise RuntimeError('Missing token on stdin')
     inv = json.loads((work/'inventory.json').read_text())
@@ -129,50 +129,63 @@ def upload(root, work, source, repo, release_id):
         manifest = work/(prefix+'.manifest.json')
         manifest.write_text(json.dumps(dict(source=source, files=rows), indent=2)+'\n')
         parts = []
-        archive = subprocess.Popen(['tar','--sort=name','--mtime=2026-09-12','--owner=0','--group=0','--numeric-owner','-C',str(root),'--null','-T',str(listing),'-I','zstd -T4 -3','-cf','-'], stdout=subprocess.PIPE)
-        pool = ThreadPoolExecutor(max_workers=4)
-        pending = []
-        def finish_one():
-            record = pending.pop(0).result()
-            parts.append(record)
-            print(f"verified {record['name']} ({record['bytes']/1024**2:.1f} MiB)", flush=True)
-        try:
-            index = 0
-            while True:
-                part = work/(prefix+f'.tar.zst.part{index:04d}')
-                with part.open('wb') as out:
-                    remaining = PART_SIZE
-                    while remaining:
-                        chunk = archive.stdout.read(min(8*1024**2, remaining))
-                        if not chunk: break
-                        out.write(chunk); remaining -= len(chunk)
-                if part.stat().st_size == 0:
-                    part.unlink(); break
-                pending.append(pool.submit(upload_file, part, repo, release_id, token))
-                if len(pending) >= 4: finish_one()
-                index += 1
-            while pending: finish_one()
-            if archive.wait() != 0: raise RuntimeError('tar failed: '+group)
-        finally:
-            pool.shutdown(wait=True)
-            if archive.poll() is None: archive.terminate(); archive.wait()
-        # Verify the archive stream decodes and every restored byte matches the original manifest.
-        import tarfile
+        if group == reuse_group:
+            cached = sorted(work.glob(prefix + '.tar.zst.part*'))
+            if not cached:
+                raise RuntimeError('No cached parts for requested recovery group')
+            with ThreadPoolExecutor(max_workers=4) as pool:
+                parts = list(pool.map(lambda path: upload_file(path, repo, release_id, token), cached))
+            print('Reused verified uploaded parts: ' + group, flush=True)
+        else:
+            archive = subprocess.Popen(['tar','--sort=name','--mtime=2026-09-12','--owner=0','--group=0','--numeric-owner','-C',str(root),'--null','-T',str(listing),'-I','zstd -T4 -3','-cf','-'], stdout=subprocess.PIPE)
+            pool = ThreadPoolExecutor(max_workers=4)
+            pending = []
+            def finish_one():
+                record = pending.pop(0).result()
+                parts.append(record)
+                print(f"verified {record['name']} ({record['bytes']/1024**2:.1f} MiB)", flush=True)
+            try:
+                index = 0
+                while True:
+                    part = work/(prefix+f'.tar.zst.part{index:04d}')
+                    with part.open('wb') as out:
+                        remaining = PART_SIZE
+                        while remaining:
+                            chunk = archive.stdout.read(min(8*1024**2, remaining))
+                            if not chunk: break
+                            out.write(chunk); remaining -= len(chunk)
+                    if part.stat().st_size == 0:
+                        part.unlink(); break
+                    pending.append(pool.submit(upload_file, part, repo, release_id, token))
+                    if len(pending) >= 4: finish_one()
+                    index += 1
+                while pending: finish_one()
+                if archive.wait() != 0: raise RuntimeError('tar failed: '+group)
+            finally:
+                pool.shutdown(wait=True)
+                if archive.poll() is None: archive.terminate(); archive.wait()
+        # GNU tar streams each member to native sha256sum; no activation extraction to disk.
         cat = subprocess.Popen(['cat']+[str(work/r['name']) for r in parts], stdout=subprocess.PIPE)
         dec = subprocess.Popen(['zstd','-dc'], stdin=cat.stdout, stdout=subprocess.PIPE)
         cat.stdout.close()
+        command = 'printf "%s\\0%s\\0" "$TAR_FILENAME" "$TAR_SIZE"; sha256sum'
+        check = subprocess.Popen(['tar','-xf','-','--to-command='+command], stdin=dec.stdout, stdout=subprocess.PIPE, cwd=work)
+        dec.stdout.close()
+        records = check.communicate()[0]
+        if check.returncode or dec.wait() or cat.wait():
+            raise RuntimeError('Native archive verification failed')
         expected = {r['path']: r for r in rows}
         seen = set()
-        with tarfile.open(fileobj=dec.stdout, mode='r|', bufsize=8 * 1024**2) as tf:
-            for member in tf:
-                if not member.isfile(): raise RuntimeError('Unexpected archive entry')
-                record = expected[member.name]
-                with tf.extractfile(member) as f: digest = stream_digest(f)
-                if digest != record['sha256'] or member.size != record['bytes']: raise RuntimeError('Archive reconstruction mismatch: '+member.name)
-                seen.add(member.name)
-        # Drain decompressor output so trailer checks complete without SIGPIPE.
-        while dec.stdout.read(1024**2): pass
-        if dec.wait() or cat.wait() or seen != set(expected): raise RuntimeError('Incomplete archive reconstruction')
+        while records:
+            name, _, records = records.partition(b'\0')
+            size, _, records = records.partition(b'\0')
+            digest_line, _, records = records.partition(b'\n')
+            name = name.decode()
+            record = expected[name]
+            if name in seen or int(size) != record['bytes'] or digest_line.split()[0].decode() != record['sha256']:
+                raise RuntimeError('Archive reconstruction mismatch: '+name)
+            seen.add(name)
+        if seen != set(expected): raise RuntimeError('Incomplete archive reconstruction')
         manifest_asset = upload_file(manifest, repo, release_id, token)
         ledger['groups'][group] = dict(complete=True, files=len(rows), uncompressed_bytes=sum(r['bytes'] for r in rows), parts=parts, manifest=manifest_asset, reconstruction_verified=True)
         ledger_path.write_text(json.dumps(ledger, indent=2)+'\n')
@@ -190,7 +203,8 @@ if __name__ == '__main__':
     p.add_argument('--source', required=True)
     p.add_argument('--repo', default='Soheil-Saneei/apollo-deception-probes')
     p.add_argument('--release-id', type=int)
+    p.add_argument('--reuse-group', help='Recover a fully built archive by verifying and reusing its existing parts')
     args = p.parse_args()
     args.work.mkdir(parents=True, exist_ok=True)
     if args.mode == 'inventory': inventory(args.root, args.work, args.source)
-    else: upload(args.root, args.work, args.source, args.repo, args.release_id)
+    else: upload(args.root, args.work, args.source, args.repo, args.release_id, args.reuse_group)
