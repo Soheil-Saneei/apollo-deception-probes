@@ -52,7 +52,7 @@ python scripts/download_artifact.py upload-ledger.json \
   apollo_roleplaying-qwen9b-paired-v2 --output downloads/qwen-roleplaying
 ```
 
-See [A100 groups](catalog/a100-groups.json) and [Llama VM groups](catalog/a6000-groups.json) for archive names and uncompressed sizes. A completed ledger is required by the helper; incomplete releases should not be treated as backups.
+See [A100 groups](catalog/a100-groups.json), [Llama VM groups](catalog/a6000-groups.json), and [local groups](catalog/local-groups.json) for archive names and uncompressed sizes. A completed group ledger is required by the helper; partial releases do not establish a complete VM backup.
 
 After verifying part hashes, concatenate in numeric order and extract into an empty destination:
 

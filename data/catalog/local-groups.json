@@ -1,0 +1,162 @@
+{
+  "code-and-inputs": {
+    "files": 83,
+    "bytes": 2127795
+  },
+  "apollo_released-llama33-early-reasoning-v2": {
+    "files": 13,
+    "bytes": 15158475
+  },
+  "apollo_released-llama33-full-prefix-v1": {
+    "files": 5,
+    "bytes": 14051661
+  },
+  "apollo_released-llama33-native-tokenizer-pilot-v1": {
+    "files": 3,
+    "bytes": 16590
+  },
+  "apollo_released-llama33-probe-eval-v3": {
+    "files": 8,
+    "bytes": 14673128
+  },
+  "apollo_released-llama33-report-controls-v2": {
+    "files": 17,
+    "bytes": 35182618
+  },
+  "apollo_released-llama33-reports-v1": {
+    "files": 4,
+    "bytes": 16686
+  },
+  "apollo_released-qwen35-llama-trading-a100-v1": {
+    "files": 5,
+    "bytes": 28848154
+  },
+  "apollo_released-qwen35-llama-trading-eval-v1": {
+    "files": 31,
+    "bytes": 22599129
+  },
+  "apollo_roleplaying-llama33-paired-v1": {
+    "files": 8,
+    "bytes": 2513974
+  },
+  "apollo_roleplaying-llama33-roleplaying-eval-v1": {
+    "files": 8,
+    "bytes": 14007032
+  },
+  "apollo_roleplaying-qwen9b-paired-v2": {
+    "files": 7,
+    "bytes": 783073196
+  },
+  "apollo_roleplaying-qwen9b-sanity-v1": {
+    "files": 4,
+    "bytes": 456986
+  },
+  "apollo_trading-apollo-hf-2b-mac-cpu-pilot": {
+    "files": 15,
+    "bytes": 7975441
+  },
+  "apollo_trading-apollo-hf-2b-mac-mps-sync-pilot": {
+    "files": 69,
+    "bytes": 90700662
+  },
+  "apollo_trading-apollo-hf-2b-mac-pilot": {
+    "files": 2,
+    "bytes": 11676
+  },
+  "apollo_trading-apollo-hf-9b-a100-n100-v2-review": {
+    "files": 100,
+    "bytes": 2089629
+  },
+  "apollo_trading-apollo-hf-9b-a100-pilot": {
+    "files": 64,
+    "bytes": 336245520
+  },
+  "apollo_trading-apollo-qwen-n100": {
+    "files": 342,
+    "bytes": 3093434
+  },
+  "apollo_trading-apollo-qwen-n100-v2": {
+    "files": 1145,
+    "bytes": 9576697
+  },
+  "apollo_trading-apollo-qwen-n100-v3": {
+    "files": 946,
+    "bytes": 7761360
+  },
+  "apollo_trading-apollo-qwen-n100-v4": {
+    "files": 997,
+    "bytes": 8984640
+  },
+  "apollo_trading-apollo-qwen-v4-pilot": {
+    "files": 37,
+    "bytes": 636566
+  },
+  "apollo_trading-apollo-released-llama33-audit": {
+    "files": 1376,
+    "bytes": 75247001
+  },
+  "apollo_trading-apollo-released-llama33-manifest": {
+    "files": 1377,
+    "bytes": 75276473
+  },
+  "apollo_trading-apollo-trading-100": {
+    "files": 342,
+    "bytes": 3093448
+  },
+  "apollo_trading-hf-backend-validation": {
+    "files": 8,
+    "bytes": 46156
+  },
+  "apollo_trading-report-boundaries-06-21-54": {
+    "files": 4,
+    "bytes": 792112
+  },
+  "apollo_trading-report-group-4-vs-24": {
+    "files": 6,
+    "bytes": 37924562
+  },
+  "apollo_trading-report-residual-62-loo": {
+    "files": 5,
+    "bytes": 375774
+  },
+  "apollo_trading-report-residual-62-vs-disclosure": {
+    "files": 29,
+    "bytes": 20305393
+  },
+  "legacy-.gitkeep": {
+    "files": 1,
+    "bytes": 1
+  },
+  "legacy-apollo-structured-smoke-20260910": {
+    "files": 9,
+    "bytes": 193218
+  },
+  "legacy-apollo-structured-smoke-v2-20260910": {
+    "files": 10,
+    "bytes": 211531
+  },
+  "legacy-apollo-structured-smoke-v3-20260910": {
+    "files": 10,
+    "bytes": 208272
+  },
+  "legacy-apollo-text-corrected-smoke-20260910": {
+    "files": 9,
+    "bytes": 188458
+  },
+  "legacy-apollo-text-corrected-smoke-v2-20260910": {
+    "files": 6,
+    "bytes": 182457
+  },
+  "legacy-apollo-trading-20260910": {
+    "files": 69,
+    "bytes": 843870
+  },
+  "legacy-mask-compatibility-20260907": {
+    "files": 3,
+    "bytes": 47162
+  },
+  "legacy-run-20260904-144448.jsonl": {
+    "files": 1,
+    "bytes": 642142
+  }
+}

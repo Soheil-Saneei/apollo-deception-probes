@@ -1,5 +1,9 @@
 # Direct Transformers backend
 
+Saved runs, activations, and package inventories are available through the
+[public artifact catalog](../../data/README.md). Remote paths below describe the
+original execution environment rather than a required live instance.
+
 `run_transformers.py` runs the original `Qwen/Qwen3.5-9B` checkpoint directly in
 PyTorch and calls the existing v4 trajectory loop. This preserves the supplied
 conversation, v4 instructions, four simulated tools, successful-trade reporting

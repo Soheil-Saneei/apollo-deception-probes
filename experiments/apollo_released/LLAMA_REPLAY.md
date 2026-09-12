@@ -1,5 +1,9 @@
 # Frozen Llama 3.3 report-stage replay
 
+Public transcripts and activation downloads are indexed in the
+[data guide](../../data/README.md). VM paths below are historical source locations;
+the release archives preserve those paths relative to the project root.
+
 The extraction is complete. The matched Qwen/Llama probe evaluation and its
 surface-feature controls are documented in [EVALUATION.md](EVALUATION.md).
 

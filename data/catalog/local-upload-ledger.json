@@ -1,0 +1,887 @@
+{
+  "source": "local",
+  "repo": "Soheil-Saneei/apollo-deception-probes",
+  "release_id": 387629032,
+  "groups": {
+    "apollo_released-llama33-early-reasoning-v2": {
+      "complete": true,
+      "files": 13,
+      "uncompressed_bytes": 15158475,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-early-reasoning-v2.tar.zst.part0000",
+          "bytes": 11537651,
+          "sha256": "12aea79107ae4367873c45470fde3accfd97b243ba1526de3313962c3b07000e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-early-reasoning-v2.tar.zst.part0000",
+          "asset_id": 559586575
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-early-reasoning-v2.manifest.json",
+        "bytes": 3687,
+        "sha256": "bf68be2130d183a495147d19dfc8d1bb8ea23ef91d004cd2fa9c319620c65345",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-early-reasoning-v2.manifest.json",
+        "asset_id": 559586595
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-full-prefix-v1": {
+      "complete": true,
+      "files": 5,
+      "uncompressed_bytes": 14051661,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-full-prefix-v1.tar.zst.part0000",
+          "bytes": 235838,
+          "sha256": "cac7af07aa4fbaafde81ce4a747206080bce50f2545b278c07e980b1204f85f7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-full-prefix-v1.tar.zst.part0000",
+          "asset_id": 559586601
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-full-prefix-v1.manifest.json",
+        "bytes": 1384,
+        "sha256": "6e5852621d095ce7a6698027c40ca662e80af53dddff983e1f4a450c4f697faa",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-full-prefix-v1.manifest.json",
+        "asset_id": 559586624
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-native-tokenizer-pilot-v1": {
+      "complete": true,
+      "files": 3,
+      "uncompressed_bytes": 16590,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-native-tokenizer-pilot-v1.tar.zst.part0000",
+          "bytes": 5991,
+          "sha256": "659bc2bcb924be720585b4200b968207e2f1c510004810ea0e5f8063ce334992",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-native-tokenizer-pilot-v1.tar.zst.part0000",
+          "asset_id": 559586643
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-native-tokenizer-pilot-v1.manifest.json",
+        "bytes": 907,
+        "sha256": "9064c9908c1c9fdc984f9d2c6298e4209005de360b858e2805d7a152d6352bd7",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-native-tokenizer-pilot-v1.manifest.json",
+        "asset_id": 559586668
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-probe-eval-v3": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 14673128,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-probe-eval-v3.tar.zst.part0000",
+          "bytes": 12775329,
+          "sha256": "3682db746aef34617db1a11a127dc8950eeb6eb3a40fd63b58174406c5549452",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-probe-eval-v3.tar.zst.part0000",
+          "asset_id": 559586688
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-probe-eval-v3.manifest.json",
+        "bytes": 2175,
+        "sha256": "eb93f83a761c53dbc7a31d3c9e71bca5c99a518acc067499542c75bc1fe3084f",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-probe-eval-v3.manifest.json",
+        "asset_id": 559586949
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-report-controls-v2": {
+      "complete": true,
+      "files": 17,
+      "uncompressed_bytes": 35182618,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-report-controls-v2.tar.zst.part0000",
+          "bytes": 22772613,
+          "sha256": "0f7305f324ceaeb5410e8d42cbf2304bfa5686c09ce13fa9ac8026517f5ed097",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-report-controls-v2.tar.zst.part0000",
+          "asset_id": 559586967
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-report-controls-v2.manifest.json",
+        "bytes": 4905,
+        "sha256": "0644b15de081fef21782bf317dc17f6b0e2bfbdad4951c79ea7c826c8e54e8d4",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-report-controls-v2.manifest.json",
+        "asset_id": 559587006
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-llama33-reports-v1": {
+      "complete": true,
+      "files": 4,
+      "uncompressed_bytes": 16686,
+      "parts": [
+        {
+          "name": "local--apollo_released-llama33-reports-v1.tar.zst.part0000",
+          "bytes": 6083,
+          "sha256": "1e55a12e9b2d0312bf471b15b7a7df29725163d9b37eeb28312527df96fb6c2f",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-reports-v1.tar.zst.part0000",
+          "asset_id": 559587025
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-llama33-reports-v1.manifest.json",
+        "bytes": 1083,
+        "sha256": "d44dc874fcf3c2d15a6a52c8d54be6bb31afe0cc917b37548548ea670403075f",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-llama33-reports-v1.manifest.json",
+        "asset_id": 559587043
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-qwen35-llama-trading-a100-v1": {
+      "complete": true,
+      "files": 5,
+      "uncompressed_bytes": 28848154,
+      "parts": [
+        {
+          "name": "local--apollo_released-qwen35-llama-trading-a100-v1.tar.zst.part0000",
+          "bytes": 504040,
+          "sha256": "442754a7c6e41538233c2fd5b76c7beae68afa02d2696115bb5d03bba430a88a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-qwen35-llama-trading-a100-v1.tar.zst.part0000",
+          "asset_id": 559587066
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-qwen35-llama-trading-a100-v1.manifest.json",
+        "bytes": 1433,
+        "sha256": "15975e70c379b3e40bc36224fe17f6f263df82451ec57228488dc94131686cd8",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-qwen35-llama-trading-a100-v1.manifest.json",
+        "asset_id": 559587090
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_released-qwen35-llama-trading-eval-v1": {
+      "complete": true,
+      "files": 31,
+      "uncompressed_bytes": 22599129,
+      "parts": [
+        {
+          "name": "local--apollo_released-qwen35-llama-trading-eval-v1.tar.zst.part0000",
+          "bytes": 10298746,
+          "sha256": "179b4ed17fb622abbca6ae9c3310be8d32ff364a5a017c0609e5e8fe4bc6c61b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-qwen35-llama-trading-eval-v1.tar.zst.part0000",
+          "asset_id": 559587110
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_released-qwen35-llama-trading-eval-v1.manifest.json",
+        "bytes": 9087,
+        "sha256": "7d194b12433c5d81ece438fde02f283c41f7bcd1232e4b26a9990edb023ab290",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_released-qwen35-llama-trading-eval-v1.manifest.json",
+        "asset_id": 559587143
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-llama33-paired-v1": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 2513974,
+      "parts": [
+        {
+          "name": "local--apollo_roleplaying-llama33-paired-v1.tar.zst.part0000",
+          "bytes": 387929,
+          "sha256": "b336a3525fafeb5debc524a20dbc23f6c2c2cf2997f81c55b7eb62d9ca283f6a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-llama33-paired-v1.tar.zst.part0000",
+          "asset_id": 559587162
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_roleplaying-llama33-paired-v1.manifest.json",
+        "bytes": 2135,
+        "sha256": "537279a2f301e167f0b2b3bc40aef54f0324b9eecb8ed1d9587a54c9f2269dd9",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-llama33-paired-v1.manifest.json",
+        "asset_id": 559587189
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-llama33-roleplaying-eval-v1": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 14007032,
+      "parts": [
+        {
+          "name": "local--apollo_roleplaying-llama33-roleplaying-eval-v1.tar.zst.part0000",
+          "bytes": 12722856,
+          "sha256": "779ca9ae05016cb9e7daf671c40fa8f7660d9300d8cdbd4ecd10f1373e1dec09",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-llama33-roleplaying-eval-v1.tar.zst.part0000",
+          "asset_id": 559587205
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_roleplaying-llama33-roleplaying-eval-v1.manifest.json",
+        "bytes": 2322,
+        "sha256": "44509619e6d1a759228cf8749039a8d3d54c3796ab2c010d9a16e457c5f46f22",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-llama33-roleplaying-eval-v1.manifest.json",
+        "asset_id": 559587240
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-qwen9b-paired-v2": {
+      "complete": true,
+      "files": 7,
+      "uncompressed_bytes": 783073196,
+      "parts": [
+        {
+          "name": "local--apollo_roleplaying-qwen9b-paired-v2.tar.zst.part0000",
+          "bytes": 432277913,
+          "sha256": "427ce7a7ad8a9004fbc12cb14e48e1e8c57d2be38ec86cf91b4d3f1d820853b4",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-qwen9b-paired-v2.tar.zst.part0000",
+          "asset_id": 559587289
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_roleplaying-qwen9b-paired-v2.manifest.json",
+        "bytes": 1870,
+        "sha256": "19a7c27a37d2222d7c8214c65791498964cb06d150ff404a038689c51c887cab",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-qwen9b-paired-v2.manifest.json",
+        "asset_id": 559587784
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_roleplaying-qwen9b-sanity-v1": {
+      "complete": true,
+      "files": 4,
+      "uncompressed_bytes": 456986,
+      "parts": [
+        {
+          "name": "local--apollo_roleplaying-qwen9b-sanity-v1.tar.zst.part0000",
+          "bytes": 181071,
+          "sha256": "ac644f9a1c2f086efdecd08dae7699e7a274695414ad6aeb8c9c17c275e63e60",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-qwen9b-sanity-v1.tar.zst.part0000",
+          "asset_id": 559587802
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_roleplaying-qwen9b-sanity-v1.manifest.json",
+        "bytes": 1084,
+        "sha256": "ce3ad26155395a03f36c35d7de2c66ad1e13fa735223d06638f19bb82da8a9a7",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_roleplaying-qwen9b-sanity-v1.manifest.json",
+        "asset_id": 559587821
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-hf-2b-mac-cpu-pilot": {
+      "complete": true,
+      "files": 15,
+      "uncompressed_bytes": 7975441,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-hf-2b-mac-cpu-pilot.tar.zst.part0000",
+          "bytes": 5216227,
+          "sha256": "a36acb7ebf2e75a223c3ee8e36b8c05b75a3538c5622b3d96b614be7fb455b43",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-cpu-pilot.tar.zst.part0000",
+          "asset_id": 559587837
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-hf-2b-mac-cpu-pilot.manifest.json",
+        "bytes": 4466,
+        "sha256": "2a5fcbf0e9118e7b5f455214f448d4198935adc3794247b89a539e52d3de8655",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-cpu-pilot.manifest.json",
+        "asset_id": 559587853
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-hf-2b-mac-mps-sync-pilot": {
+      "complete": true,
+      "files": 69,
+      "uncompressed_bytes": 90700662,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-hf-2b-mac-mps-sync-pilot.tar.zst.part0000",
+          "bytes": 60299271,
+          "sha256": "954e4bc33aecd8918c8f7751e3ccead0135ac8eaa9af4d052889402501647edf",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-mps-sync-pilot.tar.zst.part0000",
+          "asset_id": 559587873
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-hf-2b-mac-mps-sync-pilot.manifest.json",
+        "bytes": 21663,
+        "sha256": "f98bf75f89af4b61303715e57f3fe3087207bc1beb58b25f5f876f00c10e27f0",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-mps-sync-pilot.manifest.json",
+        "asset_id": 559587948
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-hf-2b-mac-pilot": {
+      "complete": true,
+      "files": 2,
+      "uncompressed_bytes": 11676,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-hf-2b-mac-pilot.tar.zst.part0000",
+          "bytes": 4483,
+          "sha256": "0871bcd9b0bcf5271156d6d248d2748e7306cb7554753990169408a292eceb4c",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-pilot.tar.zst.part0000",
+          "asset_id": 559587960
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-hf-2b-mac-pilot.manifest.json",
+        "bytes": 570,
+        "sha256": "59ac769ae0a6525b043b9461b11376482b46f3ac7fe431f4c90767386af82d19",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-2b-mac-pilot.manifest.json",
+        "asset_id": 559587969
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-hf-9b-a100-n100-v2-review": {
+      "complete": true,
+      "files": 100,
+      "uncompressed_bytes": 2089629,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-hf-9b-a100-n100-v2-review.tar.zst.part0000",
+          "bytes": 92212,
+          "sha256": "9d680e3bf616b666784d66978c2fcbdece9524ebe558cd243ffc2efcb1f2e695",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-9b-a100-n100-v2-review.tar.zst.part0000",
+          "asset_id": 559587994
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-hf-9b-a100-n100-v2-review.manifest.json",
+        "bytes": 28841,
+        "sha256": "a2a8d7923e5eb31aff8c918e78f591e3d744ff43462c121de71aaa11170a98a6",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-9b-a100-n100-v2-review.manifest.json",
+        "asset_id": 559588015
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-hf-9b-a100-pilot": {
+      "complete": true,
+      "files": 64,
+      "uncompressed_bytes": 336245520,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-hf-9b-a100-pilot.tar.zst.part0000",
+          "bytes": 229630510,
+          "sha256": "bcb3a722e1e91621f448b82da2cf97fb37d985d27c4c98c13a6a774305782d31",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-9b-a100-pilot.tar.zst.part0000",
+          "asset_id": 559588042
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-hf-9b-a100-pilot.manifest.json",
+        "bytes": 19004,
+        "sha256": "a07dfc306491095275898d400a3984f38af02054e2e1895cb123e3f8ca2b8e60",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-hf-9b-a100-pilot.manifest.json",
+        "asset_id": 559588233
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-qwen-n100": {
+      "complete": true,
+      "files": 342,
+      "uncompressed_bytes": 3093434,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-qwen-n100.tar.zst.part0000",
+          "bytes": 111662,
+          "sha256": "f7885e6fdd29af641473d609bf51090590c808b4fad4bca13cb105084191ceaa",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100.tar.zst.part0000",
+          "asset_id": 559588255
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-qwen-n100.manifest.json",
+        "bytes": 91451,
+        "sha256": "7ae815e6005642b04476a08270a27412972a92d3d64d32b007284fb9ceeb8aa5",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100.manifest.json",
+        "asset_id": 559588276
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-qwen-n100-v2": {
+      "complete": true,
+      "files": 1145,
+      "uncompressed_bytes": 9576697,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-qwen-n100-v2.tar.zst.part0000",
+          "bytes": 234508,
+          "sha256": "57d08c8cec409b0facf187790bcb9849fe07e7aa72686d1ffb65b817db2cc745",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v2.tar.zst.part0000",
+          "asset_id": 559588302
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-qwen-n100-v2.manifest.json",
+        "bytes": 327729,
+        "sha256": "0ee6b96fc8b42e7eabf0709642dfa4e9ede1ddfc0c6007f480b070ad5204e35b",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v2.manifest.json",
+        "asset_id": 559588324
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-qwen-n100-v3": {
+      "complete": true,
+      "files": 946,
+      "uncompressed_bytes": 7761360,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-qwen-n100-v3.tar.zst.part0000",
+          "bytes": 197501,
+          "sha256": "8163c6ce62f8be63305aec465210bbf28aa3c6e676ac3bd55881c27a8b0e2999",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v3.tar.zst.part0000",
+          "asset_id": 559588333
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-qwen-n100-v3.manifest.json",
+        "bytes": 270377,
+        "sha256": "f24ad454f535ff7eb75853f65758931ba52f79d726b5ac8d8b9f3805a892d573",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v3.manifest.json",
+        "asset_id": 559588381
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-qwen-n100-v4": {
+      "complete": true,
+      "files": 997,
+      "uncompressed_bytes": 8984640,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-qwen-n100-v4.tar.zst.part0000",
+          "bytes": 224423,
+          "sha256": "8e0963dc76218d254fadc6db6d91fdf0c75cad4c53dba33fa07405108f9b187b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v4.tar.zst.part0000",
+          "asset_id": 559588397
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-qwen-n100-v4.manifest.json",
+        "bytes": 285140,
+        "sha256": "dfe63905ed99ddc0baf3c1b8394db8e9b8b19519adf7806cb8111d84e9939111",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-n100-v4.manifest.json",
+        "asset_id": 559588409
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-qwen-v4-pilot": {
+      "complete": true,
+      "files": 37,
+      "uncompressed_bytes": 636566,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-qwen-v4-pilot.tar.zst.part0000",
+          "bytes": 27961,
+          "sha256": "e4e6b8a50be3b5b37d47d5c01dee36b12af8a995ef1fe45fd0dec230877d0b4e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-v4-pilot.tar.zst.part0000",
+          "asset_id": 559588430
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-qwen-v4-pilot.manifest.json",
+        "bytes": 10602,
+        "sha256": "1e0d7c9fb35d688bf3b3969640a9fec60e2f69019b4f165967403b02e4ecb728",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-qwen-v4-pilot.manifest.json",
+        "asset_id": 559588456
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-released-llama33-audit": {
+      "complete": true,
+      "files": 1376,
+      "uncompressed_bytes": 75247001,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-released-llama33-audit.tar.zst.part0000",
+          "bytes": 1672707,
+          "sha256": "ebd42ee50cec050e89d4022dac11954dd810a73cadbf64ddb222924658d8eedc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-released-llama33-audit.tar.zst.part0000",
+          "asset_id": 559588483
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-released-llama33-audit.manifest.json",
+        "bytes": 426831,
+        "sha256": "46f7354d5d58cb58dd4b6b5a75d63a3f7c4d5ade439c8c5fb2254af364899b2b",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-released-llama33-audit.manifest.json",
+        "asset_id": 559588513
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-released-llama33-manifest": {
+      "complete": true,
+      "files": 1377,
+      "uncompressed_bytes": 75276473,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-released-llama33-manifest.tar.zst.part0000",
+          "bytes": 1680699,
+          "sha256": "0d43c6b733d9a4cf6826f1763f7325fdb918fe06e3c9f86dc3d6e42b17b2bba0",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-released-llama33-manifest.tar.zst.part0000",
+          "asset_id": 559588536
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-released-llama33-manifest.manifest.json",
+        "bytes": 435397,
+        "sha256": "5713da90ee3763d41b0998d43df781cdf935cb53d7c23f8891e309088ea587b3",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-released-llama33-manifest.manifest.json",
+        "asset_id": 559588578
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-apollo-trading-100": {
+      "complete": true,
+      "files": 342,
+      "uncompressed_bytes": 3093448,
+      "parts": [
+        {
+          "name": "local--apollo_trading-apollo-trading-100.tar.zst.part0000",
+          "bytes": 111724,
+          "sha256": "2691d892e5f42d0edb4af904dffb9b4b908a89fee369407ae860be21d6072169",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-trading-100.tar.zst.part0000",
+          "asset_id": 559588607
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-apollo-trading-100.manifest.json",
+        "bytes": 92819,
+        "sha256": "611153c79c1869822d7dc0bac9bf70da82a3ea185582b2403aeba9016179f499",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-apollo-trading-100.manifest.json",
+        "asset_id": 559588628
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-hf-backend-validation": {
+      "complete": true,
+      "files": 8,
+      "uncompressed_bytes": 46156,
+      "parts": [
+        {
+          "name": "local--apollo_trading-hf-backend-validation.tar.zst.part0000",
+          "bytes": 12939,
+          "sha256": "4a0c0730f98b5c65dc91d5ca9e73fc34256df3da082b359de2e4106329813894",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-hf-backend-validation.tar.zst.part0000",
+          "asset_id": 559588645
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-hf-backend-validation.manifest.json",
+        "bytes": 2379,
+        "sha256": "338303f05d983ef462172b57ef3aa2dfda8940ffd363ef5044de607eaa5f747b",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-hf-backend-validation.manifest.json",
+        "asset_id": 559588667
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-report-boundaries-06-21-54": {
+      "complete": true,
+      "files": 4,
+      "uncompressed_bytes": 792112,
+      "parts": [
+        {
+          "name": "local--apollo_trading-report-boundaries-06-21-54.tar.zst.part0000",
+          "bytes": 628226,
+          "sha256": "7fe686569d6ea9996dbd82b10405418028e89e28d9b75427dabd81af109a970e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-boundaries-06-21-54.tar.zst.part0000",
+          "asset_id": 559588684
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-report-boundaries-06-21-54.manifest.json",
+        "bytes": 1190,
+        "sha256": "5552d9a65b45a52fdb13758c10b96c4fd699d3bc7545e8a18a1fada6819648fe",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-boundaries-06-21-54.manifest.json",
+        "asset_id": 559588713
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-report-group-4-vs-24": {
+      "complete": true,
+      "files": 6,
+      "uncompressed_bytes": 37924562,
+      "parts": [
+        {
+          "name": "local--apollo_trading-report-group-4-vs-24.tar.zst.part0000",
+          "bytes": 14236962,
+          "sha256": "d652313e623149ece89f11c9b5aecbb590c3b9fa7aa736c05f80e405224f738a",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-group-4-vs-24.tar.zst.part0000",
+          "asset_id": 559588738
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-report-group-4-vs-24.manifest.json",
+        "bytes": 1635,
+        "sha256": "9334a6baaa2c375c27c58693ee5d0b2063f9fbc222943d9f342d6f9e5d7ceebf",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-group-4-vs-24.manifest.json",
+        "asset_id": 559588811
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-report-residual-62-loo": {
+      "complete": true,
+      "files": 5,
+      "uncompressed_bytes": 375774,
+      "parts": [
+        {
+          "name": "local--apollo_trading-report-residual-62-loo.tar.zst.part0000",
+          "bytes": 323217,
+          "sha256": "08ad2c0c63316d4059eedcac9c9792006f2607ab7b4900bc177c20bf1de974cb",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-residual-62-loo.tar.zst.part0000",
+          "asset_id": 559588828
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-report-residual-62-loo.manifest.json",
+        "bytes": 1375,
+        "sha256": "81b26c996cb49b98dc6af0fc301035ea0f36665dc1bb68f5993c39b2ad9b6f09",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-residual-62-loo.manifest.json",
+        "asset_id": 559588851
+      },
+      "reconstruction_verified": true
+    },
+    "apollo_trading-report-residual-62-vs-disclosure": {
+      "complete": true,
+      "files": 29,
+      "uncompressed_bytes": 20305393,
+      "parts": [
+        {
+          "name": "local--apollo_trading-report-residual-62-vs-disclosure.tar.zst.part0000",
+          "bytes": 11799201,
+          "sha256": "6f959722f84011f3cbaba53ac1bda1853d70b58c49be0dab8b1ebb3902dad2bc",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-residual-62-vs-disclosure.tar.zst.part0000",
+          "asset_id": 559588863
+        }
+      ],
+      "manifest": {
+        "name": "local--apollo_trading-report-residual-62-vs-disclosure.manifest.json",
+        "bytes": 8818,
+        "sha256": "08d609b28e5492c22e09957f1a5763557ba1c59ed0df114b33e0044f5c2fc829",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--apollo_trading-report-residual-62-vs-disclosure.manifest.json",
+        "asset_id": 559588935
+      },
+      "reconstruction_verified": true
+    },
+    "code-and-inputs": {
+      "complete": true,
+      "files": 83,
+      "uncompressed_bytes": 2127795,
+      "parts": [
+        {
+          "name": "local--code-and-inputs.tar.zst.part0000",
+          "bytes": 1356190,
+          "sha256": "748d31169d3b2f3bcfb38c3eda28454e1ffc91fb9510c9918bb8a4687188f280",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--code-and-inputs.tar.zst.part0000",
+          "asset_id": 559588952
+        }
+      ],
+      "manifest": {
+        "name": "local--code-and-inputs.manifest.json",
+        "bytes": 17652,
+        "sha256": "1eae25fa7cb3b2f77adf952c069235e4a3aa234e5dc13bc50ec9cbfbaffb995a",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--code-and-inputs.manifest.json",
+        "asset_id": 559588968
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-.gitkeep": {
+      "complete": true,
+      "files": 1,
+      "uncompressed_bytes": 1,
+      "parts": [
+        {
+          "name": "local--legacy-.gitkeep.tar.zst.part0000",
+          "bytes": 100,
+          "sha256": "06b2e198a19b1c1e285f7d6d4d1f33de0fbc04c225d8899b2cc7330305c90b9d",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-.gitkeep.tar.zst.part0000",
+          "asset_id": 559588978
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-.gitkeep.manifest.json",
+        "bytes": 223,
+        "sha256": "52193a94f779a7f3a786988ae67fc6cf251df17c109095581a39543d3ce910e5",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-.gitkeep.manifest.json",
+        "asset_id": 559588991
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-structured-smoke-20260910": {
+      "complete": true,
+      "files": 9,
+      "uncompressed_bytes": 193218,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-structured-smoke-20260910.tar.zst.part0000",
+          "bytes": 14260,
+          "sha256": "83f048398654f512dea2747ce21d87940264d610947c517276502880783cf956",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-20260910.tar.zst.part0000",
+          "asset_id": 559589047
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-structured-smoke-20260910.manifest.json",
+        "bytes": 2440,
+        "sha256": "6f58dc176ec2c77a587d864e6d7f8b61cda2462d17fa3809cda0edaa4b601658",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-20260910.manifest.json",
+        "asset_id": 559589063
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-structured-smoke-v2-20260910": {
+      "complete": true,
+      "files": 10,
+      "uncompressed_bytes": 211531,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-structured-smoke-v2-20260910.tar.zst.part0000",
+          "bytes": 15171,
+          "sha256": "4f1184dacdfc51341f62580976e0bc54079f08cb5235c0dcef4d1019b4909a86",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-v2-20260910.tar.zst.part0000",
+          "asset_id": 559589083
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-structured-smoke-v2-20260910.manifest.json",
+        "bytes": 2783,
+        "sha256": "db103bfd44f961a4ce74539193aea93fe2f261fc9aa205c868fdd61ac4840cbe",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-v2-20260910.manifest.json",
+        "asset_id": 559589098
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-structured-smoke-v3-20260910": {
+      "complete": true,
+      "files": 10,
+      "uncompressed_bytes": 208272,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-structured-smoke-v3-20260910.tar.zst.part0000",
+          "bytes": 15254,
+          "sha256": "f822572437462904e02bbab81dd35af22e71dc8036d6945da479cb9a9d2eb636",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-v3-20260910.tar.zst.part0000",
+          "asset_id": 559589116
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-structured-smoke-v3-20260910.manifest.json",
+        "bytes": 2781,
+        "sha256": "00148d50284e9b9451245fa9aad67b626b4d8a9b8bd0361f78ed707fac14be93",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-structured-smoke-v3-20260910.manifest.json",
+        "asset_id": 559589134
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-text-corrected-smoke-20260910": {
+      "complete": true,
+      "files": 9,
+      "uncompressed_bytes": 188458,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-text-corrected-smoke-20260910.tar.zst.part0000",
+          "bytes": 15082,
+          "sha256": "763e5bfcdf0b6bbc93051383ca145c59865d12be2534f2259e4e85b8b91300e1",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-text-corrected-smoke-20260910.tar.zst.part0000",
+          "asset_id": 559589153
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-text-corrected-smoke-20260910.manifest.json",
+        "bytes": 2511,
+        "sha256": "b0d3422052b16c69909cce0dcf18c0fd8864b3bfc4f9bc97fd00d1201a963351",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-text-corrected-smoke-20260910.manifest.json",
+        "asset_id": 559589186
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-text-corrected-smoke-v2-20260910": {
+      "complete": true,
+      "files": 6,
+      "uncompressed_bytes": 182457,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-text-corrected-smoke-v2-20260910.tar.zst.part0000",
+          "bytes": 14874,
+          "sha256": "518ee639137fa9b64af8b9f1a2baeaea41e4df8c4c09bb11769ed1232aab713b",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-text-corrected-smoke-v2-20260910.tar.zst.part0000",
+          "asset_id": 559589200
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-text-corrected-smoke-v2-20260910.manifest.json",
+        "bytes": 1687,
+        "sha256": "525a0535a4616d53121cf0462f90954e34bf75a0915c339dcf722a52a7a06a1d",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-text-corrected-smoke-v2-20260910.manifest.json",
+        "asset_id": 559589223
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-apollo-trading-20260910": {
+      "complete": true,
+      "files": 69,
+      "uncompressed_bytes": 843870,
+      "parts": [
+        {
+          "name": "local--legacy-apollo-trading-20260910.tar.zst.part0000",
+          "bytes": 45210,
+          "sha256": "6e43292679fb2afaf724406f43aa9b41b5761b0cc6f7daec61fef626186a4fb0",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-trading-20260910.tar.zst.part0000",
+          "asset_id": 559589238
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-apollo-trading-20260910.manifest.json",
+        "bytes": 16947,
+        "sha256": "dc978c433322f836b4fb9f1a9d371fa367da642fd902c92cf59ab38e28084a19",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-apollo-trading-20260910.manifest.json",
+        "asset_id": 559589250
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-mask-compatibility-20260907": {
+      "complete": true,
+      "files": 3,
+      "uncompressed_bytes": 47162,
+      "parts": [
+        {
+          "name": "local--legacy-mask-compatibility-20260907.tar.zst.part0000",
+          "bytes": 12874,
+          "sha256": "141f48be586de132f7d93d895de9351c5f6c900cfbb2be442d9228adfd6e614e",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-mask-compatibility-20260907.tar.zst.part0000",
+          "asset_id": 559589266
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-mask-compatibility-20260907.manifest.json",
+        "bytes": 758,
+        "sha256": "87123d133497e5840c7c0fb218bedd787b0ceca2b991193d31669b45ca3e3230",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-mask-compatibility-20260907.manifest.json",
+        "asset_id": 559589327
+      },
+      "reconstruction_verified": true
+    },
+    "legacy-run-20260904-144448.jsonl": {
+      "complete": true,
+      "files": 1,
+      "uncompressed_bytes": 642142,
+      "parts": [
+        {
+          "name": "local--legacy-run-20260904-144448.jsonl.tar.zst.part0000",
+          "bytes": 196611,
+          "sha256": "d429b7402cf7e60f875075bc0e261d826f378f2d403b9a3f3b132d98e87508a7",
+          "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-run-20260904-144448.jsonl.tar.zst.part0000",
+          "asset_id": 559589344
+        }
+      ],
+      "manifest": {
+        "name": "local--legacy-run-20260904-144448.jsonl.manifest.json",
+        "bytes": 262,
+        "sha256": "877a95ffcf4c84f0ebd96f0037c4437345658dd9bb0dc10e0da453da32004f52",
+        "url": "https://github.com/Soheil-Saneei/apollo-deception-probes/releases/download/artifacts-local-v1/local--legacy-run-20260904-144448.jsonl.manifest.json",
+        "asset_id": 559589371
+      },
+      "reconstruction_verified": true
+    }
+  }
+}

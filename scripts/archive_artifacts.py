@@ -163,7 +163,7 @@ def upload(root, work, source, repo, release_id):
         cat.stdout.close()
         expected = {r['path']: r for r in rows}
         seen = set()
-        with tarfile.open(fileobj=dec.stdout, mode='r|') as tf:
+        with tarfile.open(fileobj=dec.stdout, mode='r|', bufsize=8 * 1024**2) as tf:
             for member in tf:
                 if not member.isfile(): raise RuntimeError('Unexpected archive entry')
                 record = expected[member.name]

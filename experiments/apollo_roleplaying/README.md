@@ -1,5 +1,9 @@
 # Apollo paired roleplaying on frozen Qwen
 
+For public transcripts, splits, and downloadable activation archives, see the
+[data guide](../../data/README.md). Machine paths below record original run
+locations; restore archives to use them after the VMs are retired.
+
 The completed matched Llama 3.3 70B replication, using the same examples and
 scenario splits, is documented in [LLAMA_COMPARISON.md](LLAMA_COMPARISON.md).
 
