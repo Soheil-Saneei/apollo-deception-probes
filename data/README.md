@@ -2,11 +2,11 @@
 
 The public repository contains code, figures, and small metrics. Full research artifacts are stored in [GitHub Releases](https://github.com/Soheil-Saneei/apollo-deception-probes/releases), divided by source machine. **Archival is in progress; a release is complete only when its upload ledger marks every group complete.**
 
-| Release | Contents |
-| --- | --- |
-| `artifacts-a100-v1` | Qwen generated trading runs, both roleplaying extraction versions, Qwen replay of Llama trading, pooled features, evaluations, and source code/inputs |
-| `artifacts-a6000-v1` | Llama report and roleplaying activations, early reasoning, report controls, evaluation versions, tokenizer pilot, and source code/inputs |
-| `artifacts-local-v1` | Local Ollama runs, Mac pilots, manual-review artifacts, local analyses, and local-only experiment files |
+| Release | Status | Contents |
+| --- | --- | --- |
+| [A100](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-a100-v1) | Verified complete | Qwen generated trading, both roleplaying versions, Qwen replay of Llama trading, features, probes, evaluations, and source inputs |
+| [Llama VM](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-a6000-v1) | Uploading | Llama report and roleplaying activations, early reasoning, report controls, evaluation versions, tokenizer pilot, and source inputs |
+| [Local](https://github.com/Soheil-Saneei/apollo-deception-probes/releases/tag/artifacts-local-v1) | Verified complete | Ollama runs, Mac pilots, manual-review artifacts, local analyses, and local-only files |
 
 These are overlapping source snapshots, not disjoint datasets. Keep them separate on initial extraction. Historical/pilot outputs are preserved for provenance, not silently pooled with final results.
 

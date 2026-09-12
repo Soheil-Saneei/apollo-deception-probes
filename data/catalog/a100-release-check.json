@@ -1,0 +1,12 @@
+{
+  "source": "a100",
+  "release_id": 387629026,
+  "public_unauthenticated_api": true,
+  "all_assets_verified": true,
+  "all_inventory_groups_covered": true,
+  "source_files": 5835,
+  "source_bytes": 77269999895,
+  "archive_groups": 16,
+  "assets": 89,
+  "uploaded_bytes": 62019155451
+}
